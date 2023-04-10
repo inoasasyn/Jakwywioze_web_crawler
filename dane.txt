@@ -1,0 +1,13 @@
+Gratowisko PSZOK;	Meteorytowa 1;	62-002;	Suchy Las
+PSZOK Punkt selektywnej zbiórki odpadów komunalnych;	Lotnicza 33a;	63-410;	Ostrów Wielkopolski
+Punkt Selektywnej Zbiórki Odpadów Komunalnych dla mieszkañców Gminy Œroda Wielkopolska;	Nad Strug¹ 7;	63-000;	Œroda Wielkopolska
+PSZOK - Punkt selektywnego skladownia odpadów komunalnych;	Szkolna;	62-080;	Rumianek
+PSZOK Punkt Selektywnego Zbierania Odpadów Komunalnych w Zagorzynie;	Zagorzyn 57A;	62-812;	Jastrzêbniki
+Gratowisko - punkt selektywnego zbierania odpadów;	Wrzesiñska 12;	61-021;	Poznañ
+PSZOK dla gminy Suchy Las;	Golêczewska 22a;	62-001;	Chludowo
+PSZOK Pi³a Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Fritsa Philipsa;	64-920;	Pi³a
+Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Mateuszewo 8;	63-100;	Mateuszewo
+PSZOK - Punkt selektywnego zbierania odpadów komunalnych w KoŸminie Wielkopolskim;	Prosta;	63-720;	KoŸmin Wielkopolski
+Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Koœciañska 32;	62-065;	Grodzisk Wielkopolski
+Sk³adowisko Odpadów Komunalnych Miasta Poznania;	Meteorytowa 1;	62-002;	Suchy Las
+Gratowisko PSZOK;	Meteorytowa 1;	62-002;	Suchy Las
