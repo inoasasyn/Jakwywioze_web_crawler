@@ -1,9 +1,9 @@
 from urllib.request import urlopen
 import re
-import time
 from bs4 import *
 import requests
 import pandas as pd
+import time
 
 
 
@@ -53,100 +53,136 @@ def all_cities():
     return urls
 
 
-def all_pszoks_noapi():
-
-    urls = all_cities()
-    #urls = ["https://www.google.com/maps/search/pszok+wielkopolska/"]
-    data_file = open('dane.txt', 'a')
-    database = read_file()
-
-    for url in urls:
-
-        print(url)
-        page = urlopen(url)
-        html_bytes = page.read()
-        html = html_bytes.decode("utf-8")
-        html = re.sub("&nbsp;", " ", html)
-
-        #[\"PSZOK Punkt selektywnej zbiórki odpadów komunalnych, Lotnicza 33a, 63-410 Ostrów Wielkopolski\"]
-
-        pattern_results = re.findall(r'(?<=\[\\")[A-ZŻŹĆĄŚĘŁÓŃa-zżźćńółęąś\s-]+, [0-9A-ZŻŹĆĄŚĘŁÓŃa-zżźćńółęąś\s-]+, [0-9A-ZŻŹĆĄŚĘŁÓŃa-zżźćńółęąś\s-]+(?=\\"])', html)
-
-        for x in pattern_results:
-            d = re.split(", ", x)
-            if d[1] != 'Unnamed Road' or re.search('[A-ZŻŹĆĄŚĘŁÓŃa-zżźćńółęąś]', d[2]):
-                if " " in d[2]:
-                    zip, city = d[2].split(" ", 1)
-                else:
-                    zip = d[2]
-                    city = "Unknown"
-                d = d[:2]
-                d.append(zip)
-                d.append(city)
-                if d not in database:
-                    database.append(d)
-                    data_file.write(str(d[0]) + ";" + "\t" + str(d[1]) + ";" + "\t" + str(zip) + ";" + "\t" + str(city) + "\n")
-
-        time.sleep(73)
-
-    data_file.close()
-
-
-
 def read_file():
 
     f = open('dane.txt', 'r')
     database = []
 
     for line in f:
-        d = re.split(";\t", line)
-        d[3] = d[3][:-1]
-        database.append(d)
+        database.append(line)
 
     f.close()
     return database
 
 
+def split_address(add):
+    name_address = add.split(sep=", ")
+    name = ", ".join(name_address[:-2])
+    street = name_address[-2]
+    if name == "":
+        name = street
+        street = "Unknown"
+    if " " in name_address[-1]:
+        zip, city = name_address[-1].split(" ", 1)
+    else:
+        zip = name_address[-1]
+        city = "Unknown"
+    return [name, street, zip, city]
 
-def pszok_addresses():
 
-    urls = ["https://www.zzo.pl/pl/o-nas/informacje-ogolne/10-pl/zakres-dzialalnosci/6-punkt-selektywnego-zbierania-odpadow-komunalnych-gratowisko",
-            "http://uk-sroda.pl"]
+def split_hours(days):
+    hours = []
+    for day in days:
+        if len(day) > 0:
+            current_day = day[0]
+            if current_day[-2] != '2':
+                current_day = re.findall(r'[0-9]{2}:[0-9]{2}.*?[0-9]{2}:[0-9]{2}', current_day)[0]
+            else:
+                current_day = "Zamknięte"
+            hours.append(current_day)
+        else:
+            hours.append("Brak informacji")
+    return hours
 
-    url = "https://www.zzo.pl/pl/o-nas/informacje-ogolne/10-pl/zakres-dzialalnosci/6-punkt-selektywnego-zbierania-odpadow-komunalnych-gratowisko"
+def try_one():
+    url = "https://www.google.com/maps/search/pszok+wielkopolska/"
     page = urlopen(url)
     html_bytes = page.read()
     html = html_bytes.decode("utf-8")
     html = re.sub("&nbsp;", " ", html)
-    #print(html)
+    html = re.sub("2,null,0", "1,[[9,9,9,9]],0", html)
 
-    patterns = ['ul\..*?[0-9]+\sw\s[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+',
-                'ul\..*?[0-9]+\sw\s[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+\s[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+',
-                'ul\..*?[0-9]+\sw\s[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+\s[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+\s[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+',
-                'ul\..*?[0-9]+\s[0-9][0-9]-[0-9][0-9][0-9]\s[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+',
-                'ul\..*?[0-9]+\s[0-9][0-9]-[0-9][0-9][0-9]\s[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+\s[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+',
-                'ul\..*?[0-9]+\s[0-9][0-9]-[0-9][0-9][0-9]\s[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+\s[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+\s[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+'
-                ]
-    addresses = []
+    points = []
+    points.append(["Name", "Street", "Zip", "City", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
 
-    for x in patterns:
-        pattern_results = re.findall(x, html)
-        for y in pattern_results:
-            if y.count("ul.") == 1:
-                addresses.append(y)
-            else:
-                all_ul = re.finditer(r"ul.", y)
-                start_ul = 0
-                for i in all_ul:
-                    start_ul = i.start()
-                new_address = y[start_ul:]
-                for i in addresses:
-                    if i in new_address:
-                        addresses.remove(i)
-                addresses.append(new_address)
+    pattern_point_results = re.findall(r'\[\[\[7,\[\[\\".*?\[\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+]]', html)
 
-    print(addresses)
+    pattern_hours = []
+
+    for point in pattern_point_results:
+
+        add = re.findall(r'(?<=\[2,\[\[\\").*?, [0-9]{2}-[0-9]{3}.*?\\"]]]', point)
+        new_point = split_address(add[0][:-5])
+
+        pon = re.findall(r'\[\\"poniedziałek\\",1,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+        wt = re.findall(r'\[\\"wtorek\\",2,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+        sr = re.findall(r'\[\\"środa\\",3,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+        czw = re.findall(r'\[\\"czwartek\\",4,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+        pt = re.findall(r'\[\\"piątek\\",5,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+        so = re.findall(r'\[\\"sobota\\",6,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+        nd = re.findall(r'\[\\"niedziela\\",7,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+        days = [pon, wt, sr, czw, pt, so, nd]
+        hours = split_hours(days)
+
+        new_point = new_point + hours
+        points.append(new_point)
+
+    print(points)
+
+
+def write_file(point):
+    f = open("dane.txt", "a")
+    f.write(point)
+    f.close()
+
+
+def get_points():
+    #urls = all_cities()
+    urls = ['https://www.google.com/maps/search/pszok+wielkopolska/']
+    database = read_file()
+    points = []
+    points.append(["Name", "Street", "Zip", "City", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
+    title_line = ';\t'.join(points[0])
+    title_line += '\n'
+    if database[0] != title_line:
+        with open('dane.txt', 'r') as original: data = original.read()
+        with open('dane.txt', 'w') as modified: modified.write(title_line + data)
+
+    for url in urls:
+        page = urlopen(url)
+        html_bytes = page.read()
+        html = html_bytes.decode("utf-8")
+        html = re.sub("&nbsp;", " ", html)
+        html = re.sub("2,null,0", "1,[[9,9,9,9]],0", html)
+
+        pattern_point_results = re.findall(r'\[\[\[7,\[\[\\".*?\[\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+]]', html)
+
+        for point in pattern_point_results:
+
+            add = re.findall(r'(?<=\[2,\[\[\\").*?, [0-9]{2}-[0-9]{3}.*?\\"]]]', point)
+            new_point = split_address(add[0][:-5])
+
+            pon = re.findall(r'\[\\"poniedziałek\\",1,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+            wt = re.findall(r'\[\\"wtorek\\",2,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+            sr = re.findall(r'\[\\"środa\\",3,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+            czw = re.findall(r'\[\\"czwartek\\",4,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+            pt = re.findall(r'\[\\"piątek\\",5,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+            so = re.findall(r'\[\\"sobota\\",6,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+            nd = re.findall(r'\[\\"niedziela\\",7,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+            days = [pon, wt, sr, czw, pt, so, nd]
+            hours = split_hours(days)
+
+            new_point = new_point + hours
+            line = ';\t'.join(new_point)
+            line += '\n'
+            points.append(new_point)
+
+            if line not in database:
+                database.append(line)
+                write_file(line)
+
+        #time.sleep(120)
 
 
 
-all_pszoks_noapi()
+get_points()
