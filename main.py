@@ -141,10 +141,10 @@ def get_points():
     urls = ['https://www.google.com/maps/search/pszok+wielkopolska/']
     database = read_file()
     points = []
-    points.append(["Name", "Street", "Zip", "City", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
+    points.append(["Name", "Street", "Zip", "City", "Longitude", "Latitude", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
     title_line = ';\t'.join(points[0])
     title_line += '\n'
-    if database[0] != title_line:
+    if database == [] or database[0] != title_line:
         with open('dane.txt', 'r') as original: data = original.read()
         with open('dane.txt', 'w') as modified: modified.write(title_line + data)
 
@@ -161,6 +161,12 @@ def get_points():
 
             add = re.findall(r'(?<=\[2,\[\[\\").*?, [0-9]{2}-[0-9]{3}.*?\\"]]]', point)
             new_point = split_address(add[0][:-5])
+
+            geo_loc = re.findall(r'\[\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+]]', point)[0]
+            geo_loc = re.split(",", geo_loc[2:-2])
+            longitude = geo_loc[2]
+            latitude = geo_loc[3]
+            new_point = new_point + [longitude, latitude]
 
             pon = re.findall(r'\[\\"poniedziałek\\",1,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
             wt = re.findall(r'\[\\"wtorek\\",2,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
