@@ -1,4 +1,5 @@
 import psycopg2
+import re
 
 
 
@@ -10,7 +11,7 @@ def read_file():
     for line in f:
         new_line = line.split(";\t")
         new_line[-1] = new_line[-1][:-1]
-        new_line = new_line[:6] + ['; '.join(new_line[6:])]
+        new_line = new_line[:6] + [';'.join(new_line[6:]).replace("Zamknięte", "0")]
         order = []
         order.append(new_line[3])
         order.append(new_line[5])
