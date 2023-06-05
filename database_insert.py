@@ -24,17 +24,16 @@ def read_file():
     f.close()
     return database[2:]
 
-def insert_point_list(vendor_list):
-    """ insert multiple vendors into the vendors table  """
+def insert_point_list(points_list):
     sql = "INSERT INTO point (city, lat, lon, name, opening_hours, street, type) VALUES(%s, %s, %s, %s, %s, %s, %s)"
     conn = None
     try:
         conn = psycopg2.connect(
-            dbname='postgres', user='postgres', password='postgres', host='localhost', port='5432'
+            dbname='jakwywioze', user='jakwywioze', password='jakwywioze', host='localhost', port='5432'
         )
         conn.autocommit = True
         cur = conn.cursor()
-        cur.executemany(sql, vendor_list)
+        cur.executemany(sql, points_list)
         conn.commit()
         cur.close()
     except (Exception, psycopg2.DatabaseError) as error:

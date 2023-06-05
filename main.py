@@ -102,32 +102,11 @@ def try_one():
     html = re.sub("&nbsp;", " ", html)
     html = re.sub("2,null,0", "1,[[9,9,9,9]],0", html)
 
-    points = []
-    points.append(["Name", "Street", "Zip", "City", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
+    pattern_point_results = re.findall(r'\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+],\\"0x.*?,\[\[\[1],\\"Ulubione\\"', html)
+    print(len(pattern_point_results))
 
-    pattern_point_results = re.findall(r'\[\[\[7,\[\[\\".*?\[\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+]]', html)
-
-    pattern_hours = []
-
-    for point in pattern_point_results:
-
-        add = re.findall(r'(?<=\[2,\[\[\\").*?, [0-9]{2}-[0-9]{3}.*?\\"]]]', point)
-        new_point = split_address(add[0][:-5])
-
-        pon = re.findall(r'\[\\"poniedziałek\\",1,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-        wt = re.findall(r'\[\\"wtorek\\",2,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-        sr = re.findall(r'\[\\"środa\\",3,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-        czw = re.findall(r'\[\\"czwartek\\",4,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-        pt = re.findall(r'\[\\"piątek\\",5,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-        so = re.findall(r'\[\\"sobota\\",6,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-        nd = re.findall(r'\[\\"niedziela\\",7,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-        days = [pon, wt, sr, czw, pt, so, nd]
-        hours = split_hours(days)
-
-        new_point = new_point + hours
-        points.append(new_point)
-
-    print(points)
+    for x in pattern_point_results:
+        print(x)
 
 
 def write_file(point):
@@ -156,25 +135,26 @@ def get_points():
         html = re.sub("2,null,0", "1,[[9,9,9,9]],0", html)
 
         pattern_point_results = re.findall(r'\[\[\[7,\[\[\\".*?\[\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+]]', html)
+        pattern_point_results2 = re.findall(r'\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+],\\"0x.*?,\[\[\[1],\\"Ulubione\\"', html)
 
-        for point in pattern_point_results:
+        for i in range(len(pattern_point_results)):
 
-            add = re.findall(r'(?<=\[2,\[\[\\").*?, [0-9]{2}-[0-9]{3}.*?\\"]]]', point)
+            add = re.findall(r'(?<=\[2,\[\[\\").*?, [0-9]{2}-[0-9]{3}.*?\\"]]]', pattern_point_results[i])
             new_point = split_address(add[0][:-5])
 
-            geo_loc = re.findall(r'\[\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+]]', point)[0]
+            geo_loc = re.findall(r'\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+]', pattern_point_results2[i])[0]
             geo_loc = re.split(",", geo_loc[2:-2])
             longitude = geo_loc[2]
             latitude = geo_loc[3]
             new_point = new_point + [longitude, latitude]
 
-            pon = re.findall(r'\[\\"poniedziałek\\",1,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-            wt = re.findall(r'\[\\"wtorek\\",2,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-            sr = re.findall(r'\[\\"środa\\",3,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-            czw = re.findall(r'\[\\"czwartek\\",4,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-            pt = re.findall(r'\[\\"piątek\\",5,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-            so = re.findall(r'\[\\"sobota\\",6,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
-            nd = re.findall(r'\[\\"niedziela\\",7,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', point)
+            pon = re.findall(r'\[\\"poniedziałek\\",1,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', pattern_point_results[i])
+            wt = re.findall(r'\[\\"wtorek\\",2,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', pattern_point_results[i])
+            sr = re.findall(r'\[\\"środa\\",3,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', pattern_point_results[i])
+            czw = re.findall(r'\[\\"czwartek\\",4,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', pattern_point_results[i])
+            pt = re.findall(r'\[\\"piątek\\",5,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', pattern_point_results[i])
+            so = re.findall(r'\[\\"sobota\\",6,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', pattern_point_results[i])
+            nd = re.findall(r'\[\\"niedziela\\",7,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', pattern_point_results[i])
             days = [pon, wt, sr, czw, pt, so, nd]
             hours = split_hours(days)
 
@@ -192,3 +172,4 @@ def get_points():
 
 
 get_points()
+#try_one()
