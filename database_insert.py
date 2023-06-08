@@ -6,12 +6,13 @@ import re
 def read_file():
 
     f = open('dane.txt', 'r')
-    database = []
+    points = []
+    waste_types = []
 
     for line in f:
         new_line = line.split(";\t")
         new_line[-1] = new_line[-1][:-1]
-        new_line = new_line[:6] + [';'.join(new_line[6:]).replace("Zamknięte", "0")]
+        new_line = new_line[:9] + [';'.join(new_line[9:]).replace("Zamknięte", "0")]
         order = []
         order.append(new_line[3])
         order.append(new_line[5])
@@ -20,10 +21,10 @@ def read_file():
         order.append(new_line[-1])
         order.append(new_line[1])
         order.append('True')
-        database.append(tuple(order))
+        points.append(tuple(order))
 
     f.close()
-    return database[2:]
+    return points[2:]
 
 def insert_point_list(points_list):
     sql = "INSERT INTO point (city, lat, lon, name, opening_hours, street, type) VALUES(%s, %s, %s, %s, %s, %s, %s)"
@@ -44,4 +45,5 @@ def insert_point_list(points_list):
             conn.close()
 
 database = read_file()
+#print(database)
 insert_point_list(database)
