@@ -8,6 +8,7 @@ def read_file():
     f = open('dane.txt', 'r')
     points = []
     waste_types = []
+    #Name;	Street;	Zip;	City;	Longitude;	Latitude;	Phone;	Web;	PhotoLink;	Monday;	Tuesday;	Wednesday;	Thursday;	Friday;	Saturday;	Sunday
 
     for line in f:
         new_line = line.split(";\t")
