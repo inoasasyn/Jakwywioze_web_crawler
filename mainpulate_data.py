@@ -10,7 +10,7 @@ def read_file():
     return database
 
 def change_unknown_and_none_to_null():
-    forbidden = ["Unknown", "None"]
+    forbidden = ["Unknown", "None", "Brak informacji"]
     for i in range(len(data)):
         for j in range(len(data[i])):
             if data[i][j] in forbidden:
