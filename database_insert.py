@@ -1,5 +1,4 @@
 import psycopg2
-import re
 
 
 
@@ -13,22 +12,16 @@ def read_file():
     for line in f:
         new_line = line.split(";\t")
         new_line[-1] = new_line[-1][:-1]
-        new_line = new_line[:9] + [';'.join(new_line[9:]).replace("Zamknięte", "0")]
-        order = []
-        order.append(new_line[3])
-        order.append(new_line[5])
-        order.append(new_line[4])
-        order.append(new_line[0])
-        order.append(new_line[-1])
-        order.append(new_line[1])
-        order.append('True')
-        points.append(tuple(order))
+        new_line = new_line[:9] + [';'.join(new_line[9:]).replace("Zamknięte", "0")] + ["True"]
+        order = [3, 8, 5, 4, 0, 9, 6, 1, 10, 7, 2]
+        point = [new_line[i] for i in order]
+        points.append(tuple(point))
 
     f.close()
     return points[2:]
 
 def insert_point_list(points_list):
-    sql = "INSERT INTO point (city, lat, lon, name, opening_hours, street, type) VALUES(%s, %s, %s, %s, %s, %s, %s)"
+    sql = "INSERT INTO point (city, image_link, lat, lon, name, opening_hours, phone_number, street, type, website, zipcode) VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
     conn = None
     try:
         conn = psycopg2.connect(
