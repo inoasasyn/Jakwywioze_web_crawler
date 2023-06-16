@@ -1,20 +1,102 @@
-PSZOK Punkt selektywnej zbiórki odpadów komunalnych;	Lotnicza 33a;	63-410;	Ostrów Wielkopolski;	51.660798;	17.796199;	Zamkniête;	07:30–16:30;	07:30–16:30;	07:30–16:30;	07:30–16:30;	09:00–13:00;	Zamkniête
-Punkt Selektywnej Zbiórki Odpadów Komunalnych dla mieszkañców Gminy Œroda Wielkopolska;	Nad Strug¹ 7;	63-000;	Œroda Wielkopolska;	52.214954;	17.28614349999999;	06:00–20:00;	06:00–20:00;	06:00–20:00;	06:00–20:00;	06:00–20:00;	06:00–13:00;	Zamkniête
-PSZOK Kalisz;	Piwonicka 6;	62-800;	Kalisz;	51.7395413;	18.07192509999999;	Zamkniête;	10:00–17:00;	Zamkniête;	Zamkniête;	Zamkniête;	08:00–15:00;	Zamkniête
-PSZOK Punkt Selektywnego Zbierania Odpadów Komunalnych w Zagorzynie;	Zagorzyn 57A;	62-812;	Jastrzêbniki;	51.810131;	18.022746;	Zamkniête;	Zamkniête;	14:00–17:00;	Zamkniête;	Zamkniête;	08:00–16:00;	Zamkniête
+Name;	Street;	Zip;	City;	Longitude;	Latitude;	Monday;	Tuesday;	Wednesday;	Thursday;	Friday;	Saturday;	Sunday
 Gratowisko - punkt selektywnego zbierania odpadów;	Wrzesiñska 12;	61-021;	Poznañ;	52.418953599999995;	16.978634;	10:00–18:00;	08:00–16:00;	10:00–18:00;	08:00–16:00;	10:00–18:00;	08:00–14:00;	Zamkniête
-MZO S.A. Zak³ad Oczyszczania i Gospodarki Odpadami;	Staroprzygodzka 138;	63-400;	Ostrów Wielkopolski;	51.6184806;	17.797828;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
-Wielkopolskie Centrum Recyklingu - Spó³ka z o.o. w Jarocinie;	Mariusza Ma³ynicza 1;	63-200;	Unknown;	51.9718897;	17.53675969999999;	06:00–21:00;	06:00–21:00;	06:00–21:00;	06:00–21:00;	06:00–21:00;	08:00–14:00;	Zamkniête
+Punkt Selektywnej Zbiórki Odpadów Komunalnych dla mieszkañców Gminy Œroda Wielkopolska;	Nad Strug¹ 7;	63-000;	Œroda Wielkopolska;	52.214954;	17.28614349999999;	06:00–20:00;	06:00–20:00;	06:00–20:00;	06:00–20:00;	06:00–20:00;	06:00–13:00;	Zamkniête
 Punkt Selektywnego Zbierania Odpadów Komunalnych w Czo³owie;	Unknown;	62-035;	Czo³owo;	52.219525499999996;	17.056598;	07:00–16:30;	Zamkniête;	09:00–16:30;	09:00–16:30;	09:00–16:30;	08:00–14:00;	Zamkniête
-Punkt Selektywnej Zbiórki Odpadów Komunalnych – PSZOK w Plewiskach,;	Kolejowa;	62-064;	Plewiska;	52.3701544;	16.804526;	15:00–18:00;	15:00–18:00;	09:00–12:00;	15:00–18:00;	15:00–18:00;	10:00–14:00;	Zamkniête
-PSZOK Pi³a Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Fritsa Philipsa;	64-920;	Pi³a;	53.1653653;	16.757494;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–14:00;	Zamkniête
-Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Mateuszewo 8;	63-100;	Mateuszewo;	52.134005099999996;	17.105077;	Zamkniête;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–13:00;	Zamkniête
-PSZOK - Punkt selektywnego zbierania odpadów komunalnych w KoŸminie Wielkopolskim;	Prosta;	63-720;	KoŸmin Wielkopolski;	51.8297952;	17.439187;	Zamkniête;	12:00–18:00;	10:00–16:00;	12:00–18:00;	10:00–16:00;	08:00–14:00;	Zamkniête
+PSZOK Punkt selektywnej zbiórki odpadów komunalnych;	Lotnicza 33a;	63-410;	Ostrów Wielkopolski;	51.660798;	17.796199;	Zamkniête;	07:30–16:30;	07:30–16:30;	07:30–16:30;	07:30–16:30;	09:00–13:00;	Zamkniête
+Punkt Selektywnej Zbiórki Odpadów Komunalnych – PSZOK w Plewiskach,;	Kolejowa;	62-064;	Plewiska;	52.3701544;	16.804526;	15:00–18:00;	15:00–18:00;	09:00–12:00;	15:00–18:00;	15:00–19:00;	10:00–14:00;	Zamkniête
+PSZOK dla gminy Suchy Las;	Golêczewska 22a;	62-001;	Chludowo;	52.550289899999996;	16.82898;	08:00–17:00;	08:00–15:00;	08:00–15:00;	08:00–15:00;	08:00–15:00;	09:00–12:00;	Zamkniête
 Sk³adowisko Odpadów Komunalnych Miasta Poznania;	Meteorytowa 1;	62-002;	Suchy Las;	52.4963202;	16.884705;	10:00–18:00;	08:00–16:00;	10:00–18:00;	08:00–16:00;	10:00–18:00;	08:00–14:00;	Zamkniête
-PSZOK Punkt Selektywnej Zbiórki Odpadów Komunalnych Jastrowie;	Unknown;	64-915;	Jastrowie;	53.4105415;	16.82516279999999;	09:00–17:00;	Zamkniête;	09:00–17:00;	Zamkniête;	Zamkniête;	09:00–17:00;	Zamkniête
-Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Koœciañska 32;	62-065;	Grodzisk Wielkopolski;	52.2198996;	16.38275669999999;	Zamkniête;	15:00–19:00;	15:00–19:00;	15:00–19:00;	15:00–19:00;	10:00–16:00;	Zamkniête
-PSZOK;	Unnamed Road;	64-500;	Unknown;	52.642323;	16.59208;	Zamkniête;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–17:00;	10:00–14:00;	Zamkniête
-PSZOK Punkt Selektywnej Zbiórki Odpadów Komunalnych w Janowcu Wielkopolskim;	Unknown;	88-430;	Janowiec Wielkopolski;	52.7567832;	17.479663;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
-Sk³adowisko Odpadów;	Unnamed Road;	62-010;	Unknown;	52.4614322;	17.305561;	10:00–18:00;	Zamkniête;	Zamkniête;	09:00–15:00;	10:00–18:00;	08:00–14:00;	Zamkniête
+Wielkopolskie Centrum Recyklingu - Spó³ka z o.o. w Jarocinie;	Mariusza Ma³ynicza 1;	63-200;	Unknown;	51.9718897;	17.53675969999999;	06:00–21:00;	06:00–21:00;	06:00–21:00;	06:00–21:00;	06:00–21:00;	08:00–14:00;	Zamkniête
 Gratowisko- Punkt Selektywnego Zbierania Odpadów Komunalnych;	28 Czerwca 1956 r. 284;	61-472;	Poznañ;	52.374943699999996;	16.90394599999999;	10:00–18:00;	08:00–16:00;	10:00–18:00;	08:00–16:00;	10:00–18:00;	08:00–14:00;	Zamkniête
+Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Mateuszewo 8;	63-100;	Mateuszewo;	52.134005099999996;	17.105077;	Zamkniête;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–13:00;	Zamkniête
 Gratowisko PSZOK;	Meteorytowa 1;	62-002;	Suchy Las;	52.497293199999994;	16.892255;	10:00–18:00;	08:00–16:00;	10:00–18:00;	08:00–16:00;	10:00–18:00;	08:00–14:00;	Zamkniête
+PSZOK;	Nadwarciañska 11b;	62-040;	Puszczykowo;	52.263890499999995;	16.873466;	Zamkniête;	10:00–16:00;	15:00–19:00;	Zamkniête;	15:00–19:00;	10:00–16:00;	Zamkniête
+Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Topolowa 6;	62-090;	Bytkowo;	52.519426499999994;	16.763165;	11:00–16:00;	11:00–17:00;	11:00–16:00;	11:00–17:00;	Zamkniête;	08:00–15:00;	Zamkniête
+PSZOK Punkt Selektywnego Zbierania Odpadów Komunalnych w Zagorzynie;	Zagorzyn 57A;	62-812;	Jastrzêbniki;	51.810131;	18.022746;	Zamkniête;	Zamkniête;	14:00–17:00;	Zamkniête;	Zamkniête;	08:00–16:00;	Zamkniête
+PSZOK Pi³a Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Fritsa Philipsa;	64-920;	Pi³a;	53.1653653;	16.757494;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–14:00;	Zamkniête
+MZO S.A. Zak³ad Oczyszczania i Gospodarki Odpadami;	Staroprzygodzka 138;	63-400;	Ostrów Wielkopolski;	51.6184806;	17.797828;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
+Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Koœciañska 32;	62-065;	Grodzisk Wielkopolski;	52.2198996;	16.38275669999999;	Zamkniête;	15:00–19:00;	15:00–19:00;	Zamkniête;	15:00–19:00;	10:00–16:00;	Zamkniête
+Sk³adowisko Odpadów;	Unnamed Road;	62-010;	Unknown;	52.4614322;	17.305561;	10:00–18:00;	Zamkniête;	Zamkniête;	09:00–15:00;	10:00–18:00;	08:00–14:00;	Zamkniête
+PSZOK;	Unnamed Road;	64-500;	Unknown;	52.642323;	16.59208;	Zamkniête;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–17:00;	10:00–14:00;	Zamkniête
+Sk³adowisko Odpadów Komunalnych;	Œwierkowa 17;	62-020;	Rabowice;	52.3801378;	17.111890;	07:00–17:00;	07:00–17:00;	07:00–17:00;	07:00–17:00;	07:00–17:00;	Zamkniête;	Zamkniête
+Punkty Selektywnego Zbierania Odpadów Komunalnych;	Wrzesiñska 12;	61-021;	Poznañ;	52.4189826;	16.979133;	09:00–15:00;	09:00–15:00;	09:00–15:00;	09:00–15:00;	09:00–15:00;	Zamkniête;	Zamkniête
+Mobilny PSZOK 3.08, godz. 8.00-8.20;	Unnamed Road;	61-245;	Poznañ;	52.3877642;	17.00809;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
+KONTENERY ALIBABA - kontenery na gruz Poznañ NAJTANIEJ;	Poniecka 27;	60-115;	Poznañ;	52.371897;	16.884365;	Zamkniête;	Zamkniête;	Zamkniête;	Zamkniête;	Zamkniête;	Zamkniête;	Zamkniête
+Centrum gruzu Gruz;	Chwaliszewo 61;	61-105;	Poznañ;	52.4091163;	16.943372;	Zamkniête;	Zamkniête;	Zamkniête;	Zamkniête;	Zamkniête;	Zamkniête;	Zamkniête
+PSZOK Kalisz;	Piwonicka 6;	62-800;	Kalisz;	51.7395413;	18.07192509999999;	Zamkniête;	10:00–17:00;	Zamkniête;	10:00–17:00;	Zamkniête;	08:00–15:00;	Zamkniête
+Miejski Zak³ad Gospodarki Odpadami Komunalnymi Sp. z o.o.;	Sulañska 13;	62-510;	Konin;	52.2776201;	18.278286;	06:00–21:30;	06:00–21:30;	06:00–21:30;	06:00–21:30;	06:00–21:30;	06:00–13:30;	Zamkniête
+PSZOK Utylizacja bezp³atna odpadów dla mieszkañców Konina;	Unknown;	62-500;	Konin;	52.2089676;	18.232036;	08:00–15:00;	08:00–15:00;	08:00–15:00;	08:00–15:00;	08:00–15:00;	Zamkniête;	Zamkniête
+Punkt Selektywnego Zbierania Odpadów Komunalnych;	Osiniec 6;	62-200;	Gniezno;	52.518543799999996;	17.614209;	Zamkniête;	11:00–18:00;	Zamkniête;	11:00–18:00;	11:00–18:00;	08:00–14:00;	Zamkniête
+Miejski Zak³ad Oczyszczania Sp. z o.o.;	Saperska 23;	64-100;	Leszno;	51.8281707;	16.586952;	07:00–18:00;	07:00–18:00;	07:00–18:00;	07:00–18:00;	07:00–18:00;	08:00–15:00;	Zamkniête
+Kom-Lub sp. z o.o.;	Niepodleg³oœci 11;	62-030;	Luboñ;	52.350593599999996;	16.891453;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+PUK Sp. z o.o. GPSZOK (Gminny Punkt Selektywnej Zbiórki Odpadów Komunalnych);	Sikorskiego 38;	62-300;	Wrzeœnia;	52.321567599999995;	17.593672;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–17:00;	07:00–12:00;	Zamkniête
+Stena Recycling Sp. z o.o.;	Rabowicka 2;	62-020;	Swarzêdz;	52.401767799999995;	17.086309;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+WYWÓZ NIECZYSTOŒCI P£YNNYCH - HENRYK WABIÑSKI;	Piaski;	62-020;	Swarzêdz;	52.4079834;	17.07451769999999;	06:00–18:30;	06:00–18:30;	06:00–18:30;	06:00–18:30;	06:00–18:30;	06:00–16:00;	Zamkniête
+Punkt Selektywnej Zbiórki Odpadów Komunalnych PSZOK;	Unnamed Road;	62-070;	Dopiewo;	52.3372019;	16.67105549999999;	15:00–19:00;	15:00–19:00;	15:00–19:00;	15:00–19:00;	15:00–19:00;	11:00–15:00;	Zamkniête
+eko-odpady.pl;	¯wirki i Wigury 25;	62-020;	Swarzêdz;	52.412255699999996;	17.089318;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
+PSZOK Mosina;	Sowiniecka 6G;	62-050;	Mosina;	52.241129099999995;	16.853749;	11:00–19:00;	Zamkniête;	11:00–19:00;	11:00–19:00;	11:00–19:00;	09:00–17:00;	Zamkniête
+Punkt Selektywnego Zbierania Odpadów Komunalnych w Krotoszynie;	Ceglarska;	63-700;	Krotoszyn;	51.6835026;	17.449575;	08:00–16:00;	Zamkniête;	08:00–16:00;	Zamkniête;	08:00–16:00;	Zamkniête;	Zamkniête
+Zwi¹zek Miêdzygminny „EKO SIÓDEMKA”;	Ko³³¹taja 7;	63-700;	Krotoszyn;	51.6920005;	17.43139009999999;	07:30–15:30;	07:30–15:30;	07:30–15:30;	07:30–15:30;	07:30–15:30;	Zamkniête;	Zamkniête
+Przedsiêbiorstwo Gospodarki Komunalnej i Mieszkaniowej;	Polna 4;	62-700;	Turek;	52.0167662;	18.526936;	10:00–18:00;	Zamkniête;	10:00–18:00;	Zamkniête;	Zamkniête;	07:00–12:00;	Zamkniête
+Przedsiêbiorstwo Gospodarki Komunalnej i Mieszkaniowej. Sp. z o.o. Oczyszczalnia œcieków;	Graniczna 1;	62-700;	Turek;	52.025470999999996;	18.52251;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
+Schronisko dla Bezdomnych Zwierz¹t;	Unknown;	62-700;	Turek;	52.0268345;	18.524498;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00
+Zak³ad Us³ug Komunalnych;	Kasztanowa 18;	63-200;	Jarocin;	51.975432;	17.499547;	08:00–16:00;	08:00–16:00;	08:00–16:00;	08:00–16:00;	08:00–16:00;	Zamkniête;	Zamkniête
+ZGO-NOVA Sp. z o. o.;	im. Mariusza Ma³ynicza 1;	63-200;	Witaszyczki;	51.973121199999994;	17.535652;	08:00–16:00;	08:00–16:00;	08:00–16:00;	08:00–16:00;	08:00–16:00;	Zamkniête;	Zamkniête
+Remondis Sanitech Poznañ Sp. z o.o. Oddzia³;	Skocka 13A;	62-100;	W¹growiec;	52.799864899999996;	17.192147;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–18:00;	09:00–13:00;	Zamkniête
+Miejski Zak³ad Us³ug Komunalnych Sp. z o.o.;	D¹bska 40K;	62-600;	Ko³o;	52.199177;	18.65058;	Zamkniête;	12:00–17:00;	Zamkniête;	12:00–17:00;	Zamkniête;	Zamkniête;	Zamkniête
+PreZero Service Centrum Sp. z o.o. - Oddzia³ Ko³o;	Sosnowa 1;	62-600;	Ko³o;	52.220504;	18.61380;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+Stacja Prze³adunkowa Odpadów Komunalnych w Rawiczu;	Unknown;	63-900;	Rawicz;	51.625540799999996;	16.891292;	06:00–18:00;	06:00–18:00;	06:00–18:00;	06:00–18:00;	06:00–18:00;	08:00–15:00;	Zamkniête
+Miejski Zak³ad Us³ug Komunalnych Sp. z o.o. \\u0026 Novago Z³otów Sp. z o.o;	Szpitalna 38;	77-400;	Z³otów;	53.3543624;	17.04698179999999;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+PSZOK Punkt Selektywnej Zbiórki Odpadów Komunalnych Jastrowie;	Unknown;	64-915;	Jastrowie;	53.4105415;	16.82516279999999;	09:00–17:00;	Zamkniête;	09:00–17:00;	Zamkniête;	Zamkniête;	09:00–17:00;	Zamkniête
+Zwi¹zek Gmin Krajny w Z³otowie;	Wawrzyniaka 4A;	77-400;	Z³otów;	53.3622168;	17.034617;	07:00–16:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–14:00;	Zamkniête;	Zamkniête
+Sanitoy Z³otów;	aleja Rod³a 45;	77-400;	Z³otów;	53.376827899999995;	17.02391;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
+Zak³ad Zagospodarowania Odpadów w Stawnicy;	Unknown;	77-400;	Stawnica;	53.381001999999995;	17.060366;	08:00–16:00;	08:00–16:00;	08:00–16:00;	08:00–16:00;	08:00–16:00;	Zamkniête;	Zamkniête
+Zak³ad Oczyszczania Miasta \\\"£AD\\\";	M³yñska 3;	64-800;	Chodzie¿;	52.985138;	16.918876;	08:00–14:00;	08:00–14:00;	08:00–14:00;	08:00–14:00;	08:00–14:00;	Zamkniête;	Zamkniête
+Zak³ad Oczyszczania Miasta s.c.;	Fabryczna 4;	64-800;	Chodzie¿;	52.995907499999994;	16.908606;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+PSZOK Oborniki – Punkt Selektywnego Zbierania Odpadów Komunalnych;	Lipowa 19;	64-600;	Oborniki;	52.6457822;	16.818822;	09:00–17:00;	Zamkniête;	09:00–17:00;	Zamkniête;	09:00–17:00;	08:00–13:00;	Zamkniête
+Przedsiêbiorstwo Komunalne Sp. z o.o.;	Polna 71;	63-300;	Pleszew;	51.8914194;	17.813994;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+Stacjonarny Punkt Selektywnego Zbierania Odpadów Komunalnych (SPSZOK);	Polna 71;	63-300;	Pleszew;	51.891423599999996;	17.81473519999999;	06:00–22:00;	06:00–22:00;	06:00–22:00;	06:00–22:00;	06:00–22:00;	06:00–15:00;	Zamkniête
+PSZOK Punkt Selektywnej Zbiórki Odpadów Komunalnych w Trzciance;	Unknown;	64-980;	Trzcianka;	53.0271014;	16.46343719999999;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–14:00;	Zamkniête
+Przedsiêbiorstwo Budowlane DOMBUD Sp. z o.o.;	Sczanieckiej 2;	64-300;	Nowy Tomyœl;	52.313426799999995;	16.123593;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+EKO-REGION Sp.z.o.o Sk³adowisko Odpadów Ostrzeszów;	Ceglarska;	63-500;	Ostrzeszów;	51.439588199999996;	17.947401;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
+Zak³ad Zagospodarowania Odpadów Olszowa Sp. z o.o.;	Bursztynowa 55;	63-600;	Olszowa;	51.311481;	18.04287;	07:00–18:00;	07:00–18:00;	07:00–18:00;	07:00–18:00;	07:00–18:00;	09:00–14:00;	Zamkniête
+PPUH PETER;	Wroc³awska 61;	63-600;	Kêpno;	51.2828488;	17.96502049999999;	07:00–16:00;	07:00–16:00;	07:00–16:00;	07:00–16:00;	07:00–16:00;	Zamkniête;	Zamkniête
+PSZOK D³ugo³êka, ul. Komunalna;	55-093;	Bielawa;	Unknown;	51.1565011;	17.23996679999999;	Zamkniête;	Zamkniête;	Zamkniête;	11:00–17:00;	Zamkniête;	08:00–15:00;	Zamkniête
+PSZOK Milicz;	Stawiec 40b;	56-300;	Milicz;	51.5569492;	17.270263;	08:00–16:00;	08:00–16:00;	08:00–16:00;	08:00–16:00;	08:00–16:00;	Zamkniête;	Zamkniête
+Punkt Selektywnej Zbiórki Odpadów;	Leœna 47;	55-114;	Mienice;	51.2614387;	16.991630;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–15:00;	Zamkniête
+S³upeckie Gospodarstwo Komunalne sp. z o.o.;	Wspólna 8;	62-400;	S³upca;	52.280035299999994;	17.88870;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+Zwi¹zek Miêdzygminny Obra;	Berzyna 6;	64-200;	Berzyna;	52.0986768;	16.11128;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+Przedsiêbiorstwo Gospodarki Komunalnej Sp. z o.o.;	Berzyna 6;	64-200;	Berzyna;	52.098588799999995;	16.111458;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+Punkt Selektywnej Zbiórki Odpadów Komunalnych (PSZOK);	Niepodleg³oœci;	64-510;	Wronki;	52.708943299999994;	16.38117309999999;	08:00–16:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	08:00–14:00;	Zamkniête
+Siwiñski Henryk. Wysypisko œmieci;	Unknown;	64-610;	Studzieniec;	52.7004677;	17.036837;	10:00–18:00;	Zamkniête;	07:00–15:00;	Zamkniête;	Zamkniête;	Zamkniête;	Zamkniête
+PSZOK - Punkt selektywnego skladownia odpadów komunalnych;	Szkolna;	62-080;	Rumianek;	52.4699185;	16.625145;	07:00–18:00;	07:00–18:00;	07:00–18:00;	07:00–18:00;	07:00–18:00;	Zamkniête;	Zamkniête
+PSZOK Gminy Ryczywó³;	Unnamed Road;	64-630;	Ryczywó³;	52.821220999999994;	16.831477;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
+Urz¹d Miejski w RogoŸnie;	Nowa 2;	64-610;	RogoŸno;	52.7495;	16.999499;	08:00–16:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+PSZOK Bolechowo – Punkt Selektywnego Zbierania Odpadów Komunalnych;	Poligonowa 1a;	62-005;	Bolechowo;	52.5436924;	16.989294;	08:00–17:00;	Zamkniête;	08:00–17:00;	Zamkniête;	08:00–17:00;	08:00–14:00;	Zamkniête
+Wywóz i Gospodarka Odpadami - Us³ugi Pogrzebowe Miejski Zak³ad Komunalny;	Browarna 6;	64-700;	Czarnków;	52.9044737;	16.557440;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+Punkt Selektywnej Zbiórki Odpadów Komunalnych (PSZOK) Gmina Miêdzychód;	Boles³awa Chrobrego 24A;	64-400;	Miêdzychód;	52.610881899999995;	15.90616479999999;	Zamkniête;	08:00–17:00;	Zamkniête;	11:00–15:00;	Zamkniête;	Zamkniête;	Zamkniête
+PSZOK Kostrzyn;	Sportowa;	66-470;	Kostrzyn nad Odr¹;	52.594227499999995;	14.655163;	Zamkniête;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–18:00;	10:00–15:00;	Zamkniête
+LS-Plus Sp. z o.o. PW;	Przemys³owa;	64-330;	Opalenica;	52.326202699999996;	16.40203;	07:00–16:00;	07:00–16:00;	07:00–16:00;	07:00–16:00;	07:00–16:00;	07:00–10:00;	Zamkniête
+Sk³adowisko odpadów;	Unknown;	64-330;	Opalenica;	52.3386077;	16.399789;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
+Punkt Selektywnej Zbiórki Odpadów Komunalnych - PSZOK Przemêt - PGO ZAJ¥C;	Starkowska 10;	64-234;	Przemêt;	51.998614499999995;	16.30607;	08:00–17:00;	08:00–17:00;	08:00–17:00;	08:00–17:00;	08:00–17:00;	08:00–14:00;	Zamkniête
+Zak³ad Komunalny w Pobiedziskach Sp. z o.o.;	Poznañska 58;	62-010;	Pobiedziska;	52.4755529;	17.267334;	07:30–14:00;	07:30–14:00;	07:30–14:00;	07:30–14:00;	07:30–14:00;	Zamkniête;	Zamkniête
+Zak³ad Oczyszczania Miasta (ZOM);	Unnamed Road;	62-010;	Pobiedziska;	52.481961399999996;	17.259580;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
+Komunalne wysypisko odpadów sta³ych;	Unknown;	62-010;	Wagowo;	52.491723699999994;	17.258187;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
+PSZOK Pniewy;	Strzelecka 18L;	62-045;	Pniewy;	52.498615699999995;	16.250464;	10:00–17:00;	Zamkniête;	10:00–17:00;	10:00–17:00;	10:00–17:00;	09:00–15:00;	Zamkniête
+Zak³ad Gospodarki Komunalnej w Witkowie;	Wrzesiñska 12;	62-230;	Witkowo;	52.4331026;	17.770291;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
+Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Bagienna 77;	88-101;	Inowroc³aw;	52.7582125;	18.229006;	07:30–18:00;	07:30–15:30;	07:30–18:00;	07:30–15:30;	07:30–15:30;	10:00–13:00;	Zamkniête
+Urz¹d Gminy i Miasta w Witkowie;	GnieŸnieñska 1;	62-230;	Witkowo;	52.441204;	17.76993;	08:00–16:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+Remondis Aqua Trzemeszno sp. z.o.o;	1 Maja 21;	62-240;	Trzemeszno;	52.5587333;	17.819884;	08:00–15:00;	07:00–14:00;	07:00–14:00;	07:00–14:00;	07:00–14:00;	Zamkniête;	Zamkniête
+Trzemeszeñskie Przedsiêbiorstwo Komunalne;	1 Maja 10;	62-240;	Trzemeszno;	52.5594356;	17.82064279999999;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji;	Brak informacji
+Urz¹d Miejski Trzemeszna;	gen. D¹browskiego 2;	62-240;	Trzemeszno;	52.5582937;	17.741607;	08:00–17:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–14:00;	Zamkniête;	Zamkniête
+Punkt Selektywnego Zbierania Odpadów Komunalnych w Czo³owie;	Unknown;	62-035;	Czo³owo;	52.5597241;	17.821938;	07:00–16:30;	Zamkniête;	09:00–16:30;	09:00–16:30;	09:00–16:30;	08:00–14:00;	Zamkniête
+PSZOK Koszanowo;	Przemys³owa 10;	64-030;	Koszanowo;	52.219525499999996;	17.056598;	14:00–18:00;	10:00–14:00;	Zamkniête;	14:00–18:00;	14:00–18:00;	10:00–14:00;	Zamkniête
+PSZOK - Punkt selektywnego skladownia odpadów komunalnych;	Szkolna;	62-080;	Rumianek;	52.018277;	16.554116;	07:00–18:00;	07:00–18:00;	07:00–18:00;	07:00–18:00;	07:00–18:00;	Zamkniête;	Zamkniête
+PSZOK dla gminy Suchy Las;	Golêczewska 22a;	62-001;	Chludowo;	52.4699185;	16.625145;	08:00–17:00;	08:00–15:00;	08:00–15:00;	08:00–15:00;	08:00–15:00;	09:00–12:00;	Zamkniête
+PSZOK;	Unnamed Road;	64-500;	Unknown;	52.550289899999996;	16.82898;	Zamkniête;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–17:00;	10:00–14:00;	Zamkniête
+Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Topolowa 6;	62-090;	Bytkowo;	52.642323;	16.59208;	11:00–16:00;	11:00–17:00;	11:00–16:00;	11:00–17:00;	Zamkniête;	08:00–15:00;	Zamkniête
+Punkt Selektywnej Zbiórki Odpadów Komunalnych;	Mateuszewo 8;	63-100;	Mateuszewo;	52.519426499999994;	16.763165;	Zamkniête;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–17:00;	09:00–13:00;	Zamkniête
+Punkt Selektywnej Zbiórki Odpadów Komunalnych PSZOK;	Unnamed Road;	62-070;	Dopiewo;	52.134005099999996;	17.105077;	15:00–19:00;	15:00–19:00;	15:00–19:00;	15:00–19:00;	15:00–19:00;	11:00–15:00;	Zamkniête
+PSZOK Rzêczkowo (Punkt Selektywnej Zbiórki Odpadów Komunalnych);	Unknown;	87-134;	Rzêczkowo;	52.3372019;	16.67105549999999;	08:00–14:00;	08:00–14:00;	08:00–14:00;	08:00–14:00;	12:00–18:00;	09:00–13:00;	Zamkniête
+Zak³ad Us³ug Komunalnych;	Topolowa 31a;	64-360;	Zb¹szyñ;	52.2603699;	15.912472;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	07:00–15:00;	Zamkniête;	Zamkniête
+PSZOK - Punkt selektywnego zbierania odpadów komunalnych w KoŸminie Wielkopolskim;	Prosta;	63-720;	KoŸmin Wielkopolski;	51.8297952;	17.439187;	Zamkniête;	12:00–18:00;	10:00–16:00;	12:00–18:00;	10:00–16:00;	08:00–14:00;	Zamkniête

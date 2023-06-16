@@ -55,7 +55,7 @@ def all_cities():
 
 def read_file():
 
-    f = open('dane.txt', 'r')
+    f = open('test_dane', 'r')
     database = []
 
     for line in f:
@@ -86,7 +86,12 @@ def split_hours(days):
         if len(day) > 0:
             current_day = day[0]
             if current_day[-2] != '2':
-                current_day = re.findall(r'[0-9]{2}:[0-9]{2}.*?[0-9]{2}:[0-9]{2}', current_day)[0]
+                #current_day = re.findall(r'[0-9]{2}:[0-9]{2}.*?[0-9]{2}:[0-9]{2}', current_day)[0]
+                current_day = re.findall(r'[0-9]{2}:[0-9]{2}.*?[0-9]{2}:[0-9]{2}', current_day)
+                if len(current_day) > 0:
+                    current_day = current_day[0]
+                else:
+                    current_day = "Zamknięte"
             else:
                 current_day = "Zamknięte"
             hours.append(current_day)
@@ -102,51 +107,62 @@ def try_one():
     html = re.sub("&nbsp;", " ", html)
     html = re.sub("2,null,0", "1,[[9,9,9,9]],0", html)
 
-    pattern_point_results = re.findall(r'\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+],\\"0x.*?,\[\[\[1],\\"Ulubione\\"', html)
+    #pattern_point_results = re.findall(r'\[\[\[7,\[\[\\".*?\[\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+]]', html)
+    pattern_point_results = re.findall(r'\[\[\[7,\[\[\\".*?].*?,\[2,\[\[\\".*?]]]]]]', html)
+    pattern_point_results2 = re.findall(r'\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+],\\"0x.*?,\[\[\[1],\\"Ulubione\\"', html)
     print(len(pattern_point_results))
+    print(len(pattern_point_results2))
 
     for x in pattern_point_results:
         print(x)
 
 
 def write_file(point):
-    f = open("dane.txt", "a")
+    f = open("test_dane", "a")
     f.write(point)
     f.close()
 
 
 def get_points():
-    #urls = all_cities()
-    urls = ['https://www.google.com/maps/search/pszok+wielkopolska/']
+    urls = all_cities()[:50]
+    #urls = ['https://www.google.com/maps/search/pszok+wielkopolska/']
     database = read_file()
     points = []
     points.append(["Name", "Street", "Zip", "City", "Longitude", "Latitude", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
     title_line = ';\t'.join(points[0])
     title_line += '\n'
     if database == [] or database[0] != title_line:
-        with open('dane.txt', 'r') as original: data = original.read()
-        with open('dane.txt', 'w') as modified: modified.write(title_line + data)
+        with open('test_dane', 'r') as original: data = original.read()
+        with open('test_dane', 'w') as modified: modified.write(title_line + data)
 
     for url in urls:
+        append = True
         page = urlopen(url)
         html_bytes = page.read()
         html = html_bytes.decode("utf-8")
         html = re.sub("&nbsp;", " ", html)
         html = re.sub("2,null,0", "1,[[9,9,9,9]],0", html)
 
-        pattern_point_results = re.findall(r'\[\[\[7,\[\[\\".*?\[\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+]]', html)
+        #pattern_point_results = re.findall(r'\[\[\[7,\[\[\\".*?\[\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+]]', html)
+        pattern_point_results = re.findall(r'\[\[\[7,\[\[\\".*?].*?,\[2,\[\[\\".*?]]]]]]', html)
         pattern_point_results2 = re.findall(r'\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+],\\"0x.*?,\[\[\[1],\\"Ulubione\\"', html)
 
         for i in range(len(pattern_point_results)):
 
             add = re.findall(r'(?<=\[2,\[\[\\").*?, [0-9]{2}-[0-9]{3}.*?\\"]]]', pattern_point_results[i])
-            new_point = split_address(add[0][:-5])
+            if len(add) > 0:
+                new_point = split_address(add[0][:-5])
+            else:
+                append = False
 
             geo_loc = re.findall(r'\[null,null,[0-9]+\.[0-9]+,[0-9]+\.[0-9]+]', pattern_point_results2[i])[0]
             geo_loc = re.split(",", geo_loc[2:-2])
-            longitude = geo_loc[2]
-            latitude = geo_loc[3]
-            new_point = new_point + [longitude, latitude]
+            if len(geo_loc) > 3:
+                longitude = geo_loc[2]
+                latitude = geo_loc[3]
+                new_point = new_point + [longitude, latitude]
+            else:
+                new_point = new_point + [0, 0]
 
             pon = re.findall(r'\[\\"poniedziałek\\",1,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', pattern_point_results[i])
             wt = re.findall(r'\[\\"wtorek\\",2,\[.*?,.*?,.*?],\[\[\\".*?]],0,[1-2]]', pattern_point_results[i])
@@ -163,11 +179,11 @@ def get_points():
             line += '\n'
             points.append(new_point)
 
-            if line not in database:
+            if line not in database and append:
                 database.append(line)
                 write_file(line)
 
-        #time.sleep(120)
+        time.sleep(120)
 
 
 
