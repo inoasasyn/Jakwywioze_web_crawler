@@ -4,7 +4,7 @@ import webbrowser
 
 def read_file():
 
-    f = open('dane.txt', 'r')
+    f = open('test_dane', 'r')
     database = []
 
     for line in f:
@@ -17,7 +17,7 @@ def read_file():
     return database
 
 def save_new_points(points):
-    f = open('dane.txt', 'w')
+    f = open('test_dane', 'w')
     for point in points:
         line = ';\t'.join(point)
         line += '\n'
@@ -41,12 +41,16 @@ def open_urls_and_read_input():
                 long, lat = data[i][4], data[i][5]
                 url = "https://www.google.com/maps/@?api=1&map_action=map&center=" + str(long) + "%2C" + str(lat)
                 print(url)
+                print(data[i])
                 webbrowser.get(browser_path).open(url)
                 phone = input("Podaj numer telefonu: ")
                 web = input("Podaj stronę internetową: ")
                 photo = input("Podaj link do zdjęcia: ")
                 target = photo.rfind("=")
-                new_photo = photo[:target] + "=s0"
+                if target != -1:
+                    new_photo = photo[:target] + "=s0"
+                else:
+                    new_photo = "None"
 
                 new_point = data[i][:6] + [phone, web, new_photo] + data[i][6:]
                 print(new_point)
