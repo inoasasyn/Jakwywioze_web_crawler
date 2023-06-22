@@ -75,7 +75,7 @@ def read_file():
         new_line = line.split(";\t")
         new_line[-1] = new_line[-1][:-1]
         hours = [';'.join(new_line[9:]).replace("Zamknięte", "0")]
-        if hours == ["null;null;null;null;null;null;null"]:
+        if hours == [";;;;;;"]:
             hours = [""]
         new_line = new_line[:9] + hours + ["True"]
         order = [3, 8, 5, 4, 0, 9, 6, 1, 10, 7, 2]
