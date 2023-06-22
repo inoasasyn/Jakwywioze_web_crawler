@@ -67,7 +67,7 @@ def generate_point_waste_type(points_list):
 
 def read_file():
 
-    f = open('test_dane', 'r')
+    f = open('dane.txt', 'r')
     points = []
     #Name;	Street;	Zip;	City;	Longitude;	Latitude;	Phone;	Web;	PhotoLink;	Monday;	Tuesday;	Wednesday;	Thursday;	Friday;	Saturday;	Sunday
 
@@ -76,7 +76,7 @@ def read_file():
         new_line[-1] = new_line[-1][:-1]
         hours = [';'.join(new_line[9:]).replace("Zamknięte", "0")]
         if hours == ["null;null;null;null;null;null;null"]:
-            hours = ""
+            hours = [""]
         new_line = new_line[:9] + hours + ["True"]
         order = [3, 8, 5, 4, 0, 9, 6, 1, 10, 7, 2]
         point = [new_line[i] for i in order]
