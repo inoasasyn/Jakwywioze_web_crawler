@@ -74,7 +74,10 @@ def read_file():
     for line in f:
         new_line = line.split(";\t")
         new_line[-1] = new_line[-1][:-1]
-        new_line = new_line[:9] + [';'.join(new_line[9:]).replace("Zamknięte", "0")] + ["True"]
+        hours = [';'.join(new_line[9:]).replace("Zamknięte", "0")]
+        if hours == ["null;null;null;null;null;null;null"]:
+            hours = ""
+        new_line = new_line[:9] + hours + ["True"]
         order = [3, 8, 5, 4, 0, 9, 6, 1, 10, 7, 2]
         point = [new_line[i] for i in order]
         points.append(tuple(point))
