@@ -9,12 +9,14 @@ def read_file():
     f.close()
     return database
 
+
 def change_unknown_and_none_to_null():
     forbidden = ["Unknown", "None", "Brak informacji", "null"]
     for i in range(len(data)):
         for j in range(len(data[i])):
             if data[i][j] in forbidden:
                 data[i][j] = ""
+
 
 def save_new_points():
     f = open('dane.txt', 'w')
@@ -23,7 +25,6 @@ def save_new_points():
         line += '\n'
         f.write(line)
     f.close()
-
 
 
 data = read_file()
