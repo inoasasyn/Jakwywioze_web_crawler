@@ -8605,7 +8605,6 @@ Gêœ;	Pomorskie;	54.6333;	17.6500
 Gêtomie;	Pomorskie;	53.8667;	18.7000
 Gê¿ewo;	Kujawsko-Pomorskie;	52.8667;	18.5167
 Gê¿yn;	Œl¹skie;	50.6333;	19.2000
-;	;	;	
 Giba³ka;	Mazowieckie;	53.2000;	21.5167
 Gibaszewo;	Kujawsko-Pomorskie;	51.9000;	18.8167
 Gibaszów;	Œl¹skie;	49.7500;	19.3833
