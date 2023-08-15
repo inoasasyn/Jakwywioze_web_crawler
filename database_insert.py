@@ -2,7 +2,6 @@ import psycopg2
 import random
 
 
-
 waste_types = [
     "przeterminowane leki",
     "odpady wielkogabarytowe",
@@ -54,6 +53,7 @@ waste_types = [
     "odpady wielkogabarytowe – materace"
 ]
 
+
 def generate_point_waste_type(points_list):
     pwt_list = []
     for i in range(1, len(points_list)-1):
@@ -64,6 +64,7 @@ def generate_point_waste_type(points_list):
     for i in range(len(waste_types)):
         pwt_list.append([1, i+1])
     return pwt_list
+
 
 def read_file():
 
@@ -85,7 +86,8 @@ def read_file():
     f.close()
     return points[1:]
 
-def insert_point_list(points_list):
+
+def insert_data(points_list):
     sql_point = "INSERT INTO point (city, image_link, lat, lon, name, opening_hours, phone_number, street, type, website, zipcode) VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
     sql_waste_type = "INSERT INTO waste_type (id, name) VALUES(%s, %s)"
     sql_pt_wt = "INSERT INTO point_waste (point_id, waste_type_id) VALUES(%s, %s)"
@@ -111,7 +113,6 @@ def insert_point_list(points_list):
             conn.close()
 
 
-
 database = read_file()
 pwt = generate_point_waste_type(database)
-insert_point_list(database)
+insert_data(database)

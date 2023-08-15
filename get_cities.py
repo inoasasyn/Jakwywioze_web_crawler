@@ -2,8 +2,8 @@
 # -*- coding: cp1250 -*-
 
 
-from urllib.request import urlopen
 import re
+import psycopg2
 import requests
 import random
 
@@ -93,4 +93,36 @@ def all_cities():
         f.close()
 
 
-all_cities()
+def insert_all_cities():
+    f = open('cities.txt', 'r')
+    index = 1
+    city = []
+
+    for line in f:
+        new_line = line.split(";\t")
+        new_line[-1] = new_line[-1][:-1]
+        order = [3, 2, 0, 1]
+        point = [index] + [new_line[i] for i in order]
+        city.append(tuple(point))
+        index += 1
+
+    sql_city = "INSERT INTO city (id, latitude, longitude, name, province) VALUES (%s, %s, %s, %s, %s)"
+
+    conn = None
+    try:
+        conn = psycopg2.connect(
+            dbname='jakwywioze', user='jakwywioze', password='jakwywioze', host='localhost', port='5432'
+        )
+        conn.autocommit = True
+        cur = conn.cursor()
+        cur.executemany(sql_city, city)
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+    finally:
+        if conn is not None:
+            conn.close()
+
+
+insert_all_cities()
