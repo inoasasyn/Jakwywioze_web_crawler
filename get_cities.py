@@ -102,11 +102,12 @@ def insert_all_cities():
         new_line = line.split(";\t")
         new_line[-1] = new_line[-1][:-1]
         order = [3, 2, 0, 1]
-        point = [index] + [new_line[i] for i in order]
-        city.append(tuple(point))
+        point = [index, "null"] + [new_line[i] for i in order]
+        if point[2] != "":
+            city.append(tuple(point))
         index += 1
 
-    sql_city = "INSERT INTO city (id, latitude, longitude, name, province) VALUES (%s, %s, %s, %s, %s)"
+    sql_city = "INSERT INTO city (id, county, latitude, longitude, name, voivodeship) VALUES (%s, %s, %s, %s, %s, %s)"
 
     conn = None
     try:
@@ -125,4 +126,5 @@ def insert_all_cities():
             conn.close()
 
 
+#insertuje same miasta
 insert_all_cities()

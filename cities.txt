@@ -9085,7 +9085,6 @@ Gnojno;	Œwiêtokrzyskie;	50.6167;	20.8500
 Gnojno;	Kujawsko-Pomorskie;	52.7833;	19.0667
 Gnojno;	Mazowieckie;	52.2167;	19.3000
 Gnuszyn;	Wielkopolskie;	52.5931;	16.2652
-;	;	;	
 Gobiaty;	Podlaskie;	53.1167;	23.8833
 Gocanowo;	Kujawsko-Pomorskie;	52.6333;	18.3833
 Gockowice;	Kujawsko-Pomorskie;	53.6667;	17.7333
@@ -13897,7 +13896,6 @@ Karzcino;	Pomorskie;	54.5500;	17.0667
 Karzec;	Wielkopolskie;	51.7667;	16.9000
 Karznica;	Pomorskie;	54.4500;	17.3500
 Karzniczka;	Pomorskie;	54.4833;	17.2333
-;	;	;	
 Kasawerów;	Mazowieckie;	51.6500;	21.1333
 Kasi³an;	Lubelskie;	51.0333;	23.4667
 Kasina Wielka;	Ma³opolskie;	49.7000;	20.1500
@@ -15144,7 +15142,7 @@ Kolno;	Ma³opolskie;	52.6000;	15.9667
 Kolno;	Wielkopolskie;	52.2167;	18.1167
 Kolnovice;	Opolskie;	50.3167;	17.3167
 Kolnowice;	Opolskie;	50.4000;	17.5833
- Kolonia;	Warmiñsko-Mazurskie;	53.5667;	21.2833
+Kolonia;	Warmiñsko-Mazurskie;	53.5667;	21.2833
 Kolonia;	Pomorskie;	54.4833;	18.4667
 Kolonia;	Pomorskie;	54.4000;	18.1167
 Kolonia;	Opolskie;	50.6833;	17.9667
