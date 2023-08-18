@@ -7921,7 +7921,7 @@ Edwardów;	Lubelskie;	50.5167;	22.7833
 Edwardów;	Kujawsko-Pomorskie;	51.3500;	19.3667
 Egiertowo;	Pomorskie;	54.2333;	18.2000
 Ejszeryszki;	Podlaskie;	54.3767;	22.9661
-Elblag;	Warmiñsko-Mazurskie;	54.1667;	19.3833
+Elbl¹g;	Warmiñsko-Mazurskie;	54.1667;	19.3833
 Elêcin;	Wielkopolskie;	51.8000;	17.1500
 Elganowo;	Pomorskie;	54.1500;	18.5000
 Elgiszewo;	Kujawsko-Pomorskie;	53.0667;	18.9167

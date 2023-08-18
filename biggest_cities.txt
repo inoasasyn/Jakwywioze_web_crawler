@@ -1,0 +1,295 @@
+Aleksandrów Kujawski;	kujawsko-pomorskie;	powiat aleksandrowski;	52.8667;	18.7000
+Augustów;	podlaskie;	powiat augustowski;	53.8500;	23.0000
+Bartoszyce;	warmiñsko-mazurskie;	powiat bartoszycki;	54.2558;	20.8114
+Be³chatów;	³ódzkie;	powiat be³chatowski;	51.3667;	19.3833
+Bêdzin;	œl¹skie;	powiat bêdziñski;	50.3237;	19.1323
+Bia³a Podlaska;	lubelskie;	powiat bialski;	52.0333;	23.1333
+Bia³obrzegi;	mazowieckie;	powiat bia³obrzeski;	51.2000;	21.7500
+Bia³ogard;	zachodniopomorskie;	powiat bia³ogardzki;	54.0000;	16.0000
+Bia³ystok;	podlaskie;	powiat bia³ostocki;	53.1333;	23.1500
+Bielsko-Bia³a;	œl¹skie;	powiat bielski;	49.8167;	19.0333
+Bielsk Podlaski;	podlaskie;	powiat bielski;	52.7667;	23.2000
+Ustrzyki Dolne;	podkarpackie;	powiat bieszczadzki;	49.4333;	22.5833
+Bi³goraj;	lubelskie;	powiat bi³gorajski;	50.5500;	22.7000
+Bochnia;	ma³opolskie;	powiat bocheñski;	49.9667;	20.4333
+Boles³awiec;	dolnoœl¹skie;	powiat boles³awiecki;	51.2667;	15.5667
+Braniewo;	warmiñsko-mazurskie;	powiat braniewski;	54.3797;	19.8200
+Brodnica;	kujawsko-pomorskie;	powiat brodnicki;	53.2500;	19.4000
+Brzesko;	ma³opolskie;	powiat brzeski;	49.9667;	20.6167
+Brzeg;	opolskie;	powiat brzeski;	50.8500;	17.4667
+Brzozów;	podkarpackie;	powiat brzozowski;	49.7000;	22.0167
+Busko-Zdrój;	œwiêtokrzyskie;	powiat buski;	50.4667;	20.7167
+Bydgoszcz;	kujawsko-pomorskie;	powiat bydgoski;	53.1500;	18.0000
+Bytów;	pomorskie;	powiat bytowski;	54.1667;	17.5000
+Che³mno;	kujawsko-pomorskie;	powiat che³miñski;	53.3500;	18.4333
+Che³m;	lubelskie;	powiat che³mski;	51.1333;	23.5000
+Chodzie¿;	wielkopolskie;	powiat chodzieski;	52.9833;	16.9167
+Chojnice;	pomorskie;	powiat chojnicki;	53.7000;	17.5667
+Choszczno;	zachodniopomorskie;	powiat choszczeñski;	53.1667;	15.4167
+Ciechanów;	mazowieckie;	powiat ciechanowski;	52.8833;	20.6167
+Cieszyn;	œl¹skie;	powiat cieszyñski;	49.7513;	18.6321
+Czarnków;	wielkopolskie;	powiat czarnkowsko-trzcianecki;	52.9000;	16.5667
+Czêstochowa;	œl¹skie;	powiat czêstochowski;	50.8000;	19.1167
+Cz³uchów;	pomorskie;	powiat cz³uchowski;	53.6667;	17.3667
+D¹browa Tarnowska;	ma³opolskie;	powiat d¹browski;	50.1667;	20.9833
+Drawsko Pomorskie;	zachodniopomorskie;	powiat drawski;	53.5333;	15.8000
+Dzia³dowo;	warmiñsko-mazurskie;	powiat dzia³dowski;	53.2333;	20.1833
+Dzier¿oniów;	dolnoœl¹skie;	powiat dzier¿oniowski;	50.7167;	16.6500
+Elbl¹g;	warmiñsko-mazurskie;	powiat elbl¹ski;	54.1667;	19.3833
+E³k;	warmiñsko-mazurskie;	powiat e³cki;	53.8333;	22.3500
+Garwolin;	mazowieckie;	powiat garwoliñski;	51.9000;	21.6333
+Pruszcz Gdañski;	pomorskie;	powiat gdañski;	54.2667;	18.6333
+Gi¿ycko;	warmiñsko-mazurskie;	powiat gi¿ycki;	54.0425;	21.7694
+Gliwice;	œl¹skie;	powiat gliwicki;	50.2833;	18.6667
+G³ogów;	dolnoœl¹skie;	powiat g³ogowski;	51.6662;	16.0845
+G³ubczyce;	opolskie;	powiat g³ubczycki;	50.2000;	17.8167
+Gniezno;	wielkopolskie;	powiat gnieŸnieñski;	52.5500;	17.6000
+Goleniów;	zachodniopomorskie;	powiat goleniowski;	53.5667;	14.8167
+Golub-Dobrzyñ;	kujawsko-pomorskie;	powiat golubsko-dobrzyñski;	53.1167;	19.0500
+Go³dap;	warmiñsko-mazurskie;	powiat go³dapski;	54.3078;	22.3003
+Gorlice;	ma³opolskie;	powiat gorlicki;	49.6667;	21.1667
+Gorzów Wielkopolski;	lubuskie;	powiat gorzowski;	52.7333;	15.2333
+Gostynin;	mazowieckie;	powiat gostyniñski;	52.4333;	19.4833
+Gostyñ;	wielkopolskie;	powiat gostyñski;	51.8833;	17.0167
+Grajewo;	podlaskie;	powiat grajewski;	53.6500;	22.4500
+Grodzisk Mazowiecki;	mazowieckie;	powiat grodziski;	52.1101;	20.6249
+Grodzisk Wielkopolski;	wielkopolskie;	powiat grodziski;	52.2333;	16.3667
+Grójec;	mazowieckie;	powiat grójecki;	51.8667;	20.8667
+Grudzi¹dz;	kujawsko-pomorskie;	powiat grudzi¹dzki;	53.4833;	18.7667
+Gryfice;	zachodniopomorskie;	powiat gryficki;	53.9000;	15.2000
+Gryfino;	zachodniopomorskie;	powiat gryfiñski;	53.2500;	14.4833
+Hajnówka;	podlaskie;	powiat hajnowski;	52.7333;	23.5833
+Hrubieszów;	lubelskie;	powiat hrubieszowski;	50.8000;	23.9167
+I³awa;	warmiñsko-mazurskie;	powiat i³awski;	53.6000;	19.5667
+Inowroc³aw;	kujawsko-pomorskie;	powiat inowroc³awski;	52.8000;	18.2667
+Janów Lubelski;	lubelskie;	powiat janowski;	50.7167;	22.4167
+Jarocin;	wielkopolskie;	powiat jarociñski;	51.9667;	17.5167
+Jaros³aw;	podkarpackie;	powiat jaros³awski;	50.0167;	22.6833
+Jas³o;	podkarpackie;	powiat jasielski;	49.7500;	21.4667
+Jawor;	dolnoœl¹skie;	powiat jaworski;	51.0500;	16.1833
+Jêdrzejów;	œwiêtokrzyskie;	powiat jêdrzejowski;	50.6333;	20.3000
+Kalisz;	wielkopolskie;	powiat kaliski;	51.7500;	18.0833
+Kamienna Góra;	dolnoœl¹skie;	powiat kamiennogórski;	50.7833;	16.0333
+Kamieñ Pomorski;	zachodniopomorskie;	powiat kamieñski;	53.9667;	14.7833
+Jelenia Góra;	dolnoœl¹skie;	powiat karkonoski[d];	50.9008;	15.7253
+Kartuzy;	pomorskie;	powiat kartuski;	54.3333;	18.2000
+Kazimierza Wielka;	œwiêtokrzyskie;	powiat kazimierski;	50.2667;	20.4833
+Kêdzierzyn-KoŸle;	opolskie;	powiat kêdzierzyñsko-kozielski;	50.3500;	18.2000
+Kêpno;	wielkopolskie;	powiat kêpiñski;	51.2833;	17.9833
+Kêtrzyn;	warmiñsko-mazurskie;	powiat kêtrzyñski;	54.0781;	21.3764
+Kielce;	œwiêtokrzyskie;	powiat kielecki;	50.8333;	20.6667
+Kluczbork;	opolskie;	powiat kluczborski;	50.9833;	18.2167
+K³obuck;	œl¹skie;	powiat k³obucki;	50.9000;	18.9333
+K³odzko;	dolnoœl¹skie;	powiat k³odzki;	50.4333;	16.6500
+Kolbuszowa;	podkarpackie;	powiat kolbuszowski;	50.2465;	21.7742
+Kolno;	podlaskie;	powiat kolneñski;	53.4167;	21.9333
+Ko³o;	wielkopolskie;	powiat kolski;	52.1833;	18.6167
+Ko³obrzeg;	zachodniopomorskie;	powiat ko³obrzeski;	54.1833;	15.5833
+Koñskie;	œwiêtokrzyskie;	powiat konecki;	51.2000;	20.4167
+Konin;	wielkopolskie;	powiat koniñski;	52.2167;	18.2667
+Koszalin;	zachodniopomorskie;	powiat koszaliñski;	54.2000;	16.1833
+Koœcian;	wielkopolskie;	powiat koœciañski;	52.1000;	16.6333
+Koœcierzyna;	pomorskie;	powiat koœcierski;	54.1167;	17.9833
+Kozienice;	mazowieckie;	powiat kozienicki;	51.5833;	21.5667
+Kraków;	ma³opolskie;	powiat krakowski;	50.0833;	19.9167
+Krapkowice;	opolskie;	powiat krapkowicki;	50.4833;	17.9667
+Krasnystaw;	lubelskie;	powiat krasnostawski;	50.9833;	23.1833
+Kraœnik;	lubelskie;	powiat kraœnicki;	50.9167;	22.2333
+Krosno;	podkarpackie;	powiat kroœnieñski;	49.6833;	21.7833
+Krosno Odrzañskie;	lubuskie;	powiat kroœnieñski;	52.0500;	15.0833
+Krotoszyn;	wielkopolskie;	powiat krotoszyñski;	51.7000;	17.4500
+Kutno;	³ódzkie;	powiat kutnowski;	52.2333;	19.3667
+Kwidzyn;	pomorskie;	powiat kwidzyñski;	53.7333;	18.9167
+Legionowo;	mazowieckie;	powiat legionowski;	52.4000;	20.9333
+Legnica;	dolnoœl¹skie;	powiat legnicki;	51.2000;	16.2000
+Lesko;	podkarpackie;	powiat leski;	49.4500;	22.3167
+Leszno;	wielkopolskie;	powiat leszczyñski;	51.8500;	16.5833
+Le¿ajsk;	podkarpackie;	powiat le¿ajski;	50.2667;	22.4167
+Lêbork;	pomorskie;	powiat lêborski;	54.5500;	17.7500
+Lidzbark Warmiñski;	warmiñsko-mazurskie;	powiat lidzbarski;	54.1225;	20.5878
+Limanowa;	ma³opolskie;	powiat limanowski;	49.7000;	20.4333
+Lipno;	kujawsko-pomorskie;	powiat lipnowski;	51.4500;	18.7000
+Lipsko;	mazowieckie;	powiat lipski;	51.1667;	21.6500
+Lubaczów;	podkarpackie;	powiat lubaczowski;	50.1667;	23.1333
+Lubañ;	dolnoœl¹skie;	powiat lubañski;	51.1167;	15.2833
+Lubartów;	lubelskie;	powiat lubartowski;	51.4667;	22.6333
+Lublin;	lubelskie;	powiat lubelski;	51.2500;	22.5667
+Lubin;	dolnoœl¹skie;	powiat lubiñski;	51.4000;	16.2000
+Lubliniec;	œl¹skie;	powiat lubliniecki;	50.6667;	18.6833
+Lwówek Œl¹ski;	dolnoœl¹skie;	powiat lwówecki;	51.1167;	15.5833
+£añcut;	podkarpackie;	powiat ³añcucki;	50.0667;	22.2333
+£ask;	³ódzkie;	powiat ³aski;	51.5833;	19.1333
+£êczna;	lubelskie;	powiat ³êczyñski;	51.2833;	22.8667
+£obez;	zachodniopomorskie;	powiat ³obeski;	53.6333;	15.6167
+£om¿a;	podlaskie;	powiat ³om¿yñski;	53.1833;	22.0833
+£osice;	mazowieckie;	powiat ³osicki;	52.2167;	22.7167
+£owicz;	³ódzkie;	powiat ³owicki;	52.1063;	19.9453
+Maków Mazowiecki;	mazowieckie;	powiat makowski;	52.8667;	21.1000
+Malbork;	pomorskie;	powiat malborski;	54.0333;	19.0500
+Miechów;	ma³opolskie;	powiat miechowski;	52.5000;	15.1500
+Mielec;	podkarpackie;	powiat mielecki;	50.2833;	21.4167
+Miêdzychód;	wielkopolskie;	powiat miêdzychodzki;	52.0333;	17.0333
+Miêdzyrzecz;	lubuskie;	powiat miêdzyrzecki;	52.4333;	15.5833
+Miko³ów;	œl¹skie;	powiat miko³owski;	50.1667;	18.9000
+Milicz;	dolnoœl¹skie;	powiat milicki;	51.5333;	17.2667
+Miñsk Mazowiecki;	mazowieckie;	powiat miñski;	52.1833;	21.5667
+M³awa;	mazowieckie;	powiat m³awski;	53.1167;	20.3833
+Mogilno;	kujawsko-pomorskie;	powiat mogileñski;	51.6167;	19.2500
+Moñki;	podlaskie;	powiat moniecki;	53.4000;	22.8167
+Mr¹gowo;	warmiñsko-mazurskie;	powiat mr¹gowski;	53.8671;	21.2996
+Myszków;	œl¹skie;	powiat myszkowski;	50.5833;	19.3500
+Myœlenice;	ma³opolskie;	powiat myœlenicki;	49.8333;	19.9333
+Myœlibórz;	zachodniopomorskie;	powiat myœliborski;	52.9167;	14.8667
+Nak³o nad Noteci¹;	kujawsko-pomorskie;	powiat nakielski;	53.1500;	17.6000
+Namys³ów;	opolskie;	powiat namys³owski;	51.0833;	17.7167
+Nidzica;	warmiñsko-mazurskie;	powiat nidzicki;	53.3667;	20.4333
+Nisko;	podkarpackie;	powiat ni¿añski;	50.5333;	22.1500
+Nowy Dwór Gdañski;	pomorskie;	powiat nowodworski;	54.2167;	19.1167
+Nowy Dwór Mazowiecki;	mazowieckie;	powiat nowodworski;	52.4333;	20.7167
+Nowe Miasto Lubawskie;	warmiñsko-mazurskie;	powiat nowomiejski;	53.4167;	19.6000
+Nowy S¹cz;	ma³opolskie;	powiat nowos¹decki;	49.6333;	20.7167
+Nowa Sól;	lubuskie;	powiat nowosolski;	51.8000;	15.7167
+Nowy Targ;	ma³opolskie;	powiat nowotarski;	49.4833;	20.0333
+Nowy Tomyœl;	wielkopolskie;	powiat nowotomyski;	52.3167;	16.1500
+Nysa;	opolskie;	powiat nyski;	50.4667;	17.3333
+Oborniki;	wielkopolskie;	powiat obornicki;	52.6500;	16.8167
+Olecko;	warmiñsko-mazurskie;	powiat olecki;	54.0272;	22.4936
+Olesno;	opolskie;	powiat oleski;	50.8833;	18.4333
+Oleœnica;	dolnoœl¹skie;	powiat oleœnicki;	51.2000;	17.3833
+Olkusz;	ma³opolskie;	powiat olkuski;	50.2833;	19.5667
+Olsztyn;	warmiñsko-mazurskie;	powiat olsztyñski;	53.7833;	20.4833
+O³awa;	dolnoœl¹skie;	powiat o³awski;	50.9333;	17.3000
+Opoczno;	³ódzkie;	powiat opoczyñski;	51.3667;	20.2833
+Opole Lubelskie;	lubelskie;	powiat opolski;	51.1500;	21.9667
+Opole;	opolskie;	powiat opolski;	50.6667;	17.9500
+Ostro³êka;	mazowieckie;	powiat ostro³êcki;	51.4500;	20.8000
+Ostrowiec Œwiêtokrzyski;	œwiêtokrzyskie;	powiat ostrowiecki;	50.9333;	21.4000
+Ostrów Wielkopolski;	wielkopolskie;	powiat ostrowski;	51.6500;	17.8167
+Ostrów Mazowiecka;	mazowieckie;	powiat ostrowski;	52.8000;	21.9000
+Ostróda;	warmiñsko-mazurskie;	powiat ostródzki;	53.7000;	19.9833
+Ostrzeszów;	wielkopolskie;	powiat ostrzeszowski;	51.4167;	17.9500
+Oœwiêcim;	ma³opolskie;	powiat oœwiêcimski;	50.0333;	19.2333
+Otwock;	mazowieckie;	powiat otwocki;	52.1333;	21.3167
+Pajêczno;	³ódzkie;	powiat pajêczañski;	51.1500;	19.0000
+Parczew;	lubelskie;	powiat parczewski;	51.6333;	22.9000
+Piaseczno;	mazowieckie;	powiat piaseczyñski;	51.5167;	21.1500
+Pi³a;	wielkopolskie;	powiat pilski;	51.4167;	17.5833
+Piñczów;	œwiêtokrzyskie;	powiat piñczowski;	50.5333;	20.5333
+Piotrków Trybunalski;	³ódzkie;	powiat piotrkowski;	51.4000;	19.6833
+Pisz;	warmiñsko-mazurskie;	powiat piski;	53.6333;	21.8000
+Pleszew;	wielkopolskie;	powiat pleszewski;	51.9000;	17.8000
+P³ock;	mazowieckie;	powiat p³ocki;	52.5500;	19.7000
+P³oñsk;	mazowieckie;	powiat p³oñski;	52.6333;	20.3833
+Poddêbice;	³ódzkie;	powiat poddêbicki;	51.8833;	18.9500
+Police;	zachodniopomorskie;	powiat policki;	53.5500;	14.5667
+Polkowice;	dolnoœl¹skie;	powiat polkowicki;	51.5000;	16.0667
+Poznañ;	wielkopolskie;	powiat poznañski;	52.4167;	16.9667
+Proszowice;	ma³opolskie;	powiat proszowicki;	50.1930;	20.2885
+Prudnik;	opolskie;	powiat prudnicki;	50.3167;	17.5833
+Pruszków;	mazowieckie;	powiat pruszkowski;	52.1716;	20.8064
+Przasnysz;	mazowieckie;	powiat przasnyski;	53.0333;	20.8833
+Przemyœl;	podkarpackie;	powiat przemyski;	49.7833;	22.7833
+Przeworsk;	podkarpackie;	powiat przeworski;	50.0667;	22.5000
+Przysucha;	mazowieckie;	powiat przysuski;	51.3667;	20.6167
+Pszczyna;	œl¹skie;	powiat pszczyñski;	49.9667;	18.9500
+Puck;	pomorskie;	powiat pucki;	54.7000;	18.4167
+Pu³awy;	lubelskie;	powiat pu³awski;	51.4167;	21.9667
+Pu³tusk;	mazowieckie;	powiat pu³tuski;	52.7167;	21.1000
+Pyrzyce;	zachodniopomorskie;	powiat pyrzycki;	53.1333;	14.8833
+Racibórz;	œl¹skie;	powiat raciborski;	50.0833;	18.2000
+Radom;	mazowieckie;	powiat radomski;	51.4167;	21.1500
+Radomsko;	³ódzkie;	powiat radomszczañski;	51.0667;	19.4500
+Radziejów;	kujawsko-pomorskie;	powiat radziejowski;	52.6167;	18.5333
+Radzyñ Podlaski;	lubelskie;	powiat radzyñski;	51.7833;	22.6167
+Rawicz;	wielkopolskie;	powiat rawicki;	51.6167;	16.8667
+Rawa Mazowiecka;	³ódzkie;	powiat rawski;	51.7667;	20.2500
+Ropczyce;	podkarpackie;	powiat ropczycko-sêdziszowski;	50.0500;	21.6167
+Rybnik;	œl¹skie;	powiat rybnicki;	50.1167;	18.5333
+Ryki;	lubelskie;	powiat rycki;	51.6333;	21.9333
+Rypin;	kujawsko-pomorskie;	powiat rypiñski;	53.0667;	19.4500
+Rzeszów;	podkarpackie;	powiat rzeszowski;	50.0500;	22.0000
+Sandomierz;	œwiêtokrzyskie;	powiat sandomierski;	50.6833;	21.7500
+Sanok;	podkarpackie;	powiat sanocki;	49.5667;	22.2000
+Sejny;	podlaskie;	powiat sejneñski;	54.1000;	23.3500
+Siedlce;	mazowieckie;	powiat siedlecki;	52.1667;	22.3000
+Siemiatycze;	podlaskie;	powiat siemiatycki;	52.4500;	22.8833
+Sieradz;	³ódzkie;	powiat sieradzki;	51.6000;	18.7500
+Sierpc;	mazowieckie;	powiat sierpecki;	52.8833;	19.6667
+Skar¿ysko-Kamienna;	œwiêtokrzyskie;	powiat skar¿yski;	51.1167;	20.9000
+Skierniewice;	³ódzkie;	powiat skierniewicki;	51.9667;	20.1500
+S³awno;	zachodniopomorskie;	powiat s³awieñski;	54.3500;	16.6833
+S³upca;	wielkopolskie;	powiat s³upecki;	52.2833;	17.8833
+S³upsk;	pomorskie;	powiat s³upski;	54.4500;	17.0333
+Sochaczew;	mazowieckie;	powiat sochaczewski;	52.2333;	20.2500
+Soko³ów Podlaski;	mazowieckie;	powiat soko³owski;	52.4000;	22.2500
+Sokó³ka;	podlaskie;	powiat sokólski;	53.4167;	23.5000
+Stalowa Wola;	podkarpackie;	powiat stalowowolski;	50.5667;	22.0500
+Starogard Gdañski;	pomorskie;	powiat starogardzki;	53.9667;	18.5500
+Strzelce Opolskie;	opolskie;	powiat strzelecki;	50.5167;	18.3000
+Strzelce Krajeñskie;	lubuskie;	powiat strzelecko-drezdenecki;	52.8667;	15.5333
+Strzelin;	dolnoœl¹skie;	powiat strzeliñski;	50.7833;	17.0667
+Strzy¿ów;	podkarpackie;	powiat strzy¿owski;	49.8667;	21.8000
+Sucha Beskidzka;	ma³opolskie;	powiat suski;	49.7415;	19.5951
+Suwa³ki;	podlaskie;	powiat suwalski;	54.0994;	22.9331
+Szamotu³y;	wielkopolskie;	powiat szamotulski;	52.6167;	16.5833
+Szczecinek;	zachodniopomorskie;	powiat szczecinecki;	53.7167;	16.7000
+Szczytno;	warmiñsko-mazurskie;	powiat szczycieñski;	53.5667;	21.0000
+Sztum;	pomorskie;	powiat sztumski;	53.9333;	19.0333
+Szyd³owiec;	mazowieckie;	powiat szyd³owiecki;	51.2333;	20.8500
+Œroda Wielkopolska;	wielkopolskie;	powiat œredzki;	52.2333;	17.2833
+Œroda Œl¹ska;	dolnoœl¹skie;	powiat œredzki;	51.1667;	16.6000
+Œrem;	wielkopolskie;	powiat œremski;	52.0833;	17.0167
+Œwidnik;	lubelskie;	powiat œwidnicki;	51.2500;	22.6833
+Œwidnica;	dolnoœl¹skie;	powiat œwidnicki;	50.8500;	16.5000
+Œwidwin;	zachodniopomorskie;	powiat œwidwiñski;	53.7667;	15.7833
+Œwiebodzin;	lubuskie;	powiat œwiebodziñski;	50.2667;	20.9167
+Œwiecie;	kujawsko-pomorskie;	powiat œwiecki;	53.4167;	18.4500
+Tarnobrzeg;	podkarpackie;	powiat tarnobrzeski;	50.5833;	21.6833
+Tarnowskie Góry;	œl¹skie;	powiat tarnogórski;	50.4500;	18.8667
+Tarnów;	ma³opolskie;	powiat tarnowski;	52.7500;	14.9500
+Zakopane;	ma³opolskie;	powiat tatrzañski;	49.3000;	19.9667
+Tczew;	pomorskie;	powiat tczewski;	54.1000;	18.8000
+Tomaszów Mazowiecki;	³ódzkie;	powiat tomaszowski;	51.5333;	20.0167
+Tomaszów Lubelski;	lubelskie;	powiat tomaszowski;	50.4534;	23.4191
+Toruñ;	kujawsko-pomorskie;	powiat toruñski;	53.0333;	18.6000
+Trzebnica;	dolnoœl¹skie;	powiat trzebnicki;	51.3167;	17.0500
+Tuchola;	kujawsko-pomorskie;	powiat tucholski;	53.5833;	17.8500
+Turek;	wielkopolskie;	powiat turecki;	52.0333;	18.5000
+Wadowice;	ma³opolskie;	powiat wadowicki;	49.8833;	19.4833
+Wa³brzych;	dolnoœl¹skie;	powiat wa³brzyski;	50.7667;	16.2833
+Wa³cz;	zachodniopomorskie;	powiat wa³ecki;	53.2667;	16.4667
+O¿arów Mazowiecki;	mazowieckie;	powiat warszawski zachodni;	52.2333;	20.8500
+W¹brzeŸno;	kujawsko-pomorskie;	powiat w¹brzeski;	53.2833;	18.9500
+W¹growiec;	wielkopolskie;	powiat w¹growiecki;	52.8000;	17.2000
+Wejherowo;	pomorskie;	powiat wejherowski;	54.6000;	18.2333
+Wêgrów;	mazowieckie;	powiat wêgrowski;	52.4000;	22.0167
+Wieliczka;	ma³opolskie;	powiat wielicki;	49.9879;	20.0793
+W³oc³awek;	kujawsko-pomorskie;	powiat w³oc³awski;	52.6500;	19.0333
+W³odawa;	lubelskie;	powiat w³odawski;	51.5500;	23.5500
+W³oszczowa;	œwiêtokrzyskie;	powiat w³oszczowski;	50.8667;	19.9667
+Wodzis³aw Œl¹ski;	œl¹skie;	powiat wodzis³awski;	50.0000;	18.4667
+Wolsztyn;	wielkopolskie;	powiat wolsztyñski;	52.1167;	16.1333
+Wo³omin;	mazowieckie;	powiat wo³omiñski;	52.3500;	21.2500
+Wo³ów;	dolnoœl¹skie;	powiat wo³owski;	51.3333;	16.6500
+Wroc³aw;	dolnoœl¹skie;	powiat wroc³awski;	51.1000;	17.0333
+Wrzeœnia;	wielkopolskie;	powiat wrzesiñski;	52.3167;	17.5833
+Wschowa;	lubuskie;	powiat wschowski;	51.8000;	16.3167
+Wysokie Mazowieckie;	podlaskie;	powiat wysokomazowiecki;	52.9167;	22.5167
+Wyszków;	mazowieckie;	powiat wyszkowski;	52.3167;	22.0167
+Zambrów;	podlaskie;	powiat zambrowski;	52.9833;	22.2500
+Zamoœæ;	lubelskie;	powiat zamojski;	50.7167;	23.2500
+Zawiercie;	œl¹skie;	powiat zawierciañski;	50.5000;	19.4333
+Z¹bkowice Œl¹skie;	dolnoœl¹skie;	powiat z¹bkowicki;	50.5833;	16.8000
+Zduñska Wola;	³ódzkie;	powiat zduñskowolski;	51.6000;	18.9333
+Zgierz;	³ódzkie;	powiat zgierski;	51.8500;	19.4167
+Zgorzelec;	dolnoœl¹skie;	powiat zgorzelecki;	51.1500;	15.0167
+Zielona Góra;	lubuskie;	powiat zielonogórski;	51.9333;	15.5000
+Z³otoryja;	dolnoœl¹skie;	powiat z³otoryjski;	51.1167;	15.9167
+Z³otów;	wielkopolskie;	powiat z³otowski;	53.3500;	17.0500
+Zwoleñ;	mazowieckie;	powiat zwoleñski;	52.4333;	19.5500
+¯agañ;	lubuskie;	powiat ¿agañski;	51.6167;	15.3167
+¯ary;	lubuskie;	powiat ¿arski;	51.6333;	15.1500
+¯nin;	kujawsko-pomorskie;	powiat ¿niñski;	52.8500;	17.7333
+¯uromin;	mazowieckie;	powiat ¿uromiñski;	53.0667;	19.9167
+¯yrardów;	mazowieckie;	powiat ¿yrardowski;	52.0510;	20.4433
+¯ywiec;	œl¹skie;	powiat ¿ywiecki;	49.6833;	19.2167

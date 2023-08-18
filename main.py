@@ -6,7 +6,6 @@ import pandas as pd
 import time
 
 
-
 def all_cities():
 
     wikiurl = "https://pl.wikipedia.org/wiki/Miasta_w_województwie_wielkopolskim"

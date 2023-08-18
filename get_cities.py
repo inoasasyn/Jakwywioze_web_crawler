@@ -6,6 +6,8 @@ import re
 import psycopg2
 import requests
 import random
+from bs4 import *
+import pandas as pd
 
 
 polish_letter_conversion = {
@@ -94,15 +96,15 @@ def all_cities():
 
 
 def insert_all_cities():
-    f = open('cities.txt', 'r')
+    f = open('biggest_cities.txt', 'r')
     index = 1
     city = []
 
     for line in f:
         new_line = line.split(";\t")
         new_line[-1] = new_line[-1][:-1]
-        order = [3, 2, 0, 1]
-        point = [index, "null"] + [new_line[i] for i in order]
+        order = [2, 4, 3, 0, 1]
+        point = [index] + [new_line[i] for i in order]
         if point[2] != "":
             city.append(tuple(point))
         index += 1
@@ -126,5 +128,94 @@ def insert_all_cities():
             conn.close()
 
 
+def biggest_cities():
+    f = open('cities.txt', 'r')
+    prev_cities = dict()
+
+    for line in f:
+        new_line = line.split(";\t")
+        new_line[-1] = new_line[-1][:-1]
+        if new_line[0] not in prev_cities.keys():
+            voivodeship_dict = dict()
+            voivodeship_dict[new_line[1].lower()] = [[new_line[2], new_line[3]]]
+            prev_cities[new_line[0]] = voivodeship_dict
+        else:
+            current_voivodeship = prev_cities[new_line[0]]
+            if new_line[1] not in current_voivodeship.keys():
+                current_voivodeship[new_line[1].lower()] = [[new_line[2], new_line[3]]]
+            else:
+                temp = current_voivodeship[new_line[1]]
+                temp.append([new_line[2], new_line[3]])
+                current_voivodeship[new_line[1].lower()] = temp
+
+    wikiurl = "https://pl.wikipedia.org/wiki/Lista_powiatów_w_Polsce"
+    table_class = "wikitable sortable jquery-tablesorter"
+    response = requests.get(wikiurl)
+    soup = BeautifulSoup(response.text, 'html.parser')
+    indiatable = soup.find('table', {'class': "wikitable"})
+    df = pd.read_html(str(indiatable))
+    df = pd.DataFrame(df[0])
+    col_mapper = dict()
+    index = 0
+    for x in df.keys():
+        col_mapper[x] = index
+        index += 1
+    df = df.rename(columns=col_mapper)
+    powiat = df[0].tolist()
+    miasto = df[1].tolist()
+    woj = df[3].tolist()
+
+    biggest_cities_dict = dict()
+    err_counter = 0
+    for i in range(len(df)):
+        if miasto[i] != "miasto na prawach powiatu" and miasto[i] not in biggest_cities_dict.keys():
+            if miasto[i] in prev_cities.keys():
+                found = prev_cities[miasto[i]]
+                if woj[i] in found.keys():
+                    biggest_cities_dict[miasto[i]] = [woj[i], powiat[i], found[woj[i]][0]]
+                else:
+                    if len(found.keys()) == 1:
+                        for x in found.keys():
+                            biggest_cities_dict[miasto[i]] = [woj[i], powiat[i], found[x][0]]
+                    else:
+                        print('error')
+                        err_counter += 1
+                        print(miasto[i], end="\t")
+                        print(found)
+            else:
+                print('error')
+                err_counter += 1
+                print(miasto[i])
+        elif powiat[i] == "miasto na prawach powiatu" and powiat[i] not in biggest_cities_dict.keys():
+            if powiat[i] in prev_cities.keys():
+                found = prev_cities[powiat[i]]
+                if woj[i] in found.keys():
+                    biggest_cities_dict[powiat[i]] = [woj[i], powiat[i], found[woj[i]][0]]
+                else:
+                    if len(found.keys()) == 1:
+                        for x in found.keys():
+                            biggest_cities_dict[powiat[i]] = [woj[i], powiat[i], found[x][0]]
+                    else:
+                        print('error')
+                        err_counter += 1
+                        print(powiat[i], end="\t")
+                        print(found)
+            else:
+                print('error')
+                err_counter += 1
+                print(powiat[i])
+    print(err_counter)
+
+    f = open('biggest_cities.txt', 'a')
+    for x in biggest_cities_dict.keys():
+        line = x + ';\t' + biggest_cities_dict[x][0] + ';\t' + biggest_cities_dict[x][1] + ';\t' + biggest_cities_dict[x][2][0] + ';\t' + biggest_cities_dict[x][2][1] + '\n'
+        f.write(line)
+    f.close()
+
+
 #insertuje same miasta
+#na razie tylko te bez errorów
 insert_all_cities()
+
+
+#biggest_cities()
