@@ -1,10 +1,9 @@
 import webbrowser
 
 
-
 def read_file():
 
-    f = open('test_dane', 'r')
+    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/test_dane', 'r')
     database = []
 
     for line in f:
@@ -17,7 +16,7 @@ def read_file():
     return database
 
 def save_new_points(points):
-    f = open('test_dane', 'w')
+    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/test_dane', 'w')
     for point in points:
         line = ';\t'.join(point)
         line += '\n'

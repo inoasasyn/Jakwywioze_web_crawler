@@ -68,7 +68,7 @@ def generate_point_waste_type(points_list):
 
 def read_file():
 
-    f = open('dane.txt', 'r')
+    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/dane.txt', 'r')
     points = []
     #Name;	Street;	Zip;	City;	Longitude;	Latitude;	Phone;	Web;	PhotoLink;	Monday;	Tuesday;	Wednesday;	Thursday;	Friday;	Saturday;	Sunday
 
@@ -113,6 +113,61 @@ def insert_data(points_list):
             conn.close()
 
 
+def insert_all_cities():
+    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/biggest_cities.txt', 'r')
+    index = 1
+    city = []
+
+    for line in f:
+        new_line = line.split(";\t")
+        new_line[-1] = new_line[-1][:-1]
+        order = [2, 4, 3, 0, 1]
+        point = [index] + [new_line[i] for i in order]
+        if point[2] != "":
+            city.append(tuple(point))
+        index += 1
+
+    sql_city = "INSERT INTO city (id, county, latitude, longitude, name, voivodeship) VALUES (%s, %s, %s, %s, %s, %s)"
+
+    conn = None
+    try:
+        conn = psycopg2.connect(
+            dbname='jakwywioze', user='jakwywioze', password='jakwywioze', host='localhost', port='5432'
+        )
+        conn.autocommit = True
+        cur = conn.cursor()
+        cur.executemany(sql_city, city)
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+    finally:
+        if conn is not None:
+            conn.close()
+
+
+def insert_users():
+    sql_user = "INSERT INTO \"user\" (password, role, username) VALUES(%s, %s, %s)"
+
+    conn = None
+    try:
+        conn = psycopg2.connect(
+            dbname='jakwywioze', user='jakwywioze', password='jakwywioze', host='localhost', port='5432'
+        )
+        conn.autocommit = True
+        cur = conn.cursor()
+        cur.execute(sql_user, ("$2a$12$QcRYVci5qvmVlPMrZynv4.CuolM6g1IhGBgs690Ga6fQRMVP/GMue", "admin", "admin"))
+        conn.commit()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+    finally:
+        if conn is not None:
+            conn.close()
+
+
 database = read_file()
 pwt = generate_point_waste_type(database)
 insert_data(database)
+insert_all_cities()
+insert_users()

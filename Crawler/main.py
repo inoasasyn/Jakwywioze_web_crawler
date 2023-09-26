@@ -54,7 +54,7 @@ def all_cities():
 
 def read_file():
 
-    f = open('test_dane', 'r')
+    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/test_dane', 'r')
     database = []
 
     for line in f:
@@ -117,7 +117,7 @@ def try_one():
 
 
 def write_file(point):
-    f = open("test_dane", "a")
+    f = open("C:/Users/48690/Desktop/Studia/INZ/txt Files/test_dane", "a")
     f.write(point)
     f.close()
 
@@ -131,8 +131,8 @@ def get_points():
     title_line = ';\t'.join(points[0])
     title_line += '\n'
     if database == [] or database[0] != title_line:
-        with open('test_dane', 'r') as original: data = original.read()
-        with open('test_dane', 'w') as modified: modified.write(title_line + data)
+        with open('C:/Users/48690/Desktop/Studia/INZ/txt Files/test_dane', 'r') as original: data = original.read()
+        with open('C:/Users/48690/Desktop/Studia/INZ/txt Files/test_dane', 'w') as modified: modified.write(title_line + data)
 
     for url in urls:
         append = True
