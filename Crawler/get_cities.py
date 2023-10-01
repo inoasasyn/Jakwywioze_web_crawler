@@ -8,6 +8,7 @@ import requests
 import random
 from bs4 import *
 import pandas as pd
+import os
 
 
 polish_letter_conversion = {
@@ -82,7 +83,8 @@ def all_cities():
             prev = city_data[name]
             prev.append((state, lon, lat))
             city_data[name] = prev
-        f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/cities.txt', 'a')
+        path = os.getcwd() + "/txt Files/cities.txt"
+        f = open(path, 'a')
         line = name + ';\t' + state + ';\t' + lon + ';\t' + lat + '\n'
         if line.startswith('Ã'):
             line = "Æ" + name[2:] + ';\t' + state + ';\t' + lon + ';\t' + lat + '\n'
@@ -96,7 +98,8 @@ def all_cities():
 
 
 def insert_all_cities():
-    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/biggest_cities.txt', 'r')
+    path = os.getcwd() + "/txt Files/biggest_cities.txt"
+    f = open(path, 'r')
     index = 1
     city = []
 
@@ -129,7 +132,8 @@ def insert_all_cities():
 
 
 def biggest_cities():
-    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/cities.txt', 'r')
+    path = os.getcwd() + "/txt Files/cities.txt"
+    f = open(path, 'r')
     prev_cities = dict()
 
     for line in f:
@@ -206,7 +210,8 @@ def biggest_cities():
                 print(powiat[i])
     print(err_counter)
 
-    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/biggest_cities.txt', 'a')
+    path = os.getcwd() + "/txt Files/biggest_cities.txt"
+    f = open(path, 'a')
     for x in biggest_cities_dict.keys():
         line = x + ';\t' + biggest_cities_dict[x][0] + ';\t' + biggest_cities_dict[x][1] + ';\t' + biggest_cities_dict[x][2][0] + ';\t' + biggest_cities_dict[x][2][1] + '\n'
         f.write(line)

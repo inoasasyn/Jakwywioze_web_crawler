@@ -1,5 +1,9 @@
+import os
+
+
 def read_file():
-    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/dane.txt', 'r')
+    path = os.getcwd() + "/txt Files/dane.txt"
+    f = open(path, 'r')
     database = []
 
     for line in f:
@@ -19,7 +23,8 @@ def change_unknown_and_none_to_null():
 
 
 def save_new_points():
-    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/dane.txt', 'w')
+    path = os.getcwd() + "/txt Files/dane.txt"
+    f = open(path, 'w')
     for point in data:
         line = ';\t'.join(point)
         line += '\n'

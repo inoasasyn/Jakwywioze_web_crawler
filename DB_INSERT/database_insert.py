@@ -1,5 +1,6 @@
 import psycopg2
 import random
+import os
 
 
 waste_types = [
@@ -67,8 +68,8 @@ def generate_point_waste_type(points_list):
 
 
 def read_file():
-
-    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/dane.txt', 'r')
+    path = os.getcwd() + "/txt Files/dane.txt"
+    f = open(path, 'r')
     points = []
     #Name;	Street;	Zip;	City;	Longitude;	Latitude;	Phone;	Web;	PhotoLink;	Monday;	Tuesday;	Wednesday;	Thursday;	Friday;	Saturday;	Sunday
 
@@ -114,7 +115,8 @@ def insert_data(points_list):
 
 
 def insert_all_cities():
-    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/biggest_cities.txt', 'r')
+    path = os.getcwd() + "/txt Files/biggest_cities.txt"
+    f = open(path, 'r')
     index = 1
     city = []
 

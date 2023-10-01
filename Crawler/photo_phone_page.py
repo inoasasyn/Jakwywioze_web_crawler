@@ -1,9 +1,10 @@
 import webbrowser
+import os
 
 
 def read_file():
-
-    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/test_dane', 'r')
+    path = os.getcwd() + "/txt Files/test_dane"
+    f = open(path, 'r')
     database = []
 
     for line in f:
@@ -12,11 +13,12 @@ def read_file():
         database.append(new_line)
 
     f.close()
-
     return database
 
+
 def save_new_points(points):
-    f = open('C:/Users/48690/Desktop/Studia/INZ/txt Files/test_dane', 'w')
+    path = os.getcwd() + "/txt Files/test_dane"
+    f = open(path, 'w')
     for point in points:
         line = ';\t'.join(point)
         line += '\n'
@@ -56,10 +58,7 @@ def open_urls_and_read_input():
                 new_data[i] = new_point
 
         save_new_points(new_data)
-
-
     return new_data
-
 
 
 data = read_file()
