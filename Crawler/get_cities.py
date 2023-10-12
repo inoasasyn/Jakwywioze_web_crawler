@@ -210,7 +210,7 @@ def biggest_cities():
                 print(powiat[i])
     print(err_counter)
 
-    path = os.getcwd() + "/txt Files/biggest_cities.txt"
+    path = os.getcwd()[:-7] + "/txt Files/biggest_cities.txt"
     f = open(path, 'a')
     for x in biggest_cities_dict.keys():
         line = x + ';\t' + biggest_cities_dict[x][0] + ';\t' + biggest_cities_dict[x][1] + ';\t' + biggest_cities_dict[x][2][0] + ';\t' + biggest_cities_dict[x][2][1] + '\n'
@@ -218,9 +218,22 @@ def biggest_cities():
     f.close()
 
 
-#insertuje same miasta
-#na razie tylko te bez errorów
-#insert_all_cities()
+def biggest_cities_new_dataset():
+    path = os.getcwd()[:-7] + r'\txt Files\Lista-miast-i-miasteczek-w-Polsce.xlsx'
+    data = pd.read_excel(path)
+    data = data.values.tolist()
+    cities = dict()
+    for i in range(0, len(data)):
+        name, population, lat, lon = data[i]
+        if name not in cities.keys() or cities[name][0] < population:
+            cities[name] = [population, lat, lon]
+
+    path = os.getcwd()[:-7] + "/txt Files/biggest_cities.txt"
+    f = open(path, 'w')
+    for x in cities.keys():
+        line = x + ';\t' + cities[x][1] + ';\t' + cities[x][2] + '\n'
+        f.write(line)
+    f.close()
 
 
-#biggest_cities()
+biggest_cities_new_dataset()
