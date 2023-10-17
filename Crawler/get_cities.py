@@ -236,4 +236,19 @@ def biggest_cities_new_dataset():
     f.close()
 
 
-biggest_cities_new_dataset()
+def change_coma_for_dot():
+    path = os.getcwd()[:-7] + r'\txt Files\biggest_cities.txt'
+    f = open(path, 'r')
+    lines = []
+    for line in f:
+        line = re.sub(',', '.', line)
+        lines.append(line)
+    f.close()
+    f = open(path, 'w')
+    for x in lines:
+        f.write(x)
+    f.close()
+
+
+change_coma_for_dot()
+#biggest_cities_new_dataset()
