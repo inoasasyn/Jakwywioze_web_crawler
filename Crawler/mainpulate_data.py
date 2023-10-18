@@ -2,7 +2,7 @@ import os
 
 
 def read_file():
-    path = os.getcwd() + "/txt Files/dane.txt"
+    path = os.getcwd()[:-7] + "/txt Files/test_dane"
     f = open(path, 'r')
     database = []
 
@@ -11,11 +11,11 @@ def read_file():
         new_line[-1] = new_line[-1][:-1]
         database.append(new_line)
     f.close()
-    return database
+    return database[1:]
 
 
 def change_unknown_and_none_to_null():
-    forbidden = ["Unknown", "None", "Brak informacji", "null"]
+    forbidden = ["Unknown", "Unnamed Road", "None", "Brak informacji", "null"]
     for i in range(len(data)):
         for j in range(len(data[i])):
             if data[i][j] in forbidden:
@@ -23,11 +23,14 @@ def change_unknown_and_none_to_null():
 
 
 def save_new_points():
-    path = os.getcwd() + "/txt Files/dane.txt"
+    path = os.getcwd()[:-7] + "/txt Files/ready_to_insert.txt"
     f = open(path, 'w')
     for point in data:
-        line = ';\t'.join(point)
-        line += '\n'
+        line = ';\t'.join(point[:9])
+        hours = [';'.join(point[9:]).replace("Zamknięte", "0")]
+        if hours == [";;;;;;"]:
+            hours = [""]
+        line = line + ';\t' + hours[0] + '\n'
         f.write(line)
     f.close()
 
