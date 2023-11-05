@@ -35,6 +35,32 @@ def save_new_points():
     f.close()
 
 
-data = read_file()
-change_unknown_and_none_to_null()
-save_new_points()
+def read_ready_file():
+    path = os.getcwd()[:-7] + "/txt Files/ready_to_insert.txt"
+    f = open(path, 'r')
+    database = []
+
+    for line in f:
+        new_line = line.split(";\t")
+        new_line[-1] = new_line[-1][:-1]
+        database.append(new_line)
+    f.close()
+    return database
+
+
+def save_ready_file(data):
+    path = os.getcwd()[:-7] + "/txt Files/ready_to_insert.txt"
+    f = open(path, 'w')
+    for line in data:
+        line[4], line[3] = line[3], line[4]
+        new_line = ';\t'.join(line) + '\n'
+        f.write(new_line)
+    f.close()
+
+
+#data = read_file()
+#change_unknown_and_none_to_null()
+#save_new_points()
+
+data = read_ready_file()
+save_ready_file(data)
