@@ -1,0 +1,88 @@
+in html
+change site to; http://uk-sroda.pl/pszok/
+change site to; https://odpady.kornik.pl/punkt-selektywnego-zbierania-odpadow-komunalnych-0?fbclid=IwAR1G5XjXsd3DMONU5pcnkBbvWd8JBtP7plebc1IZ60WdZosKAS8GoMeRlX4
+default
+change site to; https://selekt.czempin.pl/asp/pl_start.asp?typ=13&menu=15&dzialy=15&artykul=108&akcja=artykul
+in html
+change site to; https://www.zzo.pl/pl/zakres-dzialalnosci/pszok-punkt-selektywnego-zbierania-odpadow-komunalnych
+change site to; https://wcr-jarocin.pl/index.php/pszok-jarocin/
+change site to; https://www.zzo.pl/pl/zakres-dzialalnosci/pszok-punkt-selektywnego-zbierania-odpadow-komunalnych
+on site, but not in html
+in html
+default
+default
+default
+default
+no info
+default
+on site, but not in html
+change site to; https://odpady.szamotuly.pl/126-pszok.html
+in html
+default
+no info
+change site to; https://www.kalisz.pl/dla-mieszkanca/ochrona-srodowiska/segregacja-odpadow/jak-segregowac/pszok--punkt-selektywnej-zbiorki-odpadow-komunalnych,27058
+change site to; https://www.mzgok.konin.pl/przyjecie-odpadow
+default
+on site, but not in html
+change site to; https://www.mzoleszno.com.pl/Punkt-Selektywnego-Zbierania-Odpadow-Komunalnych.html
+change site to; https://kom-lub.com.pl/pszok/
+default
+no info
+no info
+in html
+no info
+default
+in html
+no info
+no info
+default
+no info
+no info
+default
+no info
+default
+default
+in html
+default
+no info
+no info
+no info
+default
+no info
+default
+no info
+change site to; https://pkpleszew.pl/harmonogramwywozu/
+in html
+default
+change site to; https://www.zzo-olszowa.pl/pszok-olszowa/
+no info
+in html
+default
+in html
+no info
+no info
+no info
+in html
+default
+default
+default
+default
+default
+change site to; https://www.mzk.czarnkow.pl/nasze-uslugi/gospodarowanie-odpadami
+change site to; https://miedzychod.pl/strona/25
+default
+in html
+default
+on site, but not in html
+no info
+default
+default
+default
+no info
+change site to; https://pgkimino.pl/ripok/punkt-selektywnej-zbiorki-odpadow-komunalnych/
+default
+no info
+default
+on site, but not in html
+no info
+default
