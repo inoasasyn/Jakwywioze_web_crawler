@@ -1,12 +1,13 @@
 import os
 import webbrowser
+import re
 import easyocr
+from difflib import get_close_matches
 
 
 def go_through_websites_1():
     path_dane = os.getcwd()[:-7] + r'\txt Files\test_dane'
     path_wt = os.getcwd()[:-7] + r'\txt Files\waste_types.txt'
-    browser_path = "C:/Users/48690/AppData/Local/Programs/Opera GX/launcher.exe %s"
     f = open(path_dane, 'r')
     lines = []
     for line in f:
@@ -21,6 +22,7 @@ def go_through_websites_1():
         waste_types.append(line[:-1])
     f.close()
 
+    browser_path = "C:/Users/48690/AppData/Local/Programs/Opera GX/launcher.exe %s"
     for line in lines[1+len(waste_types):]:
         url = line[7]
         if url != "None":
@@ -82,15 +84,82 @@ def change_website():
     f.close()
 
 
-def try_text_extraction():
+def using_polimorf():
+    path_dane = os.getcwd()[:-7] + r'PoliMorf-0.6.7.tab'
+    file_in = open(path_dane, 'r', encoding='utf8')
+    lines_in = file_in.readlines()
+    polish_dict = {}
+    for line in lines_in:
+        x = line.split()
+        word = x[0]
+        if len(word) not in polish_dict.keys():
+            polish_dict[len(word)] = {word}
+        else:
+            prev = polish_dict[len(word)]
+            prev.add(word)
+            polish_dict[len(word)] = prev
+
+    alphabet = ['a', 'ą', 'b', 'c', 'ć', 'd', 'e', 'ę', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'ł', 'm', 'n', 'ń', 'o',
+                'ó', 'p', 'q', 'r', 's', 'ś', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'ź', 'ż']
+    while True:
+        user_string = input("Podaj słowo do analizy: ")
+        word = user_string.lower()
+        guess = get_close_matches(user_string, polish_dict[len(user_string)], n=len(user_string))
+        rates = []
+        for x in guess:
+            score = 0
+            for i in range(len(word)):
+                if word[i] == x[i]:
+                    score += 1
+            rates.append(score)
+        result = [guess[i] for i in range(len(guess)) if rates[i] == max(rates)]
+        print(result)
+
+
+def get_img():
+    path_dane = os.getcwd()[:-7] + r'\txt Files\test_dane'
+    path_wt = os.getcwd()[:-7] + r'\txt Files\waste_types.txt'
+    f = open(path_wt, 'r')
+    wt = []
+    lines = []
+    for line in f:
+        lines.append(line)
+        line = line.split('; ')
+        line[-1] = line[-1][:-1]
+        wt.append(line)
+    f.close()
+    f = open(path_dane, 'r')
+    dane = []
+    for line in f:
+        line = line.split(';\t')
+        line[-1] = line[-1][:-1]
+        dane.append(line)
+    f.close()
+
+    browser_path = "C:/Users/48690/AppData/Local/Programs/Opera GX/launcher.exe %s"
     reader = easyocr.Reader(['pl'])
-    path = os.getcwd()[:-7] + r'image.png'
-    result = reader.readtext(path)
-    for detection in result:
-        text = detection[1]
-        print(text)
+    for i in range(len(wt)):
+        if wt[i][0] in ["change site to", "in html", "on site, but not in html"]:
+            url = dane[i+1][7]
+            webbrowser.get(browser_path).open(url)
+            user_input = input("Press to continue")
+            path = os.getcwd()[:-7] + r'image.png'
+            result = reader.readtext(path)
+            line_in = ""
+            for detection in result:
+                text = re.sub('\n', '', detection[1])
+                line_in += ";\t" + str(text)
+            print(line_in)
+            line_in += '\n'
+            lines[i] = line_in
+            f = open(path_wt, 'w')
+            for line in lines:
+                f.write(line)
+            f.close()
 
 
 #go_through_websites_1()
 #change_website()
-try_text_extraction()
+#try_text_extraction()
+#using_polimorf()
+get_img()
