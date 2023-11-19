@@ -25,64 +25,64 @@ no info
 default
 ;	papier ,;	szk³o,;	metale;	tworzywa sztuczne;	odpady;	opakowaniowe wielomateria³owe,;	odpady stanowi¹ce czêœci roœlin pochodz¹cych;	pielêgnacji terenów zielonych;	grodów, parków i cmentarzy (bioodpady),;	zu¿yty sprzêt elektroniczny;	elektryczny pochodz¹cy z gospodarstw domowych,;	zu¿yte œwietlówki;	¿arówki,;	zu¿yte baterie i akumulatory,;	odpady budowlane i rozbiórkowe stanowi¹ce odpady komunalne;	odpady;	niebezpieczne;	powstaj¹ce;	gospodarstwach;	domowych;	(w;	tym;	przeterminowane leki; chemikalia;	termometry rtêciowe);	odpady wielkogabarytowe (meble;	dywany, materace;	odpady niekwalifikuj¹ce siê do odpadów medycznych powsta³e w gospodarstwie;	domowym;	wyniku;	przyjmowania;	produktów   leczniczych;	formie;	iniekcji;	prowadzenia   monitoringu   poziomu   substancji;	we;	KrWI,;	szczególnoœci   ig³y;	strzykawki,;	opony (z;	pojazdów;	dopuszczalnej masie ca³kowitej do 3,5 t.) ,;	odzie¿ i tekstylia.;	itp ) ;	zu¿yte
 ;	bioodpady;	odpady selektywnie zebrane typu: papier;	tektura (makulatura), tworzywa sztuczne;	metale oraz opakowania wielomateria³owe;	szk³o,;	meble;	odpady wie;	barytowe,;	zu¿yty sprzêt elektryczny i elektroniczny;;	przeterminowane;	niewykorzystane leki,;	odpady budowlane i rozbiórkowe,;	chemikalia,;	zu¿yte baterie;	akumulatory;;	zuzyte opony;	odzie¿;	tekstylia;	odpady niebezpieczne,;	odpady;	niekwalifikuj¹ce siê do odpadów medycznych powsta³e;	gospodarstwie;	domowym;	wyniku;	przyjmowania;	produktów;	leczniczych;	formie;	iniekcji;	prowadzenia;	monitoringu;	poziomu   substancji;	we;	krwi,;	szczególnoœci   ig³y;	strzykawki,;	po;	pió³.;	kogal
-change site to; https://kom-lub.com.pl/pszok/
+;	papier;	makulaturê;	tworzywa sztuczne, opakowania wielomateria³owe;	metale;	szk³o opakowaniowe;	przepracowane oleje silnikowe;	opakowania po œrodkach niebezpiecznych b¹dŸ z ich zawartoœci¹, np. farby, lakiery; rozpuszczalniki; kleje itd:;	zu¿yte baterie i akumulatory;	opakowania z drewna; np. skrzynki drewniane;	opony od pojazdów osobowych (max. 8 szt. na rok z;	gospodarstwa domowego) rowerów; motocykli;	motorowerów;	tonery;	kartrid¿e z drukarek domowych;	beton oraz gruz betonowy (max. 700 kg rocznie z;	gospodarstwa domowego);	odpady biodegradowalne;	¿arówki i œwietlówki;	leki (pozbawione papierowych opakowañ) oraz odpady pochodz¹ce z iniekcji czyli ig³y, strzykawki i ig³ostrzykawki;	sprzêt elektryczny i elektroniczny (jedynie kompletny);	metale;	odpady wielkogabarytowe np. meble; du¿e zabawki, wanienki
 default
 no info
 no info
-in html
+;	odpady selektywnie zbierane (papier, szk³o, tworzywa sztuczne; opakowania;	wielomateria³owe) ,;	odpady zielone (trawa, liœcie; drobne ga³êzie);	przeterminowane leki,;	chemikalia (detergenty; rozpuszczalniki; farby, tusze; kleje; œrodki ochrony roœlin; Odpady;	niebezpieczne (odpady niebezpieczne tj: farby, lakiery , smary, oleje powinny znajdowaæ siê w;	oryginalnych; nieuszkodzonych opakowaniach producenta oraz powinny zawieraæ etykiety;	umo¿liwiaj¹ce identyfikacjê odpadu w chwili przekazania);	zu¿yte baterie; akumulatory,;	zu¿yty sprzêt elektroniczny i elektryczny;;	meble;	inne odpady wielkogabarytowe;;	odpady budowlane i rozbiórkowe pochodz¹ce z prowadzenia drobnych prac remontowych nie;	wymagaj¹cych pozwolenia na budowê ani zg³oszenia zamiaru prowadzenia robót do starosty;	niezanieczyszczone odpady betonowe oraz gruz betonowy i ceglany) [100 kg na rok od;	mieszkañca];	zu¿yte opony (wy³¹cznie od rowerów, wózków, motorowerów;	motocykli; oraz;	pojazdów _;	masie ca³kowitej d 3,5 tony; które nie s¹ wykorzystywane do prowadzenia dzia³alnoœci;	gospodarczej (4 sztuki rocznie od mieszkañca)
 no info
 default
-in html
-no info
-no info
-default
+;	papier;	iloœci;	nieograniczonej;	w³aœcicieli;	nieruchomoœci   zamieszka³ych;	niezamieszka³ych;;	metale;	iloœci;	nieograniczonej;	w³aœcicieli;	nieruchomoœci   zamieszka³ych;	niezamieszka³ych;;	tworzywa;	sztuczne;	iloœci;	nieograniczonej;	w³aœcicieli;	nieruchomoœci;	zamieszka³ych i niezamieszka³ych;;	odpady;	opakowaniowe   wielomateria³owe;	iloœci;	nieograniczonej;	od   w³aœcicieli;	nieruchomoœci zamieszka³ych;	niezamieszka³ych;;	szk³o;	iloœci;	nieograniczonej;	w³aœcicieli;	nieruchomoœci;	zamieszka³ych;	niezamieszka³ych;;	bioodpady;	ustala siê nastêpuj¹ce roczne limity dla ka¿dego w³aœciciela nieruchomoœci;	zamieszka³ej , który z³o¿y³ deklaracje;	wysokoœci op³aty;	za gospodarowanie odpadami;	komunalnymi:;	~zadeklarowanej liczbie mieszkañców;	do 10 osób w wysokoœci 500 kg;;	zadeklarowanej liczbie mieszkañców powy¿ej 10 osób w wysokoœci 1000 kg;	~dla;	nieruchomoœci   niezamieszka³ych;	odniesieniu;	do;	szkó³;	wszelkiego;	typu,;	¿³obków; przedszkoli; miejskich instytucji kultury; cmentarzy; instytucji samorz¹dowych;	bez limitów,;	pozosta³ych przypadkach ustala siê limit w wysokoœci _;	600 kg na ka¿d¹;	zadeklarowan¹ nieruchomoœæ;;	odpady;	niebezpiecznie;	iloœci;	nieograniczonej;	od;	w³aœcicieli;	nieruchomoœci;	zamieszka³ych i niezamieszka³ych;;	przeterminowane leki;	chemikalia;	iloœci nieograniczonej od w³aœcicieli nieruchomoœci;	zamieszka³ych i niezamieszka³ych;	odpady niekwalifikuj¹ce siê do odpadów medycznych; które powsta³y;	gospodarstwie;	domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji;	prowadzenia;	monitoringu poziomu substancji;	we;	krwi, w szczególnoœci igie³;	strzykawek;	iloœci;	nieograniczonej od w³aœcicieli nieruchomoœci zamieszka³ych i niezamieszka³ych;;	zu¿yte baterie;	akumulatory;	iloœci   nieograniczonej   od w³aœcicieli  nieruchomoœci;	zamieszka³ych i niezamieszka³ych;;	zu¿yty;	sprzêt;	elektryczny;	elektroniczny _;	iloœci   nieograniczonej;	od;	w³aœcicieli;	nieruchomoœci zamieszka³ych;	niezamieszka³ych;;	meble;	inne odpady wielkogabarytowe;	ustala siê nastêpuj¹ce roczne limity na ka¿dego;	w³aœciciela;	który z³o¿y³ deklaracje;	wysokoœci  op³aty;	gospodarowanie;	odpadami;	komunalnymi:;	dla nieruchomoœci zamieszka³ych:;	zadeklarowanej liczbie mieszkañców do 10 osób;	wysokoœci 600 kg oraz;	zadeklarowanej liczbie mieszkañców powy¿ej 10 osób;	wysokoœci 1200 kg;;	~dla;	nieruchomoœci;	niezamieszka³ych;	W iloœci   100 kg;;	ka¿d¹;	nieruchomoœæ;	zadeklarowan¹;	przez  w³aœciciela;	deklaracji;	wysokoœci   op³at;	gospodarowanie;	odpadami komunalnymi;;	odpady budowlane;	rozbiórkowe;	gospodarstw domowych;;	w iloœci do 150 kg rocznie;	na ka¿d¹ osobê zg³oszon¹ przez w³aœciciela nieruchomoœci zamieszka³ej w deklaracji;	wysokoœci op³aty za gospodarowanie odpadami komunalnymi;;	zu¿yte opony _ w iloœci:;	~do;	sztuk;	rocznie;	na   ka¿d¹;	osobê;	zg³oszona;	przez;	w³aœciciela;	nieruchomoœci;	zamieszka³ej;	deklaracji;	wysokoœci;	op³aty;	gospodarowanie;	odpadami;	komunalnymi;;	do 2;	sztuk;	rocznie;	ka¿d¹;	nieruchomoœæ;	niezamieszka³¹   zadeklarowana;	przez;	w³aœciciela w deklaracji;	wysokoœci op³at za gospodarowanie odpadami komunalnymi;;	popió³;	¿u¯el;	charakterze odpadów komunalnych;	iloœci nieograniczonej od;	w³aœcicieli nieruchomoœci zamieszka³ych;	niezamieszka³ych.
 no info
 no info
 default
-no info
-default
-default
-in html
-default
-no info
 no info
 no info
 default
 no info
 default
-no info
-change site to; https://pkpleszew.pl/harmonogramwywozu/
-in html
 default
-change site to; https://www.zzo-olszowa.pl/pszok-olszowa/
-no info
-in html
+;	odpady niebezpieczne;;	przeterminowane leki;;	przeterminowane chemikalia;;	odpady niekwalifikuj¹ce siê do odpadów medycznych powsta³ych w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych w formie;	iniekcji i prowadzenia monitoringu poziomu substancji we krwi; w szczególnoœci igie³ i strzykawek;;	zu¿yte baterie i akumulatory;;	zu¿yty sprzêt elektryczny i elektroniczny;;	meble i inne odpady wielkogabarytowe;;	zu¿yte opony (w iloœci nieprzekraczaj¹cej rocznie 8 szt. na nieruchomoœæ; a w przypadku zabudowy wielolokalowej na jeden lokal mieszkalny) ,;	odpady budowlane;	rozbiórkowe (w iloœci nieprzekraczaj¹cej rocznie 400 kg na nieruchomoœæ; a w przypadku zabudowy wielolokalowej na jeden lokal;	mieszkalny) ,;	tekstylia;	odzie¿.
 default
-in html
 no info
 no info
 no info
-in html
+default
+no info
+default
+no info
+;	odpady zielone (liœcie; skoszon¹ trawê ga³êzie),;	odpady opakowaniowe (opakowania;	papieru;	itektury;;	tworzyw sztucznych; drewna; metalu;;	szk³a_;	wielomateria³owe);	popió³ i ¿u¿el;	palenisk;;	przeterminowane leki,;	zu¿yte baterie i akumulatory;;	zu¿yty sprzêt elektryczny i elektroniczny;;	styropian opakowaniowy;;	odziez i tekstylia;;	chemikalia (np;	lakiery; farby; œrodki ochrony roœlin;	iich opakowania);;	odpady niekwalifikuj¹ce sie do odpadów;	medycznych powsta³ych w gospodarstwie;	domowym w wyniku przyjmowania produktów;	leczniczych w formie iniekcji;	prowadzenia;	monitoringu poziomu substancji we krwi,;	w szczególnoœci igie³;	strzykawek;;	zu¿yte opony od pojazdów osobowych;	Iimit;	opony z jednego;	gospodarstwa domowego;	ciagu roku;;	posegregowane odpady remontowe;	budowlane;	limit do 300 kg z jednego gospodarstwa;	domowego w ci¹gu roku.;	Odpady wielkogabarytowe:;	stare meble (sto³y; szafy, krzes³a, ³ó¿ka);	zabawki duzych rozmiarów,;	baseny ogrodowe gumowe;	materace; poduszki;;	drewniane ramy okienne;;	rowery; wózki;;	meble ogrodowe;	wanny; umywalki; muszle toaletowe;;	doniczki; skrzynki;, wiaderka.;	ko³dry;
+;	MAKULATURE, TWORZYWA SZTUCZNE; SZK£O;	OPAKOWANIA WIELOMATERIA£OWE; METALE; ODPADY;	BIODEGRADOWALNE;	POZOSTA£OŒCI FARB, LAKIERÓW, KWASÓW;	PRZETERMINOWANE LEKI, CHEMIKALIA;	ZU¯YTE BATERIE I AKUMULATORY,;	KOMPLETNY ZU¯YTY SPRZET ELEKTRYCZNY;	ELEKTRONICZNY;	ODPADY WIELKOGABARYTOWE,;	ZU¯YTE OPONY (DO 8 SZT./ROK /GOSPODARSTWO DOMOWE) *;	ODPADY POREMONTOWE;	BUDOWLANE (DO 200 KG /ROK /;	GOSPODARSTWO DOMOWE)*
+default
+;	Opakowania z papieru i tektury;	Opakowania z tworzyw sztucznych;	Opakowania z drewna;	Opakowania z metali;	Opakowania wielomateria³owe;	Opakowania ze szk³a;	Opakowania zawieraj¹ce pozosta³osci substancji niebezpiecznych lub nimi zanieczyszczone;	Zuzyte opony (o srednicy do 1250 mm);	Odpady betonu oraz gruz betonowy z rozbiórek i remontów;	Zmieszane odpady z betonu, gruzu ceglanego, odpadowych materia³ów ceramicznych i elementów wyposa¿enia; Odpadowa papa;	Materia³y izolacyjne-styropian;	Materia³y izolacyjne-we³na mineralna;	Papier i tektura;	Odzie¿;	Tekstylia;	Lampy fluorescencyjne i inne odpady zawieraj¹ce rtêæ;	Urzadzenia zawierajace freony;	Oleje i t³uszcze jadalne;	Farby; tusze, farby drukarskie; kleje, lepiszcze i ¿ywice; Detergenty zawieraj¹ce substancje niebezpieczne;	Leki;	Baterie i akumulatory
+no info
+;	papier i tekrura;;	tworzywa sztuczne;;	opakowania wielomateria³owe;;	szko;;	odpady ulegej¹ce biodegradacji; w tym odpady zielone (skoszona trawa, liœcie; drobne ga³êzie);;	przeterminowane leki; produkty lecznicze w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi, w szczególnoœci ig³y i strzykawki;;	zu¿yty sprzêt elektryczne i elektroniczny;;	meble;	inne ocpady wielkogabarytowe;;	zuiyteopony pochodz¹ce 2 gospodarstw domowych;	opony;	od samochodów osobowych; motorowerów; motocykli; rowerów; wózków wiloœci do 8 sz1.;	rocznie na rok kalendarzowy);;	ocpady budowlane;	rozbiórkowe (pochodz¹ce z gospodarstw domowych);;	odpady tekstyliów i odzie¿y.;	chemikalia; detergenty; œrocki ochrony roœlin (wraz z opakowaniami);;	opakowania zanieczyszczone substancjami   toksycznymi; opakowania;	po aerozolach;;	zu¿yty sprzêt elekrryczny;	elektroniczny zawieraj¹cy niebezpieczne substancje (tonery z crukarek; telewizory œwietlówki itp);;	zuzyte baterie ) akumularory;	(op.
+default
+;	odpady zielone (skoszona trawa; ga³êzie i liœcie);	zu¿yte baterie i akumulatory;	zu¿yte opony;	zu¿yty sprzêt elektryczny i elektroniczny;	odpady budowlane;	rozbiórkowe;	lampy fluorescencyjne; œwietlówki;	meble;	inne odpady wielkogabarytowe;	(tektura);	szk³o;	tworzywa sztuczne;	metal;	przeterminowane nawozy;	œrodki ochrony roœlin w tym opakowania po nich;	papier,
+no info
+no info
+no info
+;	PAPIER;	opakowania;	papieru;	tektury. gazety, karalogi. zeszyty; ksi¹¿ki. reklamowki papierowe;	TWORZYWA SZTUCZNE;	odpady;	tworzyw sztucznych;	metali cj;	puste butelki;	opakowania plastikowe po: napojach. kosmetykach i srodkach czystosci,;	plastikowe nakrêtki, folie;	torebki;	tworzyw sztucznych, opakowania stalowe;	aluminiowe, opakowania typu tetrapak, miski. wanienki, meble ogrodowe;	duze;	zabawki;	lementy opakowan ze styropianu; butelki, puszki. kartony powinny byæ zgniecione; bez nakrêtek. bez zawartosci;	SZK£O OPAKOWANIOWE;	butelki szklane;	s³oiki. szklane opakowania po kosmetykach;	SZK£O INNE;	odpadowe szk³o inne niz opakowaniowe (szklo okienne samochodowe;	lustra_;	szk³o Zorojone);	ODPADY BUDOWLANE;	ROZBIORKOWE;	odpady;	budowy;	rozbiorek jak rowniez remontow wytwarzane W gospodarstwach domowych podczas realizacji;	inwestycji przez w³ascicieli nieruchomosci np;	oeton;	ceglany. materialy ceramiczne np. sedesy; umywalki;	INNE ODPADY BUDOWLANE;	odpady;	budowy; remontow;	demontazu (W tym zawierajace substancje niebezpieczne) np. we³na mineralna;	we³na szklana;	styropian budowlany. papa;	BIOODPADY;	odpady;	czesci roslin pochodzace;	ogrodow (liscie;	trawa;	pociete;	galêzie drzew;	krzewow do maksymalnej dlugosci 30 cm) czesci roslin;	(³odygi,;	kwiaty); odpady ulegaj¹ce biodegradacji nalezy wysypac;	workow do Wasciwego oznakowanego kontenera;	OPONY;	zuzyte opony samochodow osobowych; mororow. motorowerow oraz rowerow W ilosci do;	sztuk;	rok od wlasciciela nieruchomosci; opony mo¿na;	dostarczyc wy³¹cznie osobiscie;	WIELKOGABARYTY;	odpady wielkogabarytowe: szafy. stoly; kanapy, wyk³adziny. dywany. fotele itp;	powinny byæ oproznione;	Zawartosci oraz nie moga zawierac;	innych odpadow;	ZU¯YTY SPRZÊT ELEKTRYCZNY;	ELEKTRONICZNY;	zuzyte urzadzenia elektryczne;	elektroniczne; W tym lampy LED;	halogenowe;	ODPADY NIEBEZPIECZNE Z podzialem na:;	zuzyte tonery drukarskie; cartridge;	opakowania po srodkach ochrony roslin;	opakowania po detergentach zawierajacych niebezpieczne substancje;	zuzyte oaterie;	akumulatory;	opakowania po rozpuszczalnikach;	lampy fluorescencyjne;	swietlowki;	inne odpady zawierajace rtêc;	opakowania po farbach;	cuszach, klejach. lepiszczach;	zywicach;	oleje;	tluszcze;	przeterminowane;	eki;	srodki farmakologiczne inne ni¿ niebezpieczne;	gruz
 default
 default
 default
 default
 default
-change site to; https://www.mzk.czarnkow.pl/nasze-uslugi/gospodarowanie-odpadami
-change site to; https://miedzychod.pl/strona/25
+;	odpady wielkogabarytowe; meble; zu¿yty sprzêt elektryczny;	elektroniczny; odpady budowlane po drobnych remontach; zu¿yte opony; odpady;	niebezpieczne: œwietlówki, oleje przepracowane, przeterminowane œrodki ochrony roœlin;;	termometry.
+;	przeterminowane leki, chemikalia; zu¿yte;	baterie i akumulatory; odpady niebezpieczne; zu¿yte opony; odpady budowlane i rozbiórkowe; zu¿yty sprzêt;	elektryczny i elektroniczny; ig³y;	strzykawki oraz meble;	odpady wielkogabarytowe.
 default
-in html
+;	odpady selektywnie zbierane;	papier, szk³o; tworzywa sztuczne; opakowania;	wielomateria³owe);	odpady zielone;	trawa, liœcie; drobne ga³êzie;	przeterminowane leki,;	chemikalia ( detergenty; rozpuszczalniki; farby; tusze; kleje; œrodki ochrony;	roœlin);	zu¿yte baterie; akumulatory;;	zu¿yty sprzêt elektroniczny i elektryczny;;	meble;	inne odpady wielkogabarytowe;;	odpady budowlane i rozbiórkowe pochodz¹ce z prowadzenia drobnych prac;	remontowych nie wymagaj¹cych pozwolenia na budowê ani zg³oszenia zamiaru;	prowadzenia robót do starosty ( niezanieczyszczone odpady betonowe oraz gruz;	betonowy;	ceglany) .
 default
-on site, but not in html
+;	papier;	tektura;	W tym;	opakowania;	papieru i tektury;;	tworzywa sztuczne;	metale, w tym opakowania;	metalu;;	odpady opakowaniowe wielomateria³owe;;	szk³o, opakowania ze szk³a bezbarwnego;	kolorowego;;	bioodpady, w tym odpady zielone;;	odpady;	niebezpieczne;	charakterze;	komunalnym;	np;	¿arówki,   œwietlówki,;	zuzyte;	termometry rtêciowe itp.;	przeterminowane leki i chemikalia;;	zu¿yte baterie;	akumulatory;;	zu¿yty, kompletny sprzêt elektryczny;	elektroniczny;;	urz¹dzenia zawieraj¹ce freon;;	meble;	inne odpady wielkogabarytowe;	zu¿yte opony;;	odpady budowlane, takie jak ,czysty gruz" ceglany, betonowy;	odpady;	rozbiórkowe;	poremontowe;	zawieraj¹ce   p³yty;	gipsowe, suporeks, p³ytki;	ceramiczne;	chemikalia typowe dla prac domowych np. pozosta³oœci farb, klejów, detergentów,;	rozpuszczalników itp;	odpady niekwalifikuj¹ce siê do odpadów medycznych powsta³ych;	W gospodarstwie;	domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji;	prowadzenia;	monitoringu poziomu substancji we krwi, w szczególnoœci igie³;	strzykawek;;	odpadów;	tekstyliów;	odzie¿y;;	styropian 
 no info
 default
 default
 default
 no info
-change site to; https://pgkimino.pl/ripok/punkt-selektywnej-zbiorki-odpadow-komunalnych/
+;	odpady wielogabarytowe;	np. meble;	odzie¿;	tekstylia;;	przeterminowane leki (dodatkowo w wiêkszoœci aptek ustawione s¹ specjalne pojemniki na przeterminowane;	leki);	zu¿yty sprzêt elektryczny i elektroniczny.;	liscie; trawy; ga³êzie; czyli tzw. odpady zielone;	zu¿yte baterie i akumulatory (odbierane tak¿e w punktach sprzeda¿y);	chemikalia (odbierane tak¿e w punktach sprzeda¿y) - do 10 kg/rok;;	szk³o; papier; metale; opakowania wielomateria³owe;	tworzywa sztuczne;	odpady posegregowane;	opony (odbierane tak¿e w punktach sprzeda¿y);	- 4 szt /rok;;	odpady budowlane;	rozbiórkowe posegregowane pochodz¹ce z prowadzenia drobnych prac;	niewymagaj¹cych pozwolenia na budowê; zg³oszenia zamiaru budowy lub wykonywania robót;	do Im? /rok na;	gospodarstwo domowe (odpady typu gruz; odpady betonowe)
 default
 no info
 default
-on site, but not in html
+;	szk³o_;	papier;	tektura-;	tworzywa sztuczne, metal,;	opakowania wielomateria³owe;	meble;	odpady wielkogabarytowe;	odzie¿;	tekstylia;;	odpady;	komunalne;	ulegaj¹ce;	biodegradacji,;	za;	wyj¹tkiem;	odpadów;	spo¿ywczych;	kuchennych,;	odpady zielone;	przeterminowane leki ,;	chemikalia;	pozosta³oœci rozpuszczalników, farb, olejów odpadowych itp.);	zu¿yte baterie;	akumulatory,;	zu¿yty sprzêt elektryczny i elektroniczny;;	zu¿yte;	opony;	iloœci   niewskazuj¹cej;	na;	ich   pochodzenie;	dzia³alnoœci;	gospodarczej lub rolniczej;;	odpady budowlane;	rozbiórkowe;	prac prowadzonych we w³asnym zakresie;	w iloœci   nieprzekraczaj¹cej;	m3 z jednej nieruchomoœci;	ci¹gu roku:.
 no info
 default
