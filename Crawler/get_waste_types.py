@@ -158,8 +158,40 @@ def get_img():
             f.close()
 
 
+def correct_common_mistakes():
+    mistakes = {
+        ";;": ";",
+        "zuzyte": "zużyte",
+        "; ": ", ",
+        "i;\t": "i ",
+        "odziez": "odzież",
+        ",;": ";"
+    }
+    path_wt = os.getcwd()[:-7] + r'\txt Files\waste_types.txt'
+    wt = []
+    f = open(path_wt, 'r')
+    for line in f:
+        line = line[:-1]
+        wt.append(line)
+    f.close()
+    new_wt = []
+    for line in wt:
+        line = line.lower()
+        for m in mistakes.keys():
+            line = re.sub(m, mistakes[m], line)
+        new_wt.append(line)
+    f = open(path_wt, 'w')
+    for line in new_wt:
+        line += '\n'
+        f.write(line)
+    f.close()
+
+
+
+
 #go_through_websites_1()
 #change_website()
 #try_text_extraction()
 #using_polimorf()
-get_img()
+#get_img()
+correct_common_mistakes()
