@@ -1,0 +1,228 @@
+0;	papier
+1;	metal
+2;	tworzywa sztuczne
+3;	szk³o
+4;	opakowania wielomateria³owe
+5;	odpady ulegaj¹ce biodegradacji ze szczególnym uwzglêdnieniem bioodpadów
+6;	zu¿yte baterie i akumulatory
+7;	zu¿yty sprzêt elektryczny i elektroniczny
+8;	odpady problemowe z zastrze¿eniem, ¿e limit roczny opon stanowi¹cych odpady problemowe wynosi 4 opony na rok
+9;	odpady budowlane, rozbiórkowe stanowi¹ce odpady komunalne
+10;	przeterminowane leki
+11;	chemikalia
+12;	termometry rtêciowe
+13;	odzie¿
+14;	tekstylia
+15;	odpady wytworzone podczas iniekcji domowych (zu¿yte ig³y, strzykawki)
+16;	odpady wielkogabarytowe
+17;	odpady ulegaj¹ce biodegradacji ( trawa i liœcie )
+18;	odpady ulegaj¹ce biodegradacji ( ga³êzie )
+19;	odpady gruzu budowalnego ( bez zanieczyszczeñ )
+20;	zmieszane odpady z budowy, remontu lub demontazu
+21;	odpadowa papa
+22;	zu¿yte opony od pojazdów do 3,5 tony
+23;	opakowania po farbach i lakierach
+24;	tektura
+25;	metale
+26;	elektronika i elektrosprzêt
+27;	opakowania z papieru
+28;	opakowania z tektury
+29;	opakowania z tworzyw sztucznych
+30;	opakowania z metali
+31;	opakowania ze szk³a
+32;	opakowania zawieraj¹ce pozosta³oœci substancji niebezpiecznych lub nimi zanieczyszczone
+33;	zu¿yte opony
+34;	odpady betonu oraz gruz betonowy z rozbiórek, remontów
+35;	zmieszane odpady z budowy, remontów, demonta¿u
+36;	lampy fluorescencyjne
+37;	inne odpady zawieraj¹ce rtêæ
+38;	urz¹dzenia zawieraj¹ce freony
+39;	leki
+40;	zu¿yte urz¹dzenia elektryczne, elektroniczne
+41;	odpady ulegaj¹ce biodegradacji
+42;	odpady wytworzone podczas iniekcji domowych
+43;	odpady zielone
+44;	odpady bio
+45;	farby
+46;	rozpuszczalniki
+47;	œrodki ochrony roœlin
+48;	detergenty
+49;	inne odpady niebezpieczne powstaj¹ce w gospodarstwach domowych
+50;	zu¿yty olej silnikowy i przek³adniowy
+51;	filtry olejowe
+52;	opakowania po olejach
+53;	styropian opakowaniowy
+54;	odpady budowlane i rozbiórkowe
+55;	zu¿yte opony pojazdów o dmc do 3,5t
+56;	niezanieczyszczony gruz ceglany i/lub betonowy
+57;	odpady opakowaniowe wielomateria³owe
+58;	bioodpady
+59;	zu¿yte opony z zastrzezeniem, ¿e limit roczny wynosi 8 opon na rok kalendarzowy
+60;	meble
+61;	inne odpady wielkogabarytowe
+62;	odpady budowlane, rozbiórkowe, stanowi¹ce odpady komunalne (tylko niezanieczyszczone frakcje odpadów budowlanych np. ceramika, czysty gruz ceglany i betonowy, p³yty kartonowo-gipsowe)
+63;	odpady niebezpieczne
+64;	odpady niekwalifikuj¹ce siê do odpadów medycznych powsta³e w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi
+65;	oleje
+66;	t³uszcze jadalne
+67;	opakowania z drewna
+68;	filtry powietrza
+69;	tusze
+70;	tonery
+71;	magnetyczne noœniki danych
+72;	optyczne noœniki danych
+73;	olej silnikowy
+74;	czysty styropian opakowaniowy
+75;	papier i tektura (w tym opakowaniowa)
+76;	tworzywa sztuczne (w tym opakowaniowe)
+77;	popió³ i ¿u¿el
+78;	szk³o p³askie bez zanieczyszczeñ
+79;	metale (tym opakowaniowe)
+80;	opakowania zawieraj¹ce pozosta³oœci substancji niebezpiecznych
+81;	odpady komunalne ulegaj¹ce biodegradacji, w tym odpady biodegradowalne
+82;	t³uszcze
+83;	kleje
+84;	lepiszcza
+85;	¿ywice
+86;	inne odpady zawieraj¹ce rtêæ w tym termometry
+87;	urz¹dzenia zawieraj¹ce freon
+88;	gruz betonowy
+89;	gruz ceglany
+90;	zmieszane odpady z budowy, remontu, demonta¿u
+91;	zu¿yte opony z zastrze¿eniem, ¿e limit roczny wynosi 8 opon na rok kalendarzowy
+92;	odpady budowlane i rozbiórkowe stanowi¹ce odpady komunalne (tylko niezanieczyszczone frakcje odpadów budowlanych)
+93;	odpady niekwalifikuj¹ce siê do odpadów medycznych powsta³e w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi, w szczególnoœci ig³y i strzykawki
+94;	magnetyczne i optyczne noœniki danych
+95;	odpady komunalne
+96;	makulatura
+97;	elektronika
+98;	odpady biodegradowalne
+99;	gruz
+100;	odpady budowlane
+101;	inne odpady problemowe
+102;	odpady opakowaniowe ze szk³a
+103;	opady budowlane, robiórkowe
+104;	odpady drewniane
+105;	ubrania
+106;	obuwie
+107;	odpady niekwalifikuj¹ce siê do odpadów medycznych powsta³e w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych z formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi, w szczególnoœci ig³y i strzykawki
+108;	zu¿yty sprzêt pochodz¹cy z gospodarstw domowych
+109;	zu¿yte opony, z zastrzezeniem, ¿e limit roczny opon wynosi 8 opon na rok
+110;	odpady budowlane, rozbiórkowe stanowi¹ce odpady komunalne (tylko niezanieczyszczone frakcje opadów budowlanych)
+111;	opakowania wielomateriatowe
+112;	odpady ulegajqce biodegradacji
+113;	przeterminowane oleje
+114;	zu¿yte opony (4 sztuk na rok od samochodu osobowego z gospodarstwa domowego)
+115;	odpady budowlane i rozbiórkowe (300 kg z gospodarstwa domowego, powsta³e w wyniku prowadzenia we w³asnym zakresie robót budowlanych nie wymagaj¹cych pozwolenia na budowê ani zg³oszenia zamiaru prowadzenia robót budowlanych, do w³aœciwego organu administracji)
+116;	odpady medyczne powsta³e w gospodarstwach domowych
+117;	odpady ulegaj¹ce biodegradacji, ze szczególnym uwzglêdnieniem bioodpadów
+118;	odpady budowlane i rozbiórkowe stanowi¹ce odpady komunalne
+119;	zu¿yty sprzêt elektroniczny i elektryczny pochodz¹cy z gospodarstw domowych
+120;	zu¿yte œwietlówki ¿arówki
+121;	odpady niebezpieczne powstaj¹ce w gospodarstwach domowych
+122;	zu¿yte opony (z pojazdów o dopuszczalnej masie ca³kowitej do 3,5 t.)
+123;	odpady selektywnie
+124;	tektura (makulatura)
+125;	odpady niekwalifikuj¹ce siê do odpadów medycznych powsta³e w gospodarstwie domowymw wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi, w szczególnoœci ig³y i strzykawki
+126;	popió³
+127;	szk³o opakowaniowe
+128;	przepracowane oleje silnikowe
+129;	opakowania po œrodkach niebezpiecznych b¹dŸ z ich zawartoœci¹
+130;	lakiery
+131;	opony od pojazdów osobowych (max. 8 szt. na rok z gospodarstwa domowego) rowerów, motocykli, motorowerów
+132;	kartrid¿e z drukarek domowych
+133;	beton oraz gruz betonowy (max. 700 kg rocznie z gospodarstwa domowego)
+134;	¿arówki i œwietlówki
+135;	odpady pochodz¹ce z iniekcji czyli ig³y, strzykawki i ig³ostrzykawki
+136;	sprzêt elektryczny i elektroniczny (jedynie kompletny)
+137;	odpady zielone (trawa, liœcie, drobne ga³êzie)
+138;	zu¿yty sprzêt elektroniczny i elektryczny
+139;	odpady budowlane i rozbiórkowe pochodz¹ce z prowadzenia drobnych prac remontowych nie wymagaj¹cych pozwolenia na budowê ani zg³oszenia zamiaru prowadzenia robót do starosty
+140;	niezanieczyszczone odpady betonowe oraz gruz betonowy i ceglany (100 kg na rok od mieszkañca)
+141;	zu¿yte opony (wy³¹cznie od rowerów, wózków, motorowerów, motocykli oraz pojazdów o masie ca³kowitej do 3,5 tony, które nie s¹ wykorzystywane do prowadzenia dzia³alnoœci gospodarczej, limit 4 sztuki rocznie od mieszkañca)
+142;	bioodpady (limit wed³ug strony)
+143;	odpady niebezpiecznie
+144;	odpady niekwalifikuj¹ce siê do odpadów medycznych, które powsta³y w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji  i prowadzenia monitoringu poziomu substancji we krwi, w szczególnoœci igie³ i strzykawek
+145;	meble (limit wed³ug strony)
+146;	odpady wielkogabarytowe (limit wed³ug strony)
+147;	odpady budowlane i rozbiórkowe z gospodarstw domowych (limit wed³ug strony)
+148;	zu¿yte opony (limit wed³ug strony)
+149;	popió³ i ¿u¿el o charakterze odpadów komunalnych
+150;	przeterminowane chemikalia
+151;	odpady niekwalifikuj¹ce siê do odpadów medycznych powsta³ych w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi, w szczególnoœci igie³ i strzykawek
+152;	zu¿yte opony (w iloœci nieprzekraczaj¹cej rocznie 8 szt. na nieruchomoœæ, a w przypadku zabudowy wielolokalowej na jeden lokal mieszkalny)
+153;	odpady budowlane i rozbiórkowe (w iloœci nieprzekraczaj¹cej rocznie 400 kg na nieruchomoœæ, a w przypadku zabudowy wielolokalowej na jeden lokal mieszkalny)
+154;	odpady zielone (liœcie, skoszon¹ trawê ga³êzie)
+155;	opakowania z metalu
+156;	popió³ i ¿u¿el z palenisk
+157;	œrodki ochrony roœlin i ich opakowania
+158;	odpady niekwalifikuj¹ce sie do odpadów medycznych powsta³ych w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji  i prowadzenia monitoringu poziomu substancji we krwi w szczególnoœci igie³ i strzykawek
+159;	zu¿yte opony od pojazdów osobowych - limit 4 opony z jednego gospodarstwa domowego w ci¹gu roku
+160;	posegregowane odpady remontowe i budowlane- limit do 300 kg z jednego gospodarstwa domowego w ci¹gu roku
+161;	opakowania tektury
+162;	opakowania zawieraj¹ce pozosta³osci substancji niebezpiecznych lub nimi zanieczyszczone
+163;	zu¿yte opony (o srednicy do 1250 mm)
+164;	odpady betonu oraz gruz betonowy z rozbiórek i remontów
+165;	zmieszane odpady z betonu, gruzu ceglanego, odpadowych materia³ów ceramicznych i elementów wyposa¿enia
+166;	materia³y izolacyjne-styropian
+167;	materia³y izolacyjne-we³na mineralna
+168;	odpady zawieraj¹ce rtêæ
+169;	urzadzenia zawierajace freony
+170;	oleje i t³uszcze jadalne
+171;	farby drukarskie
+172;	lepiszcze
+173;	detergenty zawieraj¹ce substancje niebezpieczne
+174;	odpady wielkobabarytowe
+175;	syntetyczne oleje silnikowe, przek³adniowe i smarowe
+176;	odpady medyczne powsta³e w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi,w szczególnoœci igie³ i strzykawek
+177;	tekrura
+178;	szko
+179;	odpady ulegej¹ce biodegradacji
+180;	odpady zielone (skoszona trawa, liœcie, drobne ga³êzie)
+181;	produkty lecznicze w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi, w szczególnoœci ig³y i strzykawki
+182;	zu¿yty sprzêt elektryczne i elektroniczny
+183;	zu¿yte opony pochodz¹ce z gospodarstw domowych
+184;	opony od samochodów osobowych, motorowerów, motocykli, rowerów, wózków w iloœci do 8 szt. rocznie na rok kalendarzowy
+185;	odpady budowlane, rozbiórkowe (pochodz¹ce z gospodarstw domowych)
+186;	œrodki ochrony roœlin (wraz z opakowaniami)
+187;	opakowania zanieczyszczone substancjami toksycznymi
+188;	opakowania po aerozolach
+189;	zu¿yty sprzêt elektryczny i elektroniczny zawieraj¹cy niebezpieczne substancje (tonery z crukarek, telewizory œwietlówki itp)
+190;	odpady zielone (skoszona trawa, ga³êzie i liœcie)
+191;	odpady budowlane, rozbiórkowe
+192;	œwietlówki
+193;	przeterminowane nawozy
+194;	opakowania po œrodkach ochrony roœlin
+195;	odpady budowlane i rozbiorkowe
+196;	zu¿yte opony samochodow osobowych, motorów, motorowerów oraz rowerów w iloœci do 8 sztuk/rok od wlasciciela nieruchomosci
+197;	zu¿yte tonery drukarskie, cartridge
+198;	opakowania po detergentach zawierajacych niebezpieczne substancje
+199;	opakowania po rozpuszczalnikach
+200;	œwietlowki
+201;	odpady zawierajace rtêæ
+202;	opakowania po farbach, tuszach, klejach, lepiszczach i ¿ywicach
+203;	œrodki farmakologiczne inne ni¿ niebezpieczne
+204;	odpady budowlane po drobnych remontach
+205;	oleje przepracowane
+206;	przeterminowane œrodki ochrony roœlin
+207;	termometry
+208;	ig³y
+209;	strzykawki
+210;	odpady budowlane i rozbiórkowe pochodz¹ce z prowadzenia drobnych prac remontowych nie wymagaj¹cych pozwolenia na budowê ani zg³oszenia zamiaru prowadzenia robót do starosty (niezanieczyszczone odpady betonowe oraz gruz betonowy, ceglany)
+211;	odpady niebezpieczne o charakterze komunalnym np. ¿arówki, œwietlówki, zu¿yte termometry rtêciowe itp.
+212;	zu¿yty, kompletny sprzêt elektryczny, elektroniczny
+213;	odpady budowlane, takie jak czysty gruz ceglany, betonowy
+214;	odpady rozbiórkowe, poremontowe zawieraj¹ce p³yty gipsowe, suporeks, p³ytki ceramiczne
+215;	chemikalia typowe dla prac domowych np. pozosta³oœci farb, klejów, detergentów, rozpuszczalników itp
+216;	odpady niekwalifikuj¹ce siê do odpadów medycznych powsta³ych w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi
+217;	styropian
+218;	odpady wielogabarytowe
+219;	chemikalia do 10 kg/rok
+220;	odpady posegregowane
+221;	opony - 4 szt /rok
+222;	odpady budowlane, rozbiórkowe posegregowane pochodz¹ce z prowadzenia drobnych prac niewymagaj¹cych pozwolenia na budowê, zg³oszenia zamiaru budowy lub wykonywania robót do 1m3 /rok na gospodarstwo domowe (odpady typu gruz, odpady betonowe)
+223;	odpady komunalne ulegaj¹ce biodegradacji za wyj¹tkiem odpadów spo¿ywczych, kuchennych
+224;	pozosta³oœci rozpuszczalników, farb, olejów odpadowych itp.
+225;	zu¿yte
+226;	opony w iloœci niewskazuj¹cej na ich pochodzenie z dzia³alnoœci gospodarczej lub rolniczej
+227;	odpady budowlane,rozbiórkowe z prac prowadzonych we w³asnym zakresie w iloœci nieprzekraczaj¹cej 1m3 z jednej nieruchomoœci ci¹gu roku

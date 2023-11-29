@@ -187,6 +187,40 @@ def correct_common_mistakes():
     f.close()
 
 
+def create_files_to_insert():
+    path_wt = os.getcwd()[:-7] + r'\txt Files\waste_types.txt'
+    point_waste = {}
+    wt = {}
+    f = open(path_wt, 'r')
+    wt_counter = 0
+    point_counter = 0
+    for line in f:
+        point_waste[point_counter] = []
+        line = line.split(';')
+        line[-1] = line[-1][:-1]
+        for i in range(1, len(line)):
+            line[i] = line[i].lstrip()
+            if line[i] not in wt.keys():
+                wt[line[i]] = wt_counter
+                wt_counter += 1
+            current = point_waste[point_counter]
+            current.append(wt[line[i]])
+            point_waste[point_counter] = sorted(current)
+        point_counter += 1
+    f.close()
+
+    path_db_wt = os.getcwd()[:-7] + r'\txt Files\DB_waste_types.txt'
+    path_db_point_waste = os.getcwd()[:-7] + r'\txt Files\DB_point_waste.txt'
+    f = open(path_db_wt, 'w')
+    for k in wt.keys():
+        line = str(wt[k]) + ";\t" + str(k) + "\n"
+        f.write(line)
+    f.close()
+    f = open(path_db_point_waste, 'w')
+    for i in range(len(point_waste)):
+        line = ';\t'.join([str(element) for element in point_waste[i]]) + "\n"
+        f.write(line)
+    f.close()
 
 
 #go_through_websites_1()
@@ -194,4 +228,5 @@ def correct_common_mistakes():
 #try_text_extraction()
 #using_polimorf()
 #get_img()
-correct_common_mistakes()
+#correct_common_mistakes()
+create_files_to_insert()
