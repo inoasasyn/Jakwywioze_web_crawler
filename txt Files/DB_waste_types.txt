@@ -175,54 +175,50 @@
 174;	odpady wielkobabarytowe
 175;	syntetyczne oleje silnikowe, przek³adniowe i smarowe
 176;	odpady medyczne powsta³e w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi,w szczególnoœci igie³ i strzykawek
-177;	tekrura
-178;	szko
-179;	odpady ulegej¹ce biodegradacji
-180;	odpady zielone (skoszona trawa, liœcie, drobne ga³êzie)
-181;	produkty lecznicze w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi, w szczególnoœci ig³y i strzykawki
-182;	zu¿yty sprzêt elektryczne i elektroniczny
-183;	zu¿yte opony pochodz¹ce z gospodarstw domowych
-184;	opony od samochodów osobowych, motorowerów, motocykli, rowerów, wózków w iloœci do 8 szt. rocznie na rok kalendarzowy
-185;	odpady budowlane, rozbiórkowe (pochodz¹ce z gospodarstw domowych)
-186;	œrodki ochrony roœlin (wraz z opakowaniami)
-187;	opakowania zanieczyszczone substancjami toksycznymi
-188;	opakowania po aerozolach
-189;	zu¿yty sprzêt elektryczny i elektroniczny zawieraj¹cy niebezpieczne substancje (tonery z crukarek, telewizory œwietlówki itp)
-190;	odpady zielone (skoszona trawa, ga³êzie i liœcie)
-191;	odpady budowlane, rozbiórkowe
-192;	œwietlówki
-193;	przeterminowane nawozy
-194;	opakowania po œrodkach ochrony roœlin
-195;	odpady budowlane i rozbiorkowe
-196;	zu¿yte opony samochodow osobowych, motorów, motorowerów oraz rowerów w iloœci do 8 sztuk/rok od wlasciciela nieruchomosci
-197;	zu¿yte tonery drukarskie, cartridge
-198;	opakowania po detergentach zawierajacych niebezpieczne substancje
-199;	opakowania po rozpuszczalnikach
-200;	œwietlowki
-201;	odpady zawierajace rtêæ
-202;	opakowania po farbach, tuszach, klejach, lepiszczach i ¿ywicach
-203;	œrodki farmakologiczne inne ni¿ niebezpieczne
-204;	odpady budowlane po drobnych remontach
-205;	oleje przepracowane
-206;	przeterminowane œrodki ochrony roœlin
-207;	termometry
-208;	ig³y
-209;	strzykawki
-210;	odpady budowlane i rozbiórkowe pochodz¹ce z prowadzenia drobnych prac remontowych nie wymagaj¹cych pozwolenia na budowê ani zg³oszenia zamiaru prowadzenia robót do starosty (niezanieczyszczone odpady betonowe oraz gruz betonowy, ceglany)
-211;	odpady niebezpieczne o charakterze komunalnym np. ¿arówki, œwietlówki, zu¿yte termometry rtêciowe itp.
-212;	zu¿yty, kompletny sprzêt elektryczny, elektroniczny
-213;	odpady budowlane, takie jak czysty gruz ceglany, betonowy
-214;	odpady rozbiórkowe, poremontowe zawieraj¹ce p³yty gipsowe, suporeks, p³ytki ceramiczne
-215;	chemikalia typowe dla prac domowych np. pozosta³oœci farb, klejów, detergentów, rozpuszczalników itp
-216;	odpady niekwalifikuj¹ce siê do odpadów medycznych powsta³ych w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi
-217;	styropian
-218;	odpady wielogabarytowe
-219;	chemikalia do 10 kg/rok
-220;	odpady posegregowane
-221;	opony - 4 szt /rok
-222;	odpady budowlane, rozbiórkowe posegregowane pochodz¹ce z prowadzenia drobnych prac niewymagaj¹cych pozwolenia na budowê, zg³oszenia zamiaru budowy lub wykonywania robót do 1m3 /rok na gospodarstwo domowe (odpady typu gruz, odpady betonowe)
-223;	odpady komunalne ulegaj¹ce biodegradacji za wyj¹tkiem odpadów spo¿ywczych, kuchennych
-224;	pozosta³oœci rozpuszczalników, farb, olejów odpadowych itp.
-225;	zu¿yte
-226;	opony w iloœci niewskazuj¹cej na ich pochodzenie z dzia³alnoœci gospodarczej lub rolniczej
-227;	odpady budowlane,rozbiórkowe z prac prowadzonych we w³asnym zakresie w iloœci nieprzekraczaj¹cej 1m3 z jednej nieruchomoœci ci¹gu roku
+177;	odpady ulegej¹ce biodegradacji
+178;	odpady zielone (skoszona trawa, liœcie, drobne ga³êzie)
+179;	produkty lecznicze w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi, w szczególnoœci ig³y i strzykawki
+180;	zu¿yty sprzêt elektryczne i elektroniczny
+181;	zu¿yte opony pochodz¹ce z gospodarstw domowych
+182;	opony od samochodów osobowych, motorowerów, motocykli, rowerów, wózków w iloœci do 8 szt. rocznie na rok kalendarzowy
+183;	odpady budowlane, rozbiórkowe (pochodz¹ce z gospodarstw domowych)
+184;	œrodki ochrony roœlin (wraz z opakowaniami)
+185;	opakowania zanieczyszczone substancjami toksycznymi
+186;	opakowania po aerozolach
+187;	zu¿yty sprzêt elektryczny i elektroniczny zawieraj¹cy niebezpieczne substancje (tonery z crukarek, telewizory œwietlówki itp)
+188;	odpady zielone (skoszona trawa, ga³êzie i liœcie)
+189;	odpady budowlane, rozbiórkowe
+190;	œwietlówki
+191;	przeterminowane nawozy
+192;	opakowania po œrodkach ochrony roœlin
+193;	odpady budowlane i rozbiorkowe
+194;	zu¿yte opony samochodow osobowych, motorów, motorowerów oraz rowerów w iloœci do 8 sztuk/rok od wlasciciela nieruchomosci
+195;	zu¿yte tonery drukarskie, cartridge
+196;	opakowania po detergentach zawierajacych niebezpieczne substancje
+197;	opakowania po rozpuszczalnikach
+198;	odpady zawierajace rtêæ
+199;	opakowania po farbach, tuszach, klejach, lepiszczach i ¿ywicach
+200;	œrodki farmakologiczne inne ni¿ niebezpieczne
+201;	odpady budowlane po drobnych remontach
+202;	oleje przepracowane
+203;	przeterminowane œrodki ochrony roœlin
+204;	termometry
+205;	ig³y
+206;	strzykawki
+207;	odpady budowlane i rozbiórkowe pochodz¹ce z prowadzenia drobnych prac remontowych nie wymagaj¹cych pozwolenia na budowê ani zg³oszenia zamiaru prowadzenia robót do starosty (niezanieczyszczone odpady betonowe oraz gruz betonowy, ceglany)
+208;	odpady niebezpieczne o charakterze komunalnym np. ¿arówki, œwietlówki, zu¿yte termometry rtêciowe itp.
+209;	zu¿yty, kompletny sprzêt elektryczny, elektroniczny
+210;	odpady budowlane, takie jak czysty gruz ceglany, betonowy
+211;	odpady rozbiórkowe, poremontowe zawieraj¹ce p³yty gipsowe, suporeks, p³ytki ceramiczne
+212;	chemikalia typowe dla prac domowych np. pozosta³oœci farb, klejów, detergentów, rozpuszczalników itp
+213;	odpady niekwalifikuj¹ce siê do odpadów medycznych powsta³ych w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi
+214;	styropian
+215;	odpady wielogabarytowe
+216;	chemikalia do 10 kg/rok
+217;	odpady posegregowane
+218;	opony - 4 szt /rok
+219;	odpady budowlane, rozbiórkowe posegregowane pochodz¹ce z prowadzenia drobnych prac niewymagaj¹cych pozwolenia na budowê, zg³oszenia zamiaru budowy lub wykonywania robót do 1m3 /rok na gospodarstwo domowe (odpady typu gruz, odpady betonowe)
+220;	odpady komunalne ulegaj¹ce biodegradacji za wyj¹tkiem odpadów spo¿ywczych, kuchennych
+221;	pozosta³oœci rozpuszczalników, farb, olejów odpadowych itp.
+222;	zu¿yte opony w iloœci niewskazuj¹cej na ich pochodzenie z dzia³alnoœci gospodarczej lub rolniczej
+223;	odpady budowlane,rozbiórkowe z prac prowadzonych we w³asnym zakresie w iloœci nieprzekraczaj¹cej 1m3 z jednej nieruchomoœci ci¹gu roku
