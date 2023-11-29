@@ -218,8 +218,9 @@ def create_files_to_insert():
     f.close()
     f = open(path_db_point_waste, 'w')
     for i in range(len(point_waste)):
-        line = ';\t'.join([str(element) for element in point_waste[i]]) + "\n"
-        f.write(line)
+        for j in range(len(point_waste[i])):
+            line = str(1000+i) + ";" + str(point_waste[i][j]) + "\n"
+            f.write(line)
     f.close()
 
 
