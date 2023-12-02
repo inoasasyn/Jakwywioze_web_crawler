@@ -5,6 +5,59 @@ import easyocr
 from difflib import get_close_matches
 
 
+DEFAULT_WASTE_TYPES = [
+    "przeterminowane leki",
+    "odpady wielkogabarytowe",
+    "odpady zielone",
+    "odpady budowlane, poremontowe i rozbiórkowe",
+    "zużyte opony",
+    "sprzęt elektryczny i elektroniczny",
+    "baterie i akumulatory",
+    "opakowania z papieru",
+    "opakowania z tektury",
+    "odpady opakowaniowe z metali",
+    "odpady opakowaniowe z tworzyw sztucznych",
+    "szkło opakowaniowe",
+    "opakowania z tekstyliów",
+    "opakowania zawierające pozostałości substancji niebezpiecznych lub nimi zanieczyszczone",
+    "pojemniki pod ciśnieniem po aerozolach",
+    "zużyte lub przeterminowane gaśnice samochodowe i z gospodarstw domowych",
+    "opony pojazdów osobowych, motocykli, rowerów",
+    "beton",
+    "gruz betonowy",
+    "gruz ceglany",
+    "zmieszane odpady z betonu, gruzu ceglanego, ceramiki, glazury, terakoty itp.",
+    "szkło okienne, drzwiowe, bezbarwne, lustra",
+    "odzież",
+    "tekstylia",
+    "rozpuszczalniki",
+    "kwasy",
+    "alkalia (substancje żrące)",
+    "odczynniki fotograficzne",
+    "środki ochrony roślin",
+    "świetlówki",
+    "termometry rtęciowe",
+    "urządzenia chłodnicze i klimatyzacyjne",
+    "oleje spożywcze",
+    "oleje silników samochodowych",
+    "farby",
+    "farby drukarskie",
+    "tusze",
+    "tonery do drukarek",
+    "kleje",
+    "lepiszcze",
+    "żywice",
+    "detergenty",
+    "leki",
+    "telewizory, monitory",
+    "małe i duże urządzenia elektryczne i elektroniczne"
+    "drewno",
+    "odpady tworzyw sztucznych",
+    "odpady metali",
+    "odpady komunalne"
+]
+
+
 def go_through_websites_1():
     path_dane = os.getcwd()[:-7] + r'\txt Files\test_dane'
     path_wt = os.getcwd()[:-7] + r'\txt Files\waste_types.txt'
@@ -198,6 +251,9 @@ def create_files_to_insert():
         point_waste[point_counter] = []
         line = line.split(';')
         line[-1] = line[-1][:-1]
+        # adding default
+        if len(line) == 1:
+            line = ["default"] + DEFAULT_WASTE_TYPES
         for i in range(1, len(line)):
             line[i] = line[i].lstrip()
             if line[i] not in wt.keys():
