@@ -14,7 +14,7 @@ def read_file():
     return database[1:]
 
 
-def change_unknown_and_none_to_null():
+def change_unknown_and_none_to_null(data):
     forbidden = ["Unknown", "Unnamed Road", "None", "Brak informacji", "null"]
     for i in range(len(data)):
         for j in range(len(data[i])):
@@ -22,7 +22,7 @@ def change_unknown_and_none_to_null():
                 data[i][j] = ""
 
 
-def save_new_points():
+def save_new_points(data):
     path = os.getcwd()[:-7] + "/txt Files/ready_to_insert.txt"
     f = open(path, 'w')
     for point in data:
@@ -58,9 +58,41 @@ def save_ready_file(data):
     f.close()
 
 
+def delete_points():
+    path_wt = os.getcwd()[:-7] + r'\txt Files\waste_types.txt'
+    path_dane = os.getcwd()[:-7] + r'\txt Files\test_dane'
+    to_delete = [84, 70, 67, 65, 64, 59, 54, 51, 50, 49, 48, 45, 42, 41, 40, 39, 38, 34, 32, 31, 23, 17]
+    wt = []
+    dane = []
+    f_wt = open(path_wt, 'r')
+    for line in f_wt:
+        wt.append(line)
+    f_wt.close()
+    f_dane = open(path_dane, 'r')
+    for line in f_dane:
+        dane.append(line)
+    f_dane.close()
+    deleted = 0
+    for i in range(1, len(dane)):
+        if i+1 in to_delete:
+            dane.remove(dane[i-deleted])
+            wt.remove(wt[i-1-deleted])
+            deleted += 1
+    f_wt = open(path_wt, 'w')
+    for line in wt:
+        f_wt.write(line)
+    f_wt.close()
+    f_dane = open(path_dane, 'w')
+    for line in dane:
+        f_dane.write(line)
+    f_dane.close()
+
+
 #data = read_file()
 #change_unknown_and_none_to_null()
 #save_new_points()
 
-data = read_ready_file()
-save_ready_file(data)
+#data = read_ready_file()
+#save_ready_file(data)
+
+delete_points()
