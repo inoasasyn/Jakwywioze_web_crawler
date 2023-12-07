@@ -14,7 +14,7 @@ def read_file():
     return database[1:]
 
 
-def change_unknown_and_none_to_null(data):
+def change_unknown_and_none_to_null():
     forbidden = ["Unknown", "Unnamed Road", "None", "Brak informacji", "null"]
     for i in range(len(data)):
         for j in range(len(data[i])):
@@ -22,15 +22,18 @@ def change_unknown_and_none_to_null(data):
                 data[i][j] = ""
 
 
-def save_new_points(data):
+def save_new_points():
     path = os.getcwd()[:-7] + "/txt Files/ready_to_insert.txt"
     f = open(path, 'w')
+    i = 0
     for point in data:
-        line = ';\t'.join(point[:9])
         hours = [';'.join(point[9:]).replace("Zamknięte", "0")]
         if hours == [";;;;;;"]:
             hours = [""]
-        line = line + ';\t' + hours[0] + '\n'
+        line = point + hours + ["True"]
+        order = [3, 8, 4, 5, 0, 9, 6, 1, 10, 7, 2]
+        line = str(i) + ';\t' + ';\t'.join([line[i] for i in order]) + '\n'
+        i += 1
         f.write(line)
     f.close()
 
@@ -76,7 +79,7 @@ def delete_points():
     for i in range(1, len(dane)):
         if i+1 in to_delete:
             dane.remove(dane[i-deleted])
-            wt.remove(wt[i-1-deleted])
+            wt.pop(i-1-deleted)
             deleted += 1
     f_wt = open(path_wt, 'w')
     for line in wt:
@@ -88,11 +91,11 @@ def delete_points():
     f_dane.close()
 
 
-#data = read_file()
-#change_unknown_and_none_to_null()
-#save_new_points()
+data = read_file()
+change_unknown_and_none_to_null()
+save_new_points()
 
 #data = read_ready_file()
 #save_ready_file(data)
 
-delete_points()
+#delete_points()

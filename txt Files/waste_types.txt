@@ -13,13 +13,11 @@ default
 default
 default
 default
-no info
 default
 ;	meble;  odzie¿;	odpady wielkogabarytowe;	tekstylia;  papier; zu¿yty sprzêt elektryczny i elektroniczny;	tektura;    zu¿yte baterie i akumulatory;	szk³o;  metale;	przeterminowane leki;   tworzywa sztuczne;	zu¿yte opony;	odpady biodegradowalne;	gruz;   odpady budowlane;   chemikalia;	inne odpady problemowe
 ;	szk³o;	odpady opakowaniowe ze szk³a;	bioodpady;	papier;	tektura;	tworzywa sztuczne;	metale; opakowania wielomateria³owe;   zu¿yte baterie i akumulatory;	zu¿yty sprzêt elektryczny i elektroniczny;  zu¿yte opony;   przeterminowane leki;   meble;  odpady wielkogabarytowe;    odpady niebezpieczne;   chemikalia; opady budowlane, robiórkowe;    odpady drewniane;	ubrania;    obuwie; tekstylia;  odpady wytworzone podczas iniekcji domowych
 ;	papier;	metal;	tworzywa sztuczne;	szk³o;	opakowania wielomateria³owe;	bioodpady;	zu¿yte baterie i akumulatory;	zu¿yty sprzêt pochodz¹cy z gospodarstw domowych;	meble;	odpady wielkogabarytowe;	zu¿yte opony;	niezanieczyszcone odpady budowlane;	odpady niebezpieczne;	przeterminowane leki;   chemikalia;	odpady wytworzone podczas iniekcji domowych;	odzie¿;	tekstylia;	oleje;	t³uszcze jadalne;	opakowania z drewna
 default
-no info
 ;	papier;	metale;	tworzywa sztuczne;	szk³o;	opakowania wielomateriatowe;	odpady ulegajqce biodegradacji;	meble;	odpady wielkogabarytowe;	zu¿yty sprzêt elektryczny i elektroniczny;	przeterminowane leki;   farby;	przeterminowane oleje;	t³uszcze;	zu¿yte opony;	zu¿yte baterie i akumulatory;	odpady budowlane i rozbiórkowe;	odzie¿; tekstylia;	odpady medyczne powsta³e w gospodarstwach domowych
 ;	papier;	metale;	tworzywa sztuczne;	szk³o;	bioodpady;	odpady zielone;	meble;	odpady wielkogabarytowe;	zu¿yte opony;	zu¿yty sprzêt elektryczny i elektroniczny;	odpady budowlane i rozbiórkowe;	zu¿yte baterie i akumulatory;	przeterminowane leki;   chemikalia
 default
@@ -27,44 +25,25 @@ default
 ;	bioodpady;	odpady selektywnie; papier; tektura;    makulatura;   tworzywa sztuczne;	metale; opakowania wielomateria³owe;	szk³o;	meble;	odpady wielkogabarytowe;	zu¿yty sprzêt elektryczny i elektroniczny;	przeterminowane leki;	odpady budowlane i rozbiórkowe;	chemikalia;	zu¿yte baterie i akumulatory;	zu¿yte opony;	odzie¿;	tekstylia;	odpady niebezpieczne;	odpady wytworzone podczas iniekcji domowych;	popió³
 ;	papier; makulatura; tworzywa sztuczne;  opakowania wielomateria³owe;	metale;	szk³o opakowaniowe;	przepracowane oleje silnikowe;	opakowania po œrodkach niebezpiecznych b¹dŸ z ich zawartoœci¹;  farby;  lakiery;    rozpuszczalniki;    kleje;	zu¿yte baterie i akumulatory;	opakowania z drewna;    zu¿yte opony od pojazdów do 3,5 tony;	tonery;	kartrid¿e z drukarek domowych;	beton oraz gruz betonowy;	odpady biodegradowalne;	¿arówki;    œwietlówki;   leki;   odpady pochodz¹ce z iniekcji;   sprzêt elektryczny i elektroniczny;	metale;	odpady wielkogabarytowe
 default
-no info
-no info
 ;	papier; szk³o;  tworzywa sztuczne;  opakowania wielomateria³owe;    odpady zielone;	przeterminowane leki;	chemikalia; detergenty; rozpuszczalniki;    farby;  tusze;  kleje;  œrodki ochrony roœlin;  odpady niebezpieczne;   zu¿yte baterie i akumulatory;	zu¿yty sprzêt elektroniczny i elektryczny;	meble;	odpady wielkogabarytowe;    odpady budowalne pochodz¹ce z drobynch remontów;	niezanieczyszczone odpady betonowe oraz gruz betonowy i ceglany;	zu¿yte opony od pojazdów do 3,5 tony
-no info
 default
 ;	papier; metale; tworzywa sztuczne;  opakowania wielomateria³owe;   szk³o;  bioodpady;	odpady niebezpiecznie;	przeterminowane leki;   chemikalia; odpady wytworzone podczas iniekcji domowych;	zu¿yte baterie i akumulatory;	zu¿yty sprzêt elektryczny i elektroniczny;  meble;	odpady wielkogabarytowe;  odpady budowlane i rozbiórkowe z gospodarstw domowych;    zu¿yte opony;    popió³ i ¿u¿el
 no info
 no info
 default
-no info
-no info
-default
-no info
-default
-default
 ;	odpady niebezpieczne;	przeterminowane leki;   przeterminowane chemikalia;	odpady wytworzone podczas iniekcji domowych;	zu¿yte baterie i akumulatory;	zu¿yty sprzêt elektryczny i elektroniczny;	meble;  odpady wielkogabarytowe;	zu¿yte opony;	odpady budowlane i rozbiórkowe;	tekstylia;	odzie¿
 default
 no info
-no info
-no info
 default
-no info
-default
-no info
 ;	odpady zielone;    opakowania z papieru;	opakowania z tektury;   opakowania z tworzyw sztucznych;    opakowania z drewna;   opakowania z metalu;	opakowania ze szk³a;    opakowania wielomateria³owe;	popió³ i ¿u¿el;	przeterminowane leki;	zu¿yte baterie i akumulatory;	zu¿yty sprzêt elektryczny i elektroniczny;	styropian opakowaniowy;	odzie¿; tekstylia;	chemikalia; lakiery;    farby;  œrodki ochrony roœlin i ich opakowania;	odpady wytworzone podczas iniekcji domowych;	zu¿yte opony od pojazdów do 3,5 tony;	posegregowane odpady remontowe i budowlane;	odpady wielkogabarytowe
 ;   makulatura; tworzywa sztuczne;  szk³o;  opakowania wielomateria³owe;    metale; odpady biodegradowalne; pozosta³oœci farb, lakierów, kwasów;    przeterminowane leki;   chemikalia; zu¿yte baterie i akumulatory;   zu¿yty sprzêt elektryczny i elektroniczny;  odpady wielkogabarytowe;    zu¿yte opony;   odpady poremontowe i budowlane
 default
 ;	opakowania z papieru;   opakowania tektury;	opakowania z tworzyw sztucznych;	opakowania z drewna;	opakowania z metali;    opakowania wielomateria³owe;	opakowania ze szk³a;	opakowania zawieraj¹ce pozosta³osci substancji niebezpiecznych lub nimi zanieczyszczone;	zu¿yte opony (o œrednicy do 1250 mm);	beton;  gruz betonowy;	zmieszane odpady z betonu, gruzu ceglanego, odpadowych materia³ów ceramicznych i elementów wyposa¿enia; odpadowa papa;	styropian;	we³na mineralna;	papier; tektura;	odzie¿;	tekstylia;	lampy fluorescencyjne;  odpady zawieraj¹ce rtêæ;    urzadzenia zawierajace freon;	oleje;  t³uszcze jadalne;	farby;  tusze;  farby drukarskie;   kleje;  lepiszcze;  ¿ywice; detergenty zawieraj¹ce substancje niebezpieczne;	leki;   zu¿yte baterie i akumulatory; œrodki ochrony roœlin;    odpady ulegaj¹ce biodegradacji; odpady wielkogabarytowe;    syntetyczne oleje silnikowe, przek³adniowe i smarowe;   odpady wytworzone podczas iniekcji domowych
-no info
 ;	papier; tektura;	tworzywa sztuczne;	opakowania wielomateria³owe;	szk³o;	odpady ulegej¹ce biodegradacji; odpady zielone;	przeterminowane leki;   odpady wytworzone podczas iniekcji domowych;   zu¿yty sprzêt elektryczny i elektroniczny;	meble;	odpady wielkogabarytowe;	zu¿yte opony od pojazdów do 3,5 tony;	odpady budowlane i rozbiórkowe;	tekstylia;  odzie¿;	chemikalia; detergenty; œrodki ochrony roœlin (wraz z opakowaniami);	opakowania zanieczyszczone substancjami toksycznymi;    pojemniki pod ciœnieniem po aerozolach;	zu¿yty sprzêt elektryczny i elektroniczny zawieraj¹cy niebezpieczne substancje;	zu¿yte baterie i akumulatory
 default
 ;	odpady zielone;	zu¿yte baterie i akumulatory;	zu¿yte opony;	zu¿yty sprzêt elektryczny i elektroniczny;	odpady budowlane i rozbiórkowe;	lampy fluorescencyjne;  œwietlówki; meble;	odpady wielkogabarytowe;	papier; tektura;	szk³o;	tworzywa sztuczne;	metal;	przeterminowane nawozy;	œrodki ochrony roœlin;  opakowania po œrodkach ochrony roœlin
 no info
-no info
-no info
 ;	papier; tworzywa sztuczne;	szk³o;  odpady budowlane i rozbiórkowe; bioodpady;  zu¿yte opony od pojazdów do 3,5 tony;	odpady wielkogabarytowe;    zu¿yty sprzêt elektryczny i elektroniczny;	odpady niebezpieczne;   zu¿yte tonery drukarskie, cartridge;	opakowania po œrodkach ochrony roœlin;	opakowania po detergentach zawierajacych niebezpieczne substancje;	zu¿yte baterie i akumulatory;	opakowania po rozpuszczalnikach;	lampy fluorescencyjne;	œwietlówki; odpady zawieraj¹ce rtêæ;	opakowania po farbach, tuszach, klejach, lepiszczech i ¿ywicach;	oleje;	t³uszcze;	przeterminowane leki;   œrodki farmakologiczne inne ni¿ niebezpieczne
-default
-default
 default
 default
 default
@@ -80,7 +59,6 @@ default
 default
 no info
 ;	odpady wielkogabarytowe;	meble;	odzie¿;	tekstylia;	przeterminowane leki;	zu¿yty sprzêt elektryczny i elektroniczny; odpady zielone;	zu¿yte baterie i akumulatory;	chemikalia;	szk³o;  papier; metale; opakowania wielomateria³owe;	tworzywa sztuczne;	odpady posegregowane;	zu¿yte opony;	odpady budowalne pochodz¹ce z drobynch remontów
-default
 no info
 default
 ;	szk³o;	papier;	tektura;	tworzywa sztuczne;  metal;	opakowania wielomateria³owe;	meble;	odpady wielkogabarytowe;	odzie¿;	tekstylia;	odpady komunalne ulegaj¹ce biodegradacji za wyj¹tkiem odpadów spo¿ywczych, kuchennych;	odpady zielone;	przeterminowane leki;	chemikalia;	pozosta³oœci rozpuszczalników, farb, olejów odpadowych itp.;	zu¿yte baterie i akumulatory;	zu¿yty sprzêt elektryczny i elektroniczny;	zu¿yte opony;	odpady budowlane i rozbiórkowe

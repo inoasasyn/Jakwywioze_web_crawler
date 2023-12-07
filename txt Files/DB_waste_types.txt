@@ -129,17 +129,17 @@
 128;	przeterminowane chemikalia
 129;	œrodki ochrony roœlin i ich opakowania
 130;	posegregowane odpady remontowe i budowlane
-131;	opakowania tektury
-132;	opakowania zawieraj¹ce pozosta³osci substancji niebezpiecznych lub nimi zanieczyszczone
-133;	zu¿yte opony (o œrednicy do 1250 mm)
-134;	zmieszane odpady z betonu, gruzu ceglanego, odpadowych materia³ów ceramicznych i elementów wyposa¿enia
-135;	styropian
-136;	we³na mineralna
-137;	urzadzenia zawierajace freon
-138;	detergenty zawieraj¹ce substancje niebezpieczne
-139;	syntetyczne oleje silnikowe, przek³adniowe i smarowe
-140;	pozosta³oœci farb, lakierów, kwasów
-141;	odpady poremontowe i budowlane
+131;	pozosta³oœci farb, lakierów, kwasów
+132;	odpady poremontowe i budowlane
+133;	opakowania tektury
+134;	opakowania zawieraj¹ce pozosta³osci substancji niebezpiecznych lub nimi zanieczyszczone
+135;	zu¿yte opony (o œrednicy do 1250 mm)
+136;	zmieszane odpady z betonu, gruzu ceglanego, odpadowych materia³ów ceramicznych i elementów wyposa¿enia
+137;	styropian
+138;	we³na mineralna
+139;	urzadzenia zawierajace freon
+140;	detergenty zawieraj¹ce substancje niebezpieczne
+141;	syntetyczne oleje silnikowe, przek³adniowe i smarowe
 142;	odpady ulegej¹ce biodegradacji
 143;	œrodki ochrony roœlin (wraz z opakowaniami)
 144;	opakowania zanieczyszczone substancjami toksycznymi
