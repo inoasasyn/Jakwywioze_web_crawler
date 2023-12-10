@@ -31,7 +31,7 @@ def save_new_points():
         if hours == [";;;;;;"]:
             hours = [""]
         line = point + hours + ["True"]
-        order = [3, 8, 4, 5, 0, 9, 6, 1, 10, 7, 2]
+        order = [3, 8, 4, 5, 0, -2, 6, 1, -1, 7, 2]
         line = str(i) + ';\t' + ';\t'.join([line[i] for i in order]) + '\n'
         i += 1
         f.write(line)

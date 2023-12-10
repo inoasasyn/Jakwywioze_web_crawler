@@ -31,7 +31,7 @@ DEFAULT_WASTE_TYPES = [
     "tekstylia",
     "rozpuszczalniki",
     "kwasy",
-    "alkalia (substancje żrące)",
+    "alkalia",
     "odczynniki fotograficzne",
     "środki ochrony roślin",
     "świetlówki",
