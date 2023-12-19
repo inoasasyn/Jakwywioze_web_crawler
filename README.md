@@ -2,7 +2,7 @@
 Web crawler for Jakwywioze.pl project
 
 1) ### Wymagania:
-- Pycharm
+- IDE dla języka python
 - Python 3.7.8
 2) ### Biblioteki:
 - urlopen (z urllib.request)
