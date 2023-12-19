@@ -1,6 +1,8 @@
 import webbrowser
 import os
 
+browser_path = "C:/Users/48690/AppData/Local/Programs/Opera GX/launcher.exe %s"
+
 
 def read_file():
     path = os.getcwd() + "/txt Files/test_dane"
@@ -28,9 +30,9 @@ def save_new_points(points):
 #https://www.google.com/maps/@?api=1&map_action=map&center=52.214954%2C17.28614349999999
 #https://www.google.com/maps/@?api=1&map_action=map&center=52.642345299999995%2C16.5921084
 
+
 def open_urls_and_read_input():
 
-    browser_path = "C:/Users/48690/AppData/Local/Programs/Opera GX/launcher.exe %s"
     new_data = data.copy()
 
     for i in range(len(data)):

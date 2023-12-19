@@ -2,8 +2,8 @@ import os
 import webbrowser
 import re
 import easyocr
-from difflib import get_close_matches
 
+browser_path = "C:/Users/48690/AppData/Local/Programs/Opera GX/launcher.exe %s"
 
 DEFAULT_WASTE_TYPES = [
     "przeterminowane leki",
@@ -74,7 +74,6 @@ def go_through_websites_1():
         waste_types.append(line[:-1])
     f.close()
 
-    browser_path = "C:/Users/48690/AppData/Local/Programs/Opera GX/launcher.exe %s"
     for line in lines[1+len(waste_types):]:
         url = line[7]
         if url != "None":
@@ -134,38 +133,6 @@ def change_website():
         line += '\n'
         f.write(line)
     f.close()
-
-
-def using_polimorf():
-    path_dane = os.getcwd()[:-7] + r'PoliMorf-0.6.7.tab'
-    file_in = open(path_dane, 'r', encoding='utf8')
-    lines_in = file_in.readlines()
-    polish_dict = {}
-    for line in lines_in:
-        x = line.split()
-        word = x[0]
-        if len(word) not in polish_dict.keys():
-            polish_dict[len(word)] = {word}
-        else:
-            prev = polish_dict[len(word)]
-            prev.add(word)
-            polish_dict[len(word)] = prev
-
-    alphabet = ['a', 'ą', 'b', 'c', 'ć', 'd', 'e', 'ę', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'ł', 'm', 'n', 'ń', 'o',
-                'ó', 'p', 'q', 'r', 's', 'ś', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'ź', 'ż']
-    while True:
-        user_string = input("Podaj słowo do analizy: ")
-        word = user_string.lower()
-        guess = get_close_matches(user_string, polish_dict[len(user_string)], n=len(user_string))
-        rates = []
-        for x in guess:
-            score = 0
-            for i in range(len(word)):
-                if word[i] == x[i]:
-                    score += 1
-            rates.append(score)
-        result = [guess[i] for i in range(len(guess)) if rates[i] == max(rates)]
-        print(result)
 
 
 def get_img():
@@ -281,8 +248,6 @@ def create_files_to_insert():
 
 #go_through_websites_1()
 #change_website()
-#try_text_extraction()
-#using_polimorf()
 #get_img()
 #correct_common_mistakes()
 create_files_to_insert()

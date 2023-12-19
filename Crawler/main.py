@@ -188,6 +188,4 @@ def get_points():
         time.sleep(120)
 
 
-
 get_points()
-#try_one()
