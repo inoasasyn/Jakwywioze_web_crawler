@@ -1,10 +1,10 @@
 # Jakwywioze_web_crawler
 Web crawler for Jakwywioze.pl project
 
-1) ###Wymagania:
+1) ### Wymagania:
 - Pycharm
 - Python 3.7.8
-2) ###Biblioteki:
+2) ### Biblioteki:
 - urlopen (z urllib.request)
 - re
 - bs4
@@ -16,7 +16,7 @@ Web crawler for Jakwywioze.pl project
 - random
 - easyocr
 
-3. ###Omówienie funkcji w potrzebnej kolejności ich wykonywania:
+3. ### Omówienie funkcji w potrzebnej kolejności ich wykonywania:
 	1) **main.py**
 - Na początku uruchamiamy main.py (funkcję get_points()), aby uzyskać podstawowe informacje o punktach.
 	2) **photo_phone_page.py**
