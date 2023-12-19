@@ -34,8 +34,8 @@ Web crawler for Jakwywioze.pl project
 	- change_website() - zamienia adres podanych stron na nowe
 	- get_img() - funcja otwiera punkty, które mają informacje o typie odpadów na swojej stronie i czeka na input (jest to znak, że zmieniliśmy image.png z zaznaczonym fragmetem strony gdzie te informacje się znajdują), a następnie zapisuje rozpoznany z obrazu tekst
 	- correct_common_mistakes() - poprawia on częste błędy takie jak "zuzyte" -> "zużyte" itd.
-	- create_files_to_insert() - aktualizuje pliki DB_waste_types.txt i DB_point_waste.txt aby były zgodne z aktualnymi danymi
-
+	- create_files_to_insert() - aktualizuje pliki DB_waste_types.txt i DB_point_waste.txt aby były zgodne z aktualnymi danymi.
+    
     5) **manipulate_data.py**
 - Opcjonalnie można uruchomić delete_points(), gdy jakieś punkty np. już nie istnieją. UWAGA!!! Trzeba zmienić wtedy indeksy na własne od najwiekszego według linijek pliku test_dane.
 - Funkcje w manipulate_data.py zamienią dane oznaczające ich brak na nulle (change_unknown_and_none_to_null()) oraz zapisze dane w formie gotowej do zainsertowania w bazie danych(save_new_points()).
