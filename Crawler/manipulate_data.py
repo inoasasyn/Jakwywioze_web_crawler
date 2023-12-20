@@ -25,7 +25,7 @@ def change_unknown_and_none_to_null():
 def save_new_points():
     path = os.getcwd()[:-7] + "/txt Files/ready_to_insert.txt"
     f = open(path, 'w')
-    i = 0
+    i = 1000
     for point in data:
         hours = [';'.join(point[9:]).replace("Zamknięte", "0")]
         if hours == [";;;;;;"]:
