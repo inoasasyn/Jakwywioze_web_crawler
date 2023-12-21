@@ -6,7 +6,7 @@ Web crawler for Jakwywioze.pl project
 - Python 3.7.8
 2) ### Biblioteki:
 - urlopen (z urllib.request) -> webscraping
-- re -> wyszukiwanie informacji z tekstu według podanego wzoca
+- re -> wyszukiwanie informacji z tekstu według podanego wzoca oraz szybka obróbka tekstu
 - bs4 -> webscraping
 - requests -> webscraping
 - pandas
