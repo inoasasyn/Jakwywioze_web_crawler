@@ -91,9 +91,38 @@ def delete_points():
     f_dane.close()
 
 
-data = read_file()
-change_unknown_and_none_to_null()
-save_new_points()
+def fix_readytoinsert():
+    path = os.getcwd()[:-7] + "/txt Files/ready_to_insert.txt"
+    f = open(path, 'r')
+    database = []
+    i = 0
+
+    for line in f:
+        if i == 4:
+            line = line[:-1]
+            line = line.split(';')
+            for i in range(len(line)):
+                line[i] = line[i].strip()
+            line = ';\t'.join(line[:6]) + ';\t' + ';'.join(line[6:13]) + ';\t' + ';\t'.join(line[13:]) + '\n'
+            database.append(line)
+            print(line)
+        else:
+            database.append(line)
+        i += 1
+    f.close()
+
+    f = open(path, 'w')
+    for line in database:
+        f.write(line)
+    f.close()
+
+
+
+fix_readytoinsert()
+
+#data = read_file()
+#change_unknown_and_none_to_null()
+#save_new_points()
 
 #data = read_ready_file()
 #save_ready_file(data)
