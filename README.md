@@ -5,16 +5,16 @@ Web crawler for Jakwywioze.pl project
 - IDE dla języka python
 - Python 3.7.8
 2) ### Biblioteki:
-- urlopen (z urllib.request)
-- re
-- bs4
-- requests
+- urlopen (z urllib.request) -> webscraping
+- re -> wyszukiwanie informacji z tekstu według podanego wzoca
+- bs4 -> webscraping
+- requests -> webscraping
 - pandas
 - time
 - os
-- webbrowser
+- webbrowser -> otwieranie nowej karty w przeglądarce
 - random
-- easyocr
+- easyocr -> rozpoznawanie tekstu z obrazu
 
 3. ### Omówienie funkcji w potrzebnej kolejności ich wykonywania:
 	1) **main.py**
