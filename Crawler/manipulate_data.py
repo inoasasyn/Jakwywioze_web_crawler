@@ -105,7 +105,6 @@ def fix_readytoinsert():
                 line[i] = line[i].strip()
             line = ';\t'.join(line[:6]) + ';\t' + ';'.join(line[6:13]) + ';\t' + ';\t'.join(line[13:]) + '\n'
             database.append(line)
-            print(line)
         else:
             database.append(line)
         i += 1
@@ -118,11 +117,11 @@ def fix_readytoinsert():
 
 
 
-fix_readytoinsert()
+#fix_readytoinsert()
 
-#data = read_file()
-#change_unknown_and_none_to_null()
-#save_new_points()
+data = read_file()
+change_unknown_and_none_to_null()
+save_new_points()
 
 #data = read_ready_file()
 #save_ready_file(data)

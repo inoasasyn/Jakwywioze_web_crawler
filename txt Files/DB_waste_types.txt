@@ -117,51 +117,49 @@
 116;	obuwie
 117;	zu¿yty sprzêt pochodz¹cy z gospodarstw domowych
 118;	opakowania wielomateriatowe
-119;	odpady ulegajqce biodegradacji
-120;	przeterminowane oleje
-121;	odpady medyczne powsta³e w gospodarstwach domowych
-122;	zu¿yty sprzêt elektroniczny i elektryczny pochodz¹cy z gospodarstw domowych
-123;	¿arówki
-124;	odpady selektywnie
-125;	popió³
-126;	szk³o opakowaniowe
-127;	przepracowane oleje silnikowe
-128;	opakowania po œrodkach niebezpiecznych b¹dŸ z ich zawartoœci¹
-129;	kartrid¿e z drukarek domowych
-130;	odpady pochodz¹ce z iniekcji
-131;	zu¿yty sprzêt elektroniczny i elektryczny
-132;	odpady budowalne pochodz¹ce z drobynch remontów
-133;	odpady niebezpiecznie
-134;	odpady budowlane i rozbiórkowe z gospodarstw domowych
-135;	przeterminowane chemikalia
-136;	œrodki ochrony roœlin i ich opakowania
-137;	posegregowane odpady remontowe i budowlane
-138;	pozosta³oœci farb, lakierów, kwasów
-139;	odpady poremontowe i budowlane
-140;	opakowania tektury
-141;	opakowania zawieraj¹ce pozosta³osci substancji niebezpiecznych lub nimi zanieczyszczone
-142;	zu¿yte opony (o œrednicy do 1250 mm)
-143;	zmieszane odpady z betonu, gruzu ceglanego, odpadowych materia³ów ceramicznych i elementów wyposa¿enia
-144;	styropian
-145;	we³na mineralna
-146;	urzadzenia zawierajace freon
-147;	detergenty zawieraj¹ce substancje niebezpieczne
-148;	syntetyczne oleje silnikowe, przek³adniowe i smarowe
-149;	odpady ulegej¹ce biodegradacji
-150;	œrodki ochrony roœlin (wraz z opakowaniami)
-151;	opakowania zanieczyszczone substancjami toksycznymi
-152;	zu¿yty sprzêt elektryczny i elektroniczny zawieraj¹cy niebezpieczne substancje
-153;	przeterminowane nawozy
-154;	opakowania po œrodkach ochrony roœlin
-155;	opakowania po detergentach zawierajacych niebezpieczne substancje
-156;	opakowania po rozpuszczalnikach
-157;	opakowania po farbach, tuszach, klejach, lepiszczech i ¿ywicach
-158;	œrodki farmakologiczne inne ni¿ niebezpieczne
-159;	odpady budowlane po drobnych remontach
-160;	przeterminowane œrodki ochrony roœlin
-161;	odpady rozbiórkowe, poremontowe zawieraj¹ce p³yty gipsowe, suporeks, p³ytki ceramiczne
-162;	chemikalia typowe dla prac domowych
-163;	odpady posegregowane
-164;	odpady komunalne ulegaj¹ce biodegradacji za wyj¹tkiem odpadów spo¿ywczych, kuchennych
-165;	pozosta³oœci rozpuszczalników, farb, olejów odpadowych itp.
-166;	szk³o p³askie
+119;	przeterminowane oleje
+120;	odpady medyczne powsta³e w gospodarstwach domowych
+121;	zu¿yty sprzêt elektroniczny i elektryczny pochodz¹cy z gospodarstw domowych
+122;	¿arówki
+123;	odpady selektywnie
+124;	popió³
+125;	szk³o opakowaniowe
+126;	przepracowane oleje silnikowe
+127;	opakowania po œrodkach niebezpiecznych b¹dŸ z ich zawartoœci¹
+128;	kartrid¿e z drukarek domowych
+129;	odpady pochodz¹ce z iniekcji
+130;	zu¿yty sprzêt elektroniczny i elektryczny
+131;	odpady budowalne pochodz¹ce z drobynch remontów
+132;	odpady niebezpiecznie
+133;	odpady budowlane i rozbiórkowe z gospodarstw domowych
+134;	przeterminowane chemikalia
+135;	œrodki ochrony roœlin i ich opakowania
+136;	posegregowane odpady remontowe i budowlane
+137;	pozosta³oœci farb, lakierów, kwasów
+138;	odpady poremontowe i budowlane
+139;	opakowania tektury
+140;	opakowania zawieraj¹ce pozosta³osci substancji niebezpiecznych lub nimi zanieczyszczone
+141;	zu¿yte opony (o œrednicy do 1250 mm)
+142;	zmieszane odpady z betonu, gruzu ceglanego, odpadowych materia³ów ceramicznych i elementów wyposa¿enia
+143;	styropian
+144;	we³na mineralna
+145;	urzadzenia zawierajace freon
+146;	detergenty zawieraj¹ce substancje niebezpieczne
+147;	syntetyczne oleje silnikowe, przek³adniowe i smarowe
+148;	œrodki ochrony roœlin (wraz z opakowaniami)
+149;	opakowania zanieczyszczone substancjami toksycznymi
+150;	zu¿yty sprzêt elektryczny i elektroniczny zawieraj¹cy niebezpieczne substancje
+151;	przeterminowane nawozy
+152;	opakowania po œrodkach ochrony roœlin
+153;	opakowania po detergentach zawierajacych niebezpieczne substancje
+154;	opakowania po rozpuszczalnikach
+155;	opakowania po farbach, tuszach, klejach, lepiszczech i ¿ywicach
+156;	œrodki farmakologiczne inne ni¿ niebezpieczne
+157;	odpady budowlane po drobnych remontach
+158;	przeterminowane œrodki ochrony roœlin
+159;	odpady rozbiórkowe, poremontowe zawieraj¹ce p³yty gipsowe, suporeks, p³ytki ceramiczne
+160;	chemikalia typowe dla prac domowych
+161;	odpady posegregowane
+162;	odpady komunalne ulegaj¹ce biodegradacji za wyj¹tkiem odpadów spo¿ywczych, kuchennych
+163;	pozosta³oœci rozpuszczalników, farb, olejów odpadowych itp.
+164;	szk³o p³askie
